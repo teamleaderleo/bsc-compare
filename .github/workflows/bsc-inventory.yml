@@ -23,10 +23,10 @@ jobs:
           rm -rf /tmp/bsc-archive
           git init /tmp/bsc-archive
           git -C /tmp/bsc-archive remote add origin https://github.com/puffingprie/starsector-modlist.git
-          git -C /tmp/bsc-archive config core.sparseCheckout true
-          printf '/BigBeans Ship Compilation/\n' > /tmp/bsc-archive/.git/info/sparse-checkout
-          git -C /tmp/bsc-archive fetch --depth 1 origin 38d0d7fd4b9e4100022c1fd32783c06d593536ec
-          git -C /tmp/bsc-archive checkout FETCH_HEAD
+          git -C /tmp/bsc-archive sparse-checkout init --cone
+          git -C /tmp/bsc-archive sparse-checkout set 'BigBeans Ship Compilation'
+          git -C /tmp/bsc-archive fetch --depth 1 --filter=blob:none origin 38d0d7fd4b9e4100022c1fd32783c06d593536ec
+          git -C /tmp/bsc-archive checkout --detach FETCH_HEAD
 
       - name: Build English-facing 0.1.98.7
         shell: bash
