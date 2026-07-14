@@ -1,0 +1,145 @@
+name: BSC inventory
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  inventory:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 1
+
+      - name: Inventory both BSC folders
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json, re
+
+          repo = Path('.')
+          ignored = {'.git', '.github', 'analysis'}
+          text_exts = {
+              '.csv', '.json', '.variant', '.ship', '.skin', '.system', '.wpn',
+              '.java', '.txt', '.md', '.faction', '.rules', '.vmparams', '.properties'
+          }
+          cjk_re = re.compile(r'[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]')
+
+          def read_text(path):
+              for enc in ('utf-8-sig', 'utf-8', 'gb18030', 'cp1252'):
+                  try:
+                      return path.read_text(encoding=enc), enc
+                  except (UnicodeDecodeError, UnicodeError):
+                      pass
+              return None, None
+
+          def meta_from_mod_info(path):
+              text, enc = read_text(path)
+              text = text or ''
+              def grab(key):
+                  m = re.search(r'(?m)["\']?' + re.escape(key) + r'["\']?\s*:\s*["\']([^"\']+)', text)
+                  return m.group(1) if m else None
+              return {'name': grab('name'), 'id': grab('id'), 'version': grab('version'), 'encoding': enc}
+
+          roots = []
+          for p in repo.rglob('mod_info.json'):
+              if any(part in ignored for part in p.parts):
+                  continue
+              roots.append(p.parent)
+          roots = sorted(set(roots), key=lambda p: str(p).lower())
+
+          report = {'roots': [], 'comparison': {}}
+          inventories = {}
+          for root in roots:
+              files = [p for p in root.rglob('*') if p.is_file()]
+              rels = {str(p.relative_to(root)): p for p in files}
+              cjk_files = []
+              text_files = []
+              for rel, p in sorted(rels.items()):
+                  if p.suffix.lower() not in text_exts and p.name != 'mod_info.json':
+                      continue
+                  text, enc = read_text(p)
+                  if text is None:
+                      continue
+                  count = len(cjk_re.findall(text))
+                  text_files.append(rel)
+                  if count:
+                      first = cjk_re.search(text).start()
+                      excerpt = text[max(0, first-100):first+300].replace('\n', '\\n')
+                      cjk_files.append({'path': rel, 'cjk_chars': count, 'encoding': enc, 'excerpt': excerpt})
+              info = {
+                  'path': str(root),
+                  'mod_info': meta_from_mod_info(root / 'mod_info.json'),
+                  'file_count': len(files),
+                  'text_file_count': len(text_files),
+                  'cjk_file_count': len(cjk_files),
+                  'cjk_files': cjk_files,
+              }
+              report['roots'].append(info)
+              inventories[str(root)] = rels
+
+          if len(roots) == 2:
+              a, b = roots
+              ma = report['roots'][0]['mod_info']
+              mb = report['roots'][1]['mod_info']
+              # Prefer the .7 build as old and the .85 build as new.
+              if ma.get('version') and '.85' in ma['version']:
+                  old, new = b, a
+              elif mb.get('version') and '.85' in mb['version']:
+                  old, new = a, b
+              else:
+                  old, new = a, b
+              old_files = inventories[str(old)]
+              new_files = inventories[str(new)]
+              old_set, new_set = set(old_files), set(new_files)
+              common = sorted(old_set & new_set)
+              changed = []
+              for rel in common:
+                  op, np = old_files[rel], new_files[rel]
+                  oh = hashlib.sha256(op.read_bytes()).hexdigest()
+                  nh = hashlib.sha256(np.read_bytes()).hexdigest()
+                  if oh == nh:
+                      continue
+                  ot, oe = read_text(op)
+                  nt, ne = read_text(np)
+                  changed.append({
+                      'path': rel,
+                      'old_size': op.stat().st_size,
+                      'new_size': np.stat().st_size,
+                      'text': ot is not None and nt is not None,
+                      'old_has_cjk': bool(ot and cjk_re.search(ot)),
+                      'new_has_cjk': bool(nt and cjk_re.search(nt)),
+                      'old_encoding': oe,
+                      'new_encoding': ne,
+                  })
+              report['comparison'] = {
+                  'old_root': str(old),
+                  'new_root': str(new),
+                  'common_files': len(common),
+                  'identical_files': len(common) - len(changed),
+                  'changed_files': changed,
+                  'old_only': sorted(old_set - new_set),
+                  'new_only': sorted(new_set - old_set),
+              }
+
+          out = Path('analysis/bsc_inventory.json')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(out.read_text(encoding='utf-8'))
+          PY
+
+      - name: Commit inventory report
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis/bsc_inventory.json
+          git commit -m "Add BSC inventory report" || exit 0
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}
