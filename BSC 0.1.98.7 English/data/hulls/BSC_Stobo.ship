@@ -2,7 +2,7 @@
   "hullName": "Stobo",
   "hullId": "BSC_Stobo",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/hulls/fighters/BSC_stobo.png",
+  "spriteName": "graphics/hulls/fighters/BSC_Stobo.png",
   "style": "MIDLINE",
   "height": 25,
   "width": 40,
