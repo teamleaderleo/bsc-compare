@@ -1,0 +1,20 @@
+{
+    "baseHullId": "BSC_Ruswall",
+    "baseValueMult": 1.2,
+    "descriptionId": "BSC_Ruswall",
+    "descriptionPrefix": "This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+    "hullName": "Ruswall (P)",
+    "suppliesToRecover": 18,
+    "suppliesPerMonth": 18,
+    "tags": [
+        "pirate_bp"
+    ],
+    "tech": "Pirate",
+    "skinHullId": "BSC_Ruswall_P",
+    "spriteName": "graphics/hulls/BSC_Ruswall_P.png",
+    "weaponSlotChanges": {
+        "WS0008": {
+            "size": "LARGE"
+        }
+    }
+}

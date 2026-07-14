@@ -1,0 +1,15 @@
+{
+    "baseHullId": "BSC_Roamer",
+    "baseValueMult": 0.9,
+    "descriptionId": "BSC_Roamer",
+    "descriptionPrefix": "This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+    "hullName": "Roamer (P)",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Roamer_P",
+    "spriteName": "graphics/hulls/BSC_Roamer_P.png",
+    "systemId": "burndrive",
+    "tags": [
+        "pirate_bp"
+    ],
+    "tech": "Pirate"
+}

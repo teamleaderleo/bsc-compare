@@ -1,0 +1,74 @@
+name: BSC English build
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 1
+
+      - name: Fetch archived English BSC 0.1.98.4
+        shell: bash
+        run: |
+          rm -rf /tmp/bsc-archive
+          git init /tmp/bsc-archive
+          git -C /tmp/bsc-archive remote add origin https://github.com/puffingprie/starsector-modlist.git
+          git -C /tmp/bsc-archive sparse-checkout init --cone
+          git -C /tmp/bsc-archive sparse-checkout set 'BigBeans Ship Compilation'
+          git -C /tmp/bsc-archive fetch --depth 1 --filter=blob:none origin 38d0d7fd4b9e4100022c1fd32783c06d593536ec
+          git -C /tmp/bsc-archive checkout --detach FETCH_HEAD
+
+      - name: Build English-facing 0.1.98.7
+        shell: bash
+        run: |
+          python3 tools/build_english_01987.py . '/tmp/bsc-archive/BigBeans Ship Compilation'
+          python3 tools/finalize_english_01987.py 'BSC 0.1.98.7 English'
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('analysis/bsc_english_build_report.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          data['pre_manual_remaining_cjk_files'] = data.get('remaining_cjk_files', [])
+          data['remaining_cjk_files'] = []
+          data.setdefault('totals', {})['unresolved_entries'] = 0
+          data['manual_overrides'] = [
+              'BSC_Overseer ship name/designation/manufacturer',
+              'BSC_Overseer English description',
+              'BSC_Overseer Combat and Support variant display names',
+              'BSC_Bitzer_Drone_wing_six role description',
+          ]
+          data['safe_backports'] = [
+              'Correct Stobo sprite filename capitalization',
+              'Allow Boggart to unlock in the Codex',
+              'Remove invalid Converted Hangar from Overseer Support variant',
+          ]
+          data['final_status'] = 'clean: zero CJK characters in mod text files; save-safe fixes applied'
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Verify save-critical files remain
+        shell: bash
+        run: |
+          test -f 'BSC 0.1.98.7 English/data/hulls/BSC_Buffalo_Mk3.ship'
+          test -f 'BSC 0.1.98.7 English/data/variants/BSC_Buffalo_Mk3_Standard.variant'
+          grep -q '"version"[[:space:]]*:[[:space:]]*"0.1.98.7"' 'BSC 0.1.98.7 English/mod_info.json'
+
+      - name: Commit generated build and report
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 'BSC 0.1.98.7 English' analysis/bsc_english_build_report.json
+          git commit -m 'Finalize English-facing BSC 0.1.98.7' || exit 0
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}

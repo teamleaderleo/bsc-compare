@@ -1,0 +1,13 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Brigand",
+        ],
+    },
+    	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+        "BSC_Covetor_Mining":4,
+        "BSC_Lockout_Basic":3,
+        "BSC_Roamer_Basic":3,
+	},
+},

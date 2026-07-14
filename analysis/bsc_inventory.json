@@ -1,0 +1,3426 @@
+{
+  "roots": [
+    {
+      "path": "BSC 0.1.98.7",
+      "mod_info": {
+        "name": "大豆船包",
+        "id": "BSC",
+        "version": "0.1.98.7",
+        "encoding": "utf-8-sig"
+      },
+      "file_count": 351,
+      "text_file_count": 268,
+      "cjk_file_count": 185,
+      "cjk_files": [
+        {
+          "path": "data/hulls/ship_data.csv",
+          "cjk_chars": 556,
+          "encoding": "utf-8-sig",
+          "excerpt": "o,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number\\n双桅帆船,BSC_Brigantine,轻型巡洋舰,海盗,flarelauncher,10,6500,850,8500,9000,450,120,1,70,45,20,16,15,460,OMNI,,150,0.4,0.9,,,50,140,100,100,3,30,9,65000,5,15,420,0.25,16,16,,,,,,,,pirate_bp,,0.5,2,3,,\\n水牛 Mk.III,BSC_Buffalo_Mk3,改装航母,核心纪元,flarelauncher_active,9,3500,250,2700,2833,270,40,2,50,25,20,15,7,400,OMNI,"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Aghast_LG.skin",
+          "cjk_chars": 116,
+          "encoding": "utf-8-sig",
+          "excerpt": " \"BSC_Aghast\",\\n    \"baseValueMult\": 1,\\n    \"descriptionId\": \"BSC_Aghast\",\\n    \"descriptionPrefix\": \"依照最高元首 Philip Andrada 的命令，这艘船体为 Askonia 星系的作战环境进行了改装。改造包括整合了恒星防护层，以及由 Sindria 本地的一家工业集团提供的特制内部嵌板。首席设计师因其常年的尽忠尽责，在最高元首的任命下在该工业集团的董事会任职，这充分体现了辛达政府的团结和高效。\",\\n    \"hullName\": \"惊骇 (LG)\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Aghast_LG\",\\n    \"ordnancePoints\": 111,\\n    \"spriteName\": \"graphi"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Bitzer_H.skin",
+          "cjk_chars": 64,
+          "encoding": "utf-8-sig",
+          "excerpt": "tPoints\": 3,\\n    \"ordnancePoints\": 34,\\n    \"descriptionId\": \"BSC_Bitzer\",\\n    \"descriptionPrefix\": \"由于该舰位列 霸主 备用舰的名单之上，因此它的系统已经升级到军用标准，并执行了严格的定期维护，以便它在紧急情况下能被投入军事使用。\",\\n    \"hullDesignation\": \"Patrol Craft\",\\n    \"hullName\": \"闪击者 (H)\",\\n    \"manufacturer\": \"Hegemony\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Bitzer_H\",\\n    \"spriteName\": \"graphics/hulls/BSC_Bitzer_H.png\",\\n    \"tags\": [\\n "
+        },
+        {
+          "path": "data/hulls/skins/BSC_Bitzer_LP.skin",
+          "cjk_chars": 53,
+          "encoding": "utf-8-sig",
+          "excerpt": "_advised\"\\n    ],\\n    \"fleetPoints\": 3,\\n    \"descriptionId\": \"BSC_Bitzer\",\\n    \"descriptionPrefix\": \"被 卢德左径 的狂热分子们强行占用，并通过剔除掉所有非必要的装饰改造成的一个随时与意外相伴的圣战船\",\\n    \"hullDesignation\": \"Patrol Craft\",\\n    \"hullName\": \"闪击者 (LP)\",\\n    \"manufacturer\": \"Luddic Path\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Bitzer_LP\",\\n    \"spriteName\": \"graphics/hulls/BSC_Bitzer_LP.png\",\\n    \"tags\": [\\n        \"LP"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Buffalo_Mk3_A.skin",
+          "cjk_chars": 35,
+          "encoding": "utf-8-sig",
+          "excerpt": "  \"militarized_subsystems\"\\n    ],\\n    \"descriptionId\": \"BSC_Buffalo_Mk3\",\\n    \"descriptionPrefix\": \"此型 水牛 MKIII 位列 霸主 备用舰的名单之上，因此它的系统已经升级到军用标准。\",\\n    \"hullName\": \"水牛 MKIII (A)\",\\n    \"skinHullId\": \"BSC_Buffalo_Mk3_A\",\\n    \"spriteName\": \"graphics/hulls/BSC_Buffalo_MkIII_A.png\",\\n    \"tags\": [\\n        \"heg_aux_bp\"\\n    ],\\n    \"tech\": \"霸主\"\\n}"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Carnal_XIV.skin",
+          "cjk_chars": 85,
+          "encoding": "utf-8-sig",
+          "excerpt": "coversColor\": [\\n        255,\\n        245,\\n        225,\\n        255\\n    ],\\n    \"descriptionPrefix\": \"基于 霸主 的建立者 - 人之领第十四战斗群 为蓝本而建造的战舰，其利用大崩塌前的工业技术所进行的一系列激进化的结构改装方案，使该舰成为了研究 人之领海军 '决战' 教条 的主要样本。\",\\n    \"tags\": [\\n        \"XIV_bp\",\\n        \"hist2t\"\\n    ],\\n    \"tech\": \"第十四战斗群\",\\n    \"fleetPoints\": 8,\\n    \"ordnancePoints\": 60,\\n    \"hullName\": \"肉欲 (XIV)\",\\n    \"skinHullId\": \"BSC_Carnal_XIV\",\\n    \"spriteName"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Cassina_LG.skin",
+          "cjk_chars": 117,
+          "encoding": "utf-8-sig",
+          "excerpt": "BSC_Cassina\",\\n    \"baseValueMult\": 1,\\n    \"descriptionId\": \"BSC_Cassina\",\\n    \"descriptionPrefix\": \"依照最高元首 Philip Andrada 的命令，这艘船体为 Askonia 星系的作战环境进行了改装。改造包括整合了恒星防护层，以及由 Sindria 本地的一家工业集团提供的特制内部嵌板。首席设计师因其常年的尽忠尽责，在最高元首的任命下在该工业集团的董事会任职，这充分体现了辛达政府的团结和高效。\",\\n    \"hullName\": \"卡西纳 (LG)\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Cassina_LG\",\\n    \"ordnancePoints\": 104,\\n    \"spriteName\": \"grap"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Covetor_LP.skin",
+          "cjk_chars": 105,
+          "encoding": "utf-8-sig",
+          "excerpt": ",\\n    \"systemId\": \"fastmissileracks\",\\n    \"descriptionId\": \"BSC_Covetor\",\\n    \"descriptionPrefix\": \"卢德左径 的狂热信徒们通常会直接使用 贪婪-级，但有时也会对其进行改装，以更好地满足他们的需求。改装主要包括移除舰艇上所有的能量武器和高能聚焦系统，取而代之的是内置的气锤发射器，以及用于快速重装的预装填导弹发射架。\",\\n    \"hullName\": \"贪婪者 (LP)\",\\n    \"manufacturer\": \"Luddic Path\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Covetor_LP\",\\n    \"spriteName\": \"graphics/hulls/BSC_Covetor_LP.png\",\\n    "
+        },
+        {
+          "path": "data/hulls/skins/BSC_Covetor_P.skin",
+          "cjk_chars": 24,
+          "encoding": "utf-8-sig",
+          "excerpt": "ValueMult\": 0.75,\\n    \"systemId\": \"burndrive\",\\n    \"descriptionId\": \"BSC_Covetor\",\\n    \"hullName\": \"贪婪 (P)\",\\n    \"descriptionPrefix\": \"这艘船遭受了海盗船员的重度改装和低劣维护。\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Covetor_P\",\\n    \"spriteName\": \"graphics/hulls/BSC_Covetor_P.png\",\\n    \"tags\": [\\n        \"pirate_bp\"\\n    ],\\n    \"tech\": \"海盗\",\\n    \"weaponSlotChanges\": {\\n        \"WS0001\": {\\n            \"t"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Hammerhead_LP.skin",
+          "cjk_chars": 52,
+          "encoding": "utf-8-sig",
+          "excerpt": "errides\",\\n        \"ill_advised\"\\n    ],\\n    \"descriptionId\": \"hammerhead\",\\n    \"descriptionPrefix\": \"被 卢德左径 的狂热分子们强行占用，并通过剔除掉所有非必要的装饰改造成的一个随时与意外相伴的圣战船。\",\\n    \"hullName\": \"锤头 (LP)\",\\n    \"manufacturer\": \"Luddic Path\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Hammerhead_LP\",\\n    \"spriteName\": \"graphics/hulls/BSC_Hammerhead_LP.png\",\\n    \"tags\": [\\n        \"LP_bp\"\\n    ],\\n    \"tech\": \"卢德左径\"\\n"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Hartfell_LG.skin",
+          "cjk_chars": 116,
+          "encoding": "utf-8-sig",
+          "excerpt": "C_Hartfell\",\\n    \"baseValueMult\": 1,\\n    \"descriptionId\": \"BSC_Hartfell\",\\n    \"descriptionPrefix\": \"依照最高元首 Philip Andrada 的命令，这艘船体为 Askonia 星系的作战环境进行了改装。改造包括整合了恒星防护层，以及由 Sindria 本地的一家工业集团提供的特制内部嵌板。首席设计师因其常年的尽忠尽责，在最高元首的任命下在该工业集团的董事会任职，这充分体现了辛达政府的团结和高效。\",\\n    \"hullName\": \"鹿原 (LG)\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Hartfell_LG\",\\n    \"ordnancePoints\": 52,\\n    \"spriteName\": \"graph"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Hartfell_P.skin",
+          "cjk_chars": 24,
+          "encoding": "utf-8-sig",
+          "excerpt": "\"\\n    ],\\n    \"systemId\": \"ammofeed\",\\n    \"descriptionId\": \"BSC_Hartfell\",\\n    \"descriptionPrefix\": \"这艘船遭受了海盗船员的重度改装和低劣维护\",\\n    \"hullName\": \"鹿原 (P)\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Hartfell_P\",\\n    \"spriteName\": \"graphics/hulls/BSC_Hartfell_P.png\",\\n    \"tags\": [\\n        \"pirate_bp\"\\n    ],\\n    \"tech\": \"海盗\",\\n    \"weaponSlotChanges\": {\\n        \"WS0001\": {\\n            \"type\": \"B"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Lockout_P.skin",
+          "cjk_chars": 24,
+          "encoding": "utf-8-sig",
+          "excerpt": "d\": \"BSC_Lockout\",\\n    \"suppliesToRecover\": 7,\\n    \"suppliesPerMonth\": 7,\\n    \"descriptionPrefix\": \"这艘船遭受了海盗船员的重度改装和低劣维护\",\\n    \"hullName\": \"封锁 (P)\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Lockout_P\",\\n    \"spriteName\": \"graphics/hulls/BSC_Lockout_P.png\",\\n    \"tags\": [\\n        \"pirate_bp\"\\n    ],\\n    \"tech\": \"海盗\"\\n}"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Maraka_XIV.skin",
+          "cjk_chars": 86,
+          "encoding": "utf-8-sig",
+          "excerpt": "coversColor\": [\\n        255,\\n        245,\\n        225,\\n        255\\n    ],\\n    \"descriptionPrefix\": \"基于 霸主 的建立者 - 人之领第十四战斗群 为蓝本而建造的战舰，其利用大崩塌前的工业技术所进行的一系列激进化的结构改装方案，使该舰成为了研究 人之领海军 '决战' 教条 的主要样本。\",\\n    \"tags\": [\\n        \"XIV_bp\",\\n        \"hist2t\"\\n    ],\\n    \"tech\": \"第十四战斗群\",\\n    \"fleetPoints\": 17,\\n    \"ordnancePoints\": 165,\\n    \"hullName\": \"玛拉卡 (XIV)\",\\n    \"skinHullId\": \"BSC_Maraka_XIV\",\\n    \"spriteN"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Marauder_Ind.skin",
+          "cjk_chars": 100,
+          "encoding": "utf-8-sig",
+          "excerpt": "C_Marauder\",\\n    \"baseValueMult\": 1,\\n    \"descriptionId\": \"BSC_Marauder\",\\n    \"descriptionPrefix\": \"非势力团体们偶尔会俘虏或回收海盗们的 掠夺者-级 驱逐舰并将其改装，以用于打捞或佣兵行动。尽管系统方面的改造相当小，但海盗风格涂装已被清除干净，显示出这是一种融合了主宰纪元和核心纪元特点的过渡型舰船。\",\\n    \"hullName\": \"掠夺者(改)\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Marauder_Ind\",\\n    \"spriteName\": \"graphics/hulls/BSC_Marauder_Ind.png\",\\n    \"tags\": [\\n        \"rare_bp\"\\n    ],\\n    \""
+        },
+        {
+          "path": "data/hulls/skins/BSC_Roamer_P.skin",
+          "cjk_chars": 25,
+          "encoding": "utf-8-sig",
+          "excerpt": "BSC_Roamer\",\\n    \"baseValueMult\": 0.9,\\n    \"descriptionId\": \"BSC_Roamer\",\\n    \"descriptionPrefix\": \"这艘船遭受了海盗船员的重度改装和低劣维护\",\\n    \"hullName\": \"漫步者 (P)\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Roamer_P\",\\n    \"spriteName\": \"graphics/hulls/BSC_Roamer_P.png\",\\n    \"systemId\": \"burndrive\",\\n    \"tags\": [\\n        \"pirate_bp\"\\n    ],\\n    \"tech\": \"海盗\"\\n}"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Ruswall_P.skin",
+          "cjk_chars": 26,
+          "encoding": "utf-8-sig",
+          "excerpt": "C_Ruswall\",\\n    \"baseValueMult\": 1.2,\\n    \"descriptionId\": \"BSC_Ruswall\",\\n    \"descriptionPrefix\": \"这艘船遭受了海盗船员的重度改装和低劣维护\",\\n    \"hullName\": \"罗斯瓦尔 (P)\",\\n    \"suppliesToRecover\": 18,\\n    \"suppliesPerMonth\": 18,\\n    \"tags\": [\\n        \"pirate_bp\"\\n    ],\\n    \"tech\": \"海盗\",\\n    \"skinHullId\": \"BSC_Ruswall_P\",\\n    \"spriteName\": \"graphics/hulls/BSC_Ruswall_P.png\",\\n    \"weaponSlotChanges\": {\\n        \"WS0008\":"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Timberwolf_H.skin",
+          "cjk_chars": 44,
+          "encoding": "utf-8-sig",
+          "excerpt": "mberwolf\",\\n    \"baseValueMult\": 1,\\n    \"descriptionId\": \"BSC_Timberwolf\",\\n    \"descriptionPrefix\": \"该舰除了涂装有 霸主 的标志，以及进行了部分船体微调外，实际规格相比其原版没有任何改动。\",\\n    \"hullName\": \"森林狼 (H)\",\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Timberwolf_H\",\\n    \"spriteName\": \"graphics/hulls/BSC_Timberwolf_H.png\",\\n    \"tags\": [\\n        \"rare_bp\",\\n        \"Hegemony\"\\n    ],\\n    \"tech\": \"霸主\"\\n}"
+        },
+        {
+          "path": "data/hulls/skins/BSC_Timberwolf_P.skin",
+          "cjk_chars": 25,
+          "encoding": "utf-8-sig",
+          "excerpt": "erwolf\",\\n    \"baseValueMult\": 0.8,\\n    \"descriptionId\": \"BSC_Timberwolf\",\\n    \"descriptionPrefix\": \"这艘船遭受了海盗船员的重度改装和低劣维护\",\\n    \"ordnancePoints\": 50,\\n    \"hullName\": \"森林狼 (P)\",\\n    \"suppliesToRecover\": 5,\\n    \"suppliesPerMonth\": 5,\\n    \"restoreToBaseHull\": false,\\n    \"skinHullId\": \"BSC_Timberwolf_P\",\\n    \"spriteName\": \"graphics/hulls/BSC_Timberwolf_P.png\",\\n    \"tags\": [\\n        \"pirate_bp\"\\n    ],\\n "
+        },
+        {
+          "path": "data/hulls/wing_data.csv",
+          "cjk_chars": 21,
+          "encoding": "utf-8-sig",
+          "excerpt": ",,number\\nBSC_Bitzer_Drone_wing,BSC_Bitzer_Drone,\"no_drop, no_sell, low\",0,,1,0,BOX,0,200,,2,SUPPORT,点防御,10,2000,,\\nBSC_Talon_Solo_wing,talon_Interceptor,\"no_drop, no_sell, low\",0,,1,0,V,0,200,600,1,INTERCEPTOR,特装截击机,5,500,,\\nBSC_Sturgeon_wing,BSC_Sturgeon_Bomber,\"bomber5, bomber, low, rare_bp, merc\",2,,5,14,V,4000,1200,300,1,BOMBER,轰炸机,18,8000,,\\nBSC_Bitzer_Drone_wing_six,BSC_Bitzer_Drone,\"no_drop, n"
+        },
+        {
+          "path": "data/shipsystems/ship_systems.csv",
+          "cjk_chars": 30,
+          "encoding": "utf-8-sig",
+          "excerpt": "rdDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,IsPhaseCloak,tags,icon\\n重型 EMP 发生器,BSC_heavyemp,1.5,,,,,0.3,,,,0.7,4,0.7,5,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png\\n相位干扰,BSC_anti_phase,,,,,,0.25,,3,0.05,0.5,,1,,,,,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png\\n点防御无人机,BSC_drone_pd,,,,,,,,8,0.2,0,,0,0,,,,,,,,,,,,,graphics/icons/shipsystems/drone_pd_hig"
+        },
+        {
+          "path": "data/strings/descriptions.csv",
+          "cjk_chars": 7896,
+          "encoding": "utf-8-sig",
+          "excerpt": "id,type,text1,text2,text3,notes\\nBSC_Brigantine,SHIP,\"与 掠夺者-级 一样，这种舰船的起源也经常成为太空佬们的谈资。有人认为，它的存在证明了某个或多个主要势力在向海盗团伙提供舰船；还有人声称，这种舰船的蓝图是在遥远深空中的轨道造船厂残骸里被海盗发现的。总之，无论该舰最初的舰级命名和预期定位为何，如今它被称作 双桅帆船-级，主要在各类星域中活跃的海盗组织旗下服役。\\n\\n尽管大小与巡洋舰相当，但 双桅帆船-级 的船体规格更符合大型驱逐舰的标准，使其处于体型和战斗力不相匹配的尴尬境地。尽管如此，它仍是贸易商和小型巡逻队在战斗中绝对的噩梦，往往只有改装舰船可用的海盗们也十分乐于用它来升级自己的舰队。\",,,\\nBSC_Buffalo_Mk3,SHIP,\"一款"
+        },
+        {
+          "path": "data/variants/BSC_Accipiter_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Accipiter_Standard\",\\n    \"hullId\": \"BSC_Accipiter\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 17,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"hardenedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Accipiter_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Accipiter_Strike\",\\n    \"hullId\": \"BSC_Accipiter\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 18,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"pulselaser\",\\n      "
+        },
+        {
+          "path": "data/variants/BSC_Accipiter_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Accipiter_Support\",\\n    \"hullId\": \"BSC_Accipiter\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 14,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Adventurer_Combat.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Adventurer_Combat\",\\n    \"hullId\": \"BSC_Adventurer\",\\n    \"displayName\": \"作战\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 50,\\n    \"fluxVents\": 29,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n        \"advancedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Adventurer_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Adventurer_Standard\",\\n    \"hullId\": \"BSC_Adventurer\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 37,\\n    \"fluxVents\": 50,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n        \"reinforcedhull\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"we"
+        },
+        {
+          "path": "data/variants/BSC_Aghast_LG_Elite.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Aghast_LG_Elite\",\\n    \"hullId\": \"BSC_Aghast_LG\",\\n    \"displayName\": \"精英\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 12,\\n    \"fluxVents\": 24,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedshieldemitter\",\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n   "
+        },
+        {
+          "path": "data/variants/BSC_Aghast_LG_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Aghast_LG_Standard\",\\n    \"hullId\": \"BSC_Aghast_LG\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 16,\\n    \"fluxVents\": 21,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedshieldemitter\",\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Aghast_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Aghast_Standard\",\\n    \"hullId\": \"BSC_Aghast\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 15,\\n    \"fluxVents\": 28,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedshieldemitter\",\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Aghast_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Aghast_Strike\",\\n    \"hullId\": \"BSC_Aghast\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 15,\\n    \"fluxVents\": 26,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedshieldemitter\",\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Aghast_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Aghast_Support\",\\n    \"hullId\": \"BSC_Aghast\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 14,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n        \"converted_hangar\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \""
+        },
+        {
+          "path": "data/variants/BSC_Baldric_MK2_Barrage.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Baldric_MK2_Barrage\",\\n    \"hullId\": \"BSC_Baldric_MK2\",\\n    \"displayName\": \"弹幕\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 14,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"we"
+        },
+        {
+          "path": "data/variants/BSC_Baldric_MK2_FS.variant",
+          "cjk_chars": 4,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Baldric_MK2_FS\",\\n    \"hullId\": \"BSC_Baldric_MK2\",\\n    \"displayName\": \"战机支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 15,\\n    \"fluxVents\": 12,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"converted_hangar\",\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \""
+        },
+        {
+          "path": "data/variants/BSC_Baldric_MK2_Overridden.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "    \"variantId\": \"BSC_Baldric_MK2_Overridden\",\\n    \"hullId\": \"BSC_Baldric_MK2\",\\n    \"displayName\": \"超载\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 5,\\n    \"fluxVents\": 2,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"safetyoverrides\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Baldric_MK2_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Baldric_MK2_Support\",\\n    \"hullId\": \"BSC_Baldric_MK2\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 16,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"frontshield\",\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapo"
+        },
+        {
+          "path": "data/variants/BSC_Baldric_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Baldric_Standard\",\\n    \"hullId\": \"BSC_Baldric\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 30,\\n    \"fluxVents\": 16,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"lightmg\",\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Bitzer_Drone.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bitzer_Drone\",\\n    \"hullId\": \"BSC_Bitzer_Drone\",\\n    \"displayName\": \"无人机\",\\n    \"goalVariant\": false,\\n    \"fluxCapacitors\": 0,\\n    \"fluxVents\": 0,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS 001\": \"lightdualmg\",\\n     "
+        },
+        {
+          "path": "data/variants/BSC_Bitzer_H_Shielded.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bitzer_H_Shielded\",\\n    \"hullId\": \"BSC_Bitzer_H\",\\n    \"displayName\": \"护盾\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 6,\\n    \"fluxVents\": 6,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"frontshield\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0"
+        },
+        {
+          "path": "data/variants/BSC_Bitzer_LP_Overridden.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bitzer_LP_Overridden\",\\n    \"hullId\": \"BSC_Bitzer_LP\",\\n    \"displayName\": \"超载\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 3,\\n    \"fluxVents\": 0,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"safetyoverrides\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Bitzer_Overridden.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bitzer_Overridden\",\\n    \"hullId\": \"BSC_Bitzer\",\\n    \"displayName\": \"超载\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 3,\\n    \"fluxVents\": 0,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"safetyoverrides\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Bitzer_P_Shielded.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bitzer_P_Shielded\",\\n    \"hullId\": \"BSC_Bitzer_P\",\\n    \"displayName\": \"屏卫\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 6,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"frontshield\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0"
+        },
+        {
+          "path": "data/variants/BSC_Bitzer_P_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bitzer_P_Standard\",\\n    \"hullId\": \"BSC_Bitzer_P\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 6,\\n    \"fluxVents\": 4,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"reinforcedhull\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \""
+        },
+        {
+          "path": "data/variants/BSC_Bitzer_Shielded.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bitzer_Shielded\",\\n    \"hullId\": \"BSC_Bitzer\",\\n    \"displayName\": \"屏卫\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 6,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"frontshield\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0"
+        },
+        {
+          "path": "data/variants/BSC_Bitzer_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bitzer_Standard\",\\n    \"hullId\": \"BSC_Bitzer\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 6,\\n    \"fluxVents\": 4,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"reinforcedhull\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \""
+        },
+        {
+          "path": "data/variants/BSC_Boggart_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Boggart_Standard\",\\n    \"hullId\": \"BSC_Boggart\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"atropos\",\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Boggart_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Boggart_Strike\",\\n    \"hullId\": \"BSC_Boggart\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"frontemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"W"
+        },
+        {
+          "path": "data/variants/BSC_Boggart_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Boggart_Support\",\\n    \"hullId\": \"BSC_Boggart\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 8,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedoptics\",\\n        \"hardened_subsystems\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Bogle_Escort.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bogle_Escort\",\\n    \"hullId\": \"BSC_Bogle\",\\n    \"displayName\": \"护航\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 6,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"pointdefenseai\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Bogle_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bogle_Standard\",\\n    \"hullId\": \"BSC_Bogle\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"atropos\",\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Bogle_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bogle_Strike\",\\n    \"hullId\": \"BSC_Bogle\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"frontemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"W"
+        },
+        {
+          "path": "data/variants/BSC_Bogle_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Bogle_Support\",\\n    \"hullId\": \"BSC_Bogle\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 8,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedoptics\",\\n        \"hardened_subsystems\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Brigand_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Brigand_Assault\",\\n    \"hullId\": \"BSC_Brigand\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 25,\\n    \"fluxVents\": 24,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"heavyarmor\",\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"we"
+        },
+        {
+          "path": "data/variants/BSC_Brigand_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Brigand_Standard\",\\n    \"hullId\": \"BSC_Brigand\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 28,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n        \"reinforcedhull\",\\n        \"converted_hangar\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode"
+        },
+        {
+          "path": "data/variants/BSC_Brigantine_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Brigantine_Assault\",\\n    \"hullId\": \"BSC_Brigantine\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 12,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"heavyarmor\",\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"we"
+        },
+        {
+          "path": "data/variants/BSC_Brigantine_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Brigantine_Raider\",\\n    \"hullId\": \"BSC_Brigantine\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 5,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"safetyoverrides\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n              "
+        },
+        {
+          "path": "data/variants/BSC_Brigantine_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Brigantine_Standard\",\\n    \"hullId\": \"BSC_Brigantine\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 24,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n     "
+        },
+        {
+          "path": "data/variants/BSC_Buffalo_Mk3_A_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "  \"variantId\": \"BSC_Buffalo_Mk3_A_Standard\",\\n    \"hullId\": \"BSC_Buffalo_Mk3_A\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 9,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"lrpdlaser\",\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Buffalo_Mk3_A_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "   \"variantId\": \"BSC_Buffalo_Mk3_A_Support\",\\n    \"hullId\": \"BSC_Buffalo_Mk3_A\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"lrpdlaser\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Buffalo_Mk3_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Buffalo_Mk3_Standard\",\\n    \"hullId\": \"BSC_Buffalo_Mk3\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 9,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"lrpdlaser\",\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Buffalo_Mk3_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Buffalo_Mk3_Support\",\\n    \"hullId\": \"BSC_Buffalo_Mk3\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"lrpdlaser\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Buzzard_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Buzzard_Assault\",\\n    \"hullId\": \"BSC_Buzzard\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 21,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"mjolnir\",\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Buzzard_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Buzzard_Strike\",\\n    \"hullId\": \"BSC_Buzzard\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 25,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"dragonpod\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Buzzard_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Buzzard_Support\",\\n    \"hullId\": \"BSC_Buzzard\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 25,\\n    \"fluxVents\": 15,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Carnal_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Carnal_Assault\",\\n    \"hullId\": \"BSC_Carnal\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"heavyarmor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS"
+        },
+        {
+          "path": "data/variants/BSC_Carnal_Escort.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Carnal_Escort\",\\n    \"hullId\": \"BSC_Carnal\",\\n    \"displayName\": \"护航\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 9,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS"
+        },
+        {
+          "path": "data/variants/BSC_Carnal_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Carnal_Standard\",\\n    \"hullId\": \"BSC_Carnal\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 9,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS"
+        },
+        {
+          "path": "data/variants/BSC_Carnal_XIV_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Carnal_XIV_Assault\",\\n    \"hullId\": \"BSC_Carnal_XIV\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"heavyarmor\",\\n        \"fluxdistributor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weap"
+        },
+        {
+          "path": "data/variants/BSC_Carnal_XIV_Elite.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Carnal_XIV_Elite\",\\n    \"hullId\": \"BSC_Carnal_XIV\",\\n    \"displayName\": \"精英\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 8,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"heavyarmor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0"
+        },
+        {
+          "path": "data/variants/BSC_Carnyx_Drone.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Carnyx_Drone\",\\n    \"hullId\": \"BSC_Carnyx\",\\n    \"displayName\": \"无人机\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 11,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"eccm\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\""
+        },
+        {
+          "path": "data/variants/BSC_Carnyx_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Carnyx_Strike\",\\n    \"hullId\": \"BSC_Carnyx\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 14,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"pilum\",\\n            "
+        },
+        {
+          "path": "data/variants/BSC_Carnyx_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Carnyx_Support\",\\n    \"hullId\": \"BSC_Carnyx\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 15,\\n    \"fluxVents\": 12,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"salamanderpod\",\\n   "
+        },
+        {
+          "path": "data/variants/BSC_Cassina_Armoured.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Cassina_Armoured\",\\n    \"hullId\": \"BSC_Cassina\",\\n    \"displayName\": \"装甲\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 13,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"heavyarmor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS"
+        },
+        {
+          "path": "data/variants/BSC_Cassina_LG_Elite.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Cassina_LG_Elite\",\\n    \"hullId\": \"BSC_Cassina_LG\",\\n    \"displayName\": \"精英\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 16,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"hardenedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n            \"weapons\": {\\n   "
+        },
+        {
+          "path": "data/variants/BSC_Cassina_LG_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Cassina_LG_Standard\",\\n    \"hullId\": \"BSC_Cassina_LG\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 12,\\n    \"fluxVents\": 18,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"auxiliarythrusters\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n            \"weapons\": {\\n      "
+        },
+        {
+          "path": "data/variants/BSC_Cassina_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Cassina_Standard\",\\n    \"hullId\": \"BSC_Cassina\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 16,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"heavyac\",\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Cassina_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Cassina_Support\",\\n    \"hullId\": \"BSC_Cassina\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 14,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n            \"weapons\": {\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Chrysaor_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Chrysaor_Assault\",\\n    \"hullId\": \"BSC_Chrysaor\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 15,\\n    \"fluxVents\": 18,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"frontemitter\",\\n        \"hardenedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Chrysaor_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Chrysaor_Standard\",\\n    \"hullId\": \"BSC_Chrysaor\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 18,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedshieldemitter\",\\n        \"fluxdistributor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n      "
+        },
+        {
+          "path": "data/variants/BSC_Chrysaor_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Chrysaor_Support\",\\n    \"hullId\": \"BSC_Chrysaor\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 16,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedoptics\",\\n        \"advancedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Constable_Attack.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Constable_Attack\",\\n    \"hullId\": \"BSC_Constable\",\\n    \"displayName\": \"进攻\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 2,\\n    \"fluxVents\": 2,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"armoredweapons\",\\n        \"heavyarmor\",\\n        \"missleracks\",\\n        \"insulatedengine\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n"
+        },
+        {
+          "path": "data/variants/BSC_Constable_P_Attack.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Constable_P_Attack\",\\n    \"hullId\": \"BSC_Constable_P\",\\n    \"displayName\": \"进攻\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 16,\\n    \"fluxVents\": 12,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"armoredweapons\",\\n        \"heavyarmor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapo"
+        },
+        {
+          "path": "data/variants/BSC_Constable_P_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Constable_P_Strike\",\\n    \"hullId\": \"BSC_Constable_P\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 12,\\n    \"fluxVents\": 12,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"armoredweapons\",\\n        \"heavyarmor\",\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINK"
+        },
+        {
+          "path": "data/variants/BSC_Constable_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Constable_Strike\",\\n    \"hullId\": \"BSC_Constable\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 4,\\n    \"fluxVents\": 4,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"armoredweapons\",\\n        \"heavyarmor\",\\n        \"missleracks\",\\n        \"insulatedengine\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n"
+        },
+        {
+          "path": "data/variants/BSC_Covetor_LP_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Covetor_LP_Raider\",\\n    \"hullId\": \"BSC_Covetor_LP\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 8,\\n    \"fluxVents\": 6,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS"
+        },
+        {
+          "path": "data/variants/BSC_Covetor_Mining.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Covetor_Mining\",\\n    \"hullId\": \"BSC_Covetor\",\\n    \"displayName\": \"采矿\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 8,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"efficiency_overhaul\",\\n        \"reinforcedhull\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Covetor_P_Basic.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Covetor_P_Basic\",\\n    \"hullId\": \"BSC_Covetor_P\",\\n    \"displayName\": \"基础\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 8,\\n    \"fluxVents\": 6,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"reinforcedhull\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \""
+        },
+        {
+          "path": "data/variants/BSC_Covetor_P_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Covetor_P_Raider\",\\n    \"hullId\": \"BSC_Covetor_P\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 5,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n             "
+        },
+        {
+          "path": "data/variants/BSC_Covetor_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Covetor_Raider\",\\n    \"hullId\": \"BSC_Covetor\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 5,\\n    \"fluxVents\": 7,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n             "
+        },
+        {
+          "path": "data/variants/BSC_Covetor_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Covetor_Standard\",\\n    \"hullId\": \"BSC_Covetor\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 6,\\n    \"fluxVents\": 6,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"pulselaser\",\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Covetor_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Covetor_Support\",\\n    \"hullId\": \"BSC_Covetor\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 5,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"ionbeam\",\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Cumulus_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Cumulus_Assault\",\\n    \"hullId\": \"BSC_Cumulus\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 18,\\n    \"fluxVents\": 15,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"hardenedshieldemitter\",\\n        \"eccm\",\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LIN"
+        },
+        {
+          "path": "data/variants/BSC_Cumulus_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Cumulus_Standard\",\\n    \"hullId\": \"BSC_Cumulus\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 24,\\n    \"fluxVents\": 15,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedshieldemitter\",\\n        \"ecm\",\\n        \"hardened_subsystems\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode"
+        },
+        {
+          "path": "data/variants/BSC_Cumulus_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Cumulus_Support\",\\n    \"hullId\": \"BSC_Cumulus\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 16,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"eccm\",\\n        \"missleracks\",\\n        \"converted_hangar\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\","
+        },
+        {
+          "path": "data/variants/BSC_Drone_PD_Laser.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Drone_PD_Laser\",\\n    \"hullId\": \"BSC_Drone_PD\",\\n    \"displayName\": \"激光\",\\n    \"goalVariant\": false,\\n    \"fluxCapacitors\": 0,\\n    \"fluxVents\": 0,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"lrpdlaser\",\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Drudge_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Drudge_Standard\",\\n    \"hullId\": \"BSC_Drudge\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 22,\\n    \"fluxVents\": 16,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Drudge_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Drudge_Support\",\\n    \"hullId\": \"BSC_Drudge\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedoptics\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n               "
+        },
+        {
+          "path": "data/variants/BSC_Gallivanter_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Gallivanter_Standard\",\\n    \"hullId\": \"BSC_Gallivanter\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 8,\\n    \"fluxVents\": 8,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"eccm\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \""
+        },
+        {
+          "path": "data/variants/BSC_Gallivanter_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Gallivanter_Strike\",\\n    \"hullId\": \"BSC_Gallivanter\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 8,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"eccm\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \""
+        },
+        {
+          "path": "data/variants/BSC_Gallivanter_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Gallivanter_Support\",\\n    \"hullId\": \"BSC_Gallivanter\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 8,\\n    \"fluxVents\": 6,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"eccm\",\\n        \"advancedoptics\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n "
+        },
+        {
+          "path": "data/variants/BSC_Hammerhead_LP_Overdriven.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"displayName\": \"超载\",\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 20,\\n    \"goalVariant\": true,\\n    \"hullId\": \"BSC_Hammerhead_LP\",\\n    \"hullMods\": [\\n        \"fluxdistributor\",\\n    ],\\n    \"permaMods\": [],\\n    \"variantId\": \"BSC_Hammerhead_LP_Overdriven\",\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n   "
+        },
+        {
+          "path": "data/variants/BSC_Hammerhead_MK2_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "  \"variantId\": \"BSC_Hammerhead_MK2_Raider\",\\n    \"hullId\": \"BSC_Hammerhead_MK2\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 18,\\n    \"fluxVents\": 15,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \""
+        },
+        {
+          "path": "data/variants/BSC_Hammerhead_MK2_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "\"variantId\": \"BSC_Hammerhead_MK2_Standard\",\\n    \"hullId\": \"BSC_Hammerhead_MK2\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 19,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"auxiliarythrusters\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Hammerhead_MK2_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": " \"variantId\": \"BSC_Hammerhead_MK2_Support\",\\n    \"hullId\": \"BSC_Hammerhead_MK2\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 16,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Hartfell_Attack.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hartfell_Attack\",\\n    \"hullId\": \"BSC_Hartfell\",\\n    \"displayName\": \"进攻\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 6,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"fluxbreakers\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"W"
+        },
+        {
+          "path": "data/variants/BSC_Hartfell_LG_Elite.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hartfell_LG_Elite\",\\n    \"hullId\": \"BSC_Hartfell_LG\",\\n    \"displayName\": \"精英\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 7,\\n    \"fluxVents\": 7,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"W"
+        },
+        {
+          "path": "data/variants/BSC_Hartfell_LG_Pulser.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hartfell_LG_Pulser\",\\n    \"hullId\": \"BSC_Hartfell_LG\",\\n    \"displayName\": \"脉冲\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 7,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"fluxdistributor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n               "
+        },
+        {
+          "path": "data/variants/BSC_Hartfell_P_Mortar.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hartfell_P_Mortar\",\\n    \"hullId\": \"BSC_Hartfell_P\",\\n    \"displayName\": \"迫击炮\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \""
+        },
+        {
+          "path": "data/variants/BSC_Hartfell_P_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hartfell_P_Standard\",\\n    \"hullId\": \"BSC_Hartfell_P\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 8,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"hardened_subsystems\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Hartfell_Pulser.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hartfell_Pulser\",\\n    \"hullId\": \"BSC_Hartfell\",\\n    \"displayName\": \"脉冲\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 7,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"fluxdistributor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n               "
+        },
+        {
+          "path": "data/variants/BSC_Hartfell_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hartfell_Standard\",\\n    \"hullId\": \"BSC_Hartfell\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 6,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"hardened_subsystems\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Hartfell_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hartfell_Support\",\\n    \"hullId\": \"BSC_Hartfell\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"heavymauler\",\\n      "
+        },
+        {
+          "path": "data/variants/BSC_Haven_Frontier.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Haven_Frontier\",\\n    \"hullId\": \"BSC_Haven\",\\n    \"displayName\": \"前线\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 18,\\n    \"fluxVents\": 15,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Hedgehog_Combat.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hedgehog_Combat\",\\n    \"hullId\": \"BSC_Hedgehog\",\\n    \"displayName\": \"作战\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 7,\\n    \"fluxVents\": 6,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"stabilizedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n            \"weapons\": {\\n   "
+        },
+        {
+          "path": "data/variants/BSC_Hedgehog_Escort.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Hedgehog_Escort\",\\n    \"hullId\": \"BSC_Hedgehog\",\\n    \"displayName\": \"护航\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 5,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"pointdefenseai\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \""
+        },
+        {
+          "path": "data/variants/BSC_Killskipper_Attack.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Killskipper_Attack\",\\n    \"hullId\": \"BSC_Killskipper\",\\n    \"displayName\": \"进攻\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"hardened_subsystems\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n          "
+        },
+        {
+          "path": "data/variants/BSC_Killskipper_Basic.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Killskipper_Basic\",\\n    \"hullId\": \"BSC_Killskipper\",\\n    \"displayName\": \"基础\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"hardened_subsystems\",\\n        \"fluxdistributor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n   "
+        },
+        {
+          "path": "data/variants/BSC_Killskipper_Overridden.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "    \"variantId\": \"BSC_Killskipper_Overridden\",\\n    \"hullId\": \"BSC_Killskipper\",\\n    \"displayName\": \"超载\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 0,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"safetyoverrides\",\\n        \"hardened_subsystems\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n          "
+        },
+        {
+          "path": "data/variants/BSC_Kingpin_Overridden.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Kingpin_Overridden\",\\n    \"hullId\": \"BSC_Kingpin\",\\n    \"displayName\": \"超载\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 0,\\n    \"fluxVents\": 18,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"safetyoverrides\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n            \"weapons\": {\\n          "
+        },
+        {
+          "path": "data/variants/BSC_Kingpin_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Kingpin_Standard\",\\n    \"hullId\": \"BSC_Kingpin\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n            \"weapons\": {\\n   "
+        },
+        {
+          "path": "data/variants/BSC_Kingpin_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Kingpin_Support\",\\n    \"hullId\": \"BSC_Kingpin\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedoptics\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n               "
+        },
+        {
+          "path": "data/variants/BSC_Lockout_Basic.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Lockout_Basic\",\\n    \"hullId\": \"BSC_Lockout\",\\n    \"displayName\": \"基础\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 15,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"heavyarmor\",\\n        \"missleracks\",\\n        \"reinforcedhull\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTE"
+        },
+        {
+          "path": "data/variants/BSC_Lockout_Combat.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Lockout_Combat\",\\n    \"hullId\": \"BSC_Lockout\",\\n    \"displayName\": \"作战\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 18,\\n    \"fluxVents\": 16,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"militarized_subsystems\",\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Lockout_Escort.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Lockout_Escort\",\\n    \"hullId\": \"BSC_Lockout\",\\n    \"displayName\": \"护航\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 19,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"pointdefenseai\",\\n        \"missleracks\",\\n        \"extendedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"m"
+        },
+        {
+          "path": "data/variants/BSC_Lockout_LP_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Lockout_LP_Raider\",\\n    \"hullId\": \"BSC_Lockout_LP\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 19,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missile_autoloader\",\\n        \"heavyarmor\",\\n        \"magazines\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"L"
+        },
+        {
+          "path": "data/variants/BSC_Lockout_P_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Lockout_P_Raider\",\\n    \"hullId\": \"BSC_Lockout_P\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"reinforcedhull\",\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n     "
+        },
+        {
+          "path": "data/variants/BSC_Lockout_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Lockout_Raider\",\\n    \"hullId\": \"BSC_Lockout\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 12,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"unstable_injector\",\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Maraka_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Maraka_Assault\",\\n    \"hullId\": \"BSC_Maraka\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 26,\\n    \"fluxVents\": 30,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n "
+        },
+        {
+          "path": "data/variants/BSC_Maraka_LP_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Maraka_LP_Raider\",\\n    \"hullId\": \"BSC_Maraka_LP\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 30,\\n    \"fluxVents\": 18,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"auxiliarythrusters\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n          "
+        },
+        {
+          "path": "data/variants/BSC_Maraka_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Maraka_Standard\",\\n    \"hullId\": \"BSC_Maraka\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 23,\\n    \"fluxVents\": 30,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n        \"auxiliarythrusters\",\\n        \"blast_doors\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Maraka_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Maraka_Support\",\\n    \"hullId\": \"BSC_Maraka\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 25,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n        \"frontemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n      "
+        },
+        {
+          "path": "data/variants/BSC_Maraka_XIV_Elite.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Maraka_XIV_Elite\",\\n    \"hullId\": \"BSC_Maraka_XIV\",\\n    \"displayName\": \"精英\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 30,\\n    \"fluxVents\": 30,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Maraka_XIV_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Maraka_XIV_Strike\",\\n    \"hullId\": \"BSC_Maraka_XIV\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 28,\\n    \"fluxVents\": 25,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"W"
+        },
+        {
+          "path": "data/variants/BSC_Marauder_Ind_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "    \"variantId\": \"BSC_Marauder_Ind_Standard\",\\n    \"hullId\": \"BSC_Marauder_Ind\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 18,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"reinforcedhull\",\\n        \"advancedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Marauder_Ind_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "\\n    \"variantId\": \"BSC_Marauder_Ind_Support\",\\n    \"hullId\": \"BSC_Marauder_Ind\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 19,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"auxiliarythrusters\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Marauder_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Marauder_Raider\",\\n    \"hullId\": \"BSC_Marauder\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 0,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"safetyoverrides\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n              "
+        },
+        {
+          "path": "data/variants/BSC_Marauder_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Marauder_Standard\",\\n    \"hullId\": \"BSC_Marauder\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 18,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"reinforcedhull\",\\n        \"advancedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Marauder_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Marauder_Support\",\\n    \"hullId\": \"BSC_Marauder\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 19,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"auxiliarythrusters\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Mudskipper_MK3_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "\"variantId\": \"BSC_Mudskipper_MK3_Standard\",\\n    \"hullId\": \"BSC_Mudskipper_MK3\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 4,\\n    \"fluxVents\": 1,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"auxiliarythrusters\",\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"we"
+        },
+        {
+          "path": "data/variants/BSC_Nadir_Combat.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Nadir_Combat\",\\n    \"hullId\": \"BSC_Nadir\",\\n    \"displayName\": \"作战\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 50,\\n    \"fluxVents\": 27,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n        \"hardenedshieldemitter\",\\n        \"stabilizedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n   "
+        },
+        {
+          "path": "data/variants/BSC_Nadir_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Nadir_Standard\",\\n    \"hullId\": \"BSC_Nadir\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 50,\\n    \"fluxVents\": 32,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n        \"converted_hangar\",\\n        \"efficiency_overhaul\",\\n        \"fluxbreakers\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Nebula_MK2_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Nebula_MK2_Standard\",\\n    \"hullId\": \"BSC_Nebula_MK2\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"heavymortar\",\\n     "
+        },
+        {
+          "path": "data/variants/BSC_Nebula_MK2_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Nebula_MK2_Support\",\\n    \"hullId\": \"BSC_Nebula_MK2\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 15,\\n    \"fluxVents\": 8,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"heavyac\",\\n          "
+        },
+        {
+          "path": "data/variants/BSC_Overseer_Combat.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Overseer_Combat\",\\n    \"hullId\": \"BSC_Overseer\",\\n    \"displayName\": \"作战\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 30,\\n    \"fluxVents\": 28,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n        \"armoredweapons\",\\n        \"blast_doors\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Overseer_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Overseer_Support\",\\n    \"hullId\": \"BSC_Overseer\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 26,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n        \"converted_hangar\",\\n        \"eccm\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mod"
+        },
+        {
+          "path": "data/variants/BSC_Preybird_LP_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Preybird_LP_Raider\",\\n    \"hullId\": \"BSC_Preybird_LP\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 24,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"W"
+        },
+        {
+          "path": "data/variants/BSC_Preybird_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Preybird_Standard\",\\n    \"hullId\": \"BSC_Preybird\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Preybird_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Preybird_Support\",\\n    \"hullId\": \"BSC_Preybird\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 16,\\n    \"fluxVents\": 12,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Roamer_Basic.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Roamer_Basic\",\\n    \"hullId\": \"BSC_Roamer\",\\n    \"displayName\": \"基础\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 19,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"reinforcedhull\",\\n        \"blast_doors\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weap"
+        },
+        {
+          "path": "data/variants/BSC_Roamer_LP_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Roamer_LP_Raider\",\\n    \"hullId\": \"BSC_Roamer_LP\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 18,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"chaingun\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Roamer_P_FS.variant",
+          "cjk_chars": 4,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Roamer_P_FS\",\\n    \"hullId\": \"BSC_Roamer_P\",\\n    \"displayName\": \"战机支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 17,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"converted_hangar\",\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Roamer_P_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Roamer_P_Raider\",\\n    \"hullId\": \"BSC_Roamer_P\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 16,\\n    \"fluxVents\": 14,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"unstable_injector\",\\n        \"reinforcedhull\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n          "
+        },
+        {
+          "path": "data/variants/BSC_Roamer_Raider.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Roamer_Raider\",\\n    \"hullId\": \"BSC_Roamer\",\\n    \"displayName\": \"掠夺者\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 25,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Roamer_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Roamer_Standard\",\\n    \"hullId\": \"BSC_Roamer\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 27,\\n    \"fluxVents\": 20,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n            \"weapons\": {\\n           "
+        },
+        {
+          "path": "data/variants/BSC_Roamer_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Roamer_Support\",\\n    \"hullId\": \"BSC_Roamer\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 16,\\n    \"fluxVents\": 14,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n        \"converted_hangar\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \""
+        },
+        {
+          "path": "data/variants/BSC_Ruswall_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Ruswall_Assault\",\\n    \"hullId\": \"BSC_Ruswall\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"heavyarmor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0"
+        },
+        {
+          "path": "data/variants/BSC_Ruswall_P_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Ruswall_P_Assault\",\\n    \"hullId\": \"BSC_Ruswall_P\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"heavyarmor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0"
+        },
+        {
+          "path": "data/variants/BSC_Ruswall_P_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Ruswall_P_Support\",\\n    \"hullId\": \"BSC_Ruswall_P\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 15,\\n    \"fluxVents\": 14,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"converted_hangar\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n             "
+        },
+        {
+          "path": "data/variants/BSC_Ruswall_P_variant.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Ruswall_P_variant\",\\n    \"hullId\": \"BSC_Ruswall_P\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 15,\\n    \"fluxVents\": 8,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"sabotpod\",\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Ruswall_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Ruswall_Standard\",\\n    \"hullId\": \"BSC_Ruswall\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 13,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n     "
+        },
+        {
+          "path": "data/variants/BSC_Ruswall_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Ruswall_Strike\",\\n    \"hullId\": \"BSC_Ruswall\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 14,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n "
+        },
+        {
+          "path": "data/variants/BSC_Ruswall_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Ruswall_Support\",\\n    \"hullId\": \"BSC_Ruswall\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 16,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n        \"converted_hangar\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n  "
+        },
+        {
+          "path": "data/variants/BSC_Shalloch_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Shalloch_Assault\",\\n    \"hullId\": \"BSC_Shalloch\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 15,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"hardenedshieldemitter\",\\n        \"magazines\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"ALTERNATING\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Shalloch_Beamer.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Shalloch_Beamer\",\\n    \"hullId\": \"BSC_Shalloch\",\\n    \"displayName\": \"光束\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 16,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedoptics\",\\n        \"auxiliarythrusters\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n          "
+        },
+        {
+          "path": "data/variants/BSC_Shalloch_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Shalloch_Strike\",\\n    \"hullId\": \"BSC_Shalloch\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": false,\\n    \"fluxCapacitors\": 20,\\n    \"fluxVents\": 16,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n        \"stabilizedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Starliner_MK2_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "  \"variantId\": \"BSC_Starliner_MK2_Standard\",\\n    \"hullId\": \"BSC_Starliner_MK2\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 30,\\n    \"fluxVents\": 23,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n     "
+        },
+        {
+          "path": "data/variants/BSC_Starliner_MK2_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "   \"variantId\": \"BSC_Starliner_MK2_Support\",\\n    \"hullId\": \"BSC_Starliner_MK2\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 18,\\n    \"fluxVents\": 5,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"dedicated_targeting_core\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n      "
+        },
+        {
+          "path": "data/variants/BSC_Stobo_Standard.variant",
+          "cjk_chars": 5,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Stobo_Standard\",\\n    \"hullId\": \"BSC_Stobo\",\\n    \"displayName\": \"重型战斗机\",\\n    \"goalVariant\": false,\\n    \"fluxCapacitors\": 0,\\n    \"fluxVents\": 0,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0004\": \"lightmg\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Sturgeon_Bomber.variant",
+          "cjk_chars": 3,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Sturgeon_Bomber\",\\n    \"hullId\": \"BSC_Sturgeon\",\\n    \"displayName\": \"轰炸机\",\\n    \"goalVariant\": false,\\n    \"fluxCapacitors\": 0,\\n    \"fluxVents\": 0,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0001\": \"BSC_Heavy_Bomb\",\\n  "
+        },
+        {
+          "path": "data/variants/BSC_Terringzean_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Terringzean_Assault\",\\n    \"hullId\": \"BSC_Terringzean\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 30,\\n    \"fluxVents\": 29,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n        \"heavyarmor\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapon"
+        },
+        {
+          "path": "data/variants/BSC_Terringzean_Church.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Terringzean_Church\",\\n    \"hullId\": \"BSC_Terringzean\",\\n    \"displayName\": \"神圣\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 41,\\n    \"fluxVents\": 40,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n        \"heavyarmor\",\\n        \"reinforcedhull\",\\n        \"shield_shunt\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,"
+        },
+        {
+          "path": "data/variants/BSC_Terringzean_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Terringzean_Standard\",\\n    \"hullId\": \"BSC_Terringzean\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 40,\\n    \"fluxVents\": 39,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"targetingunit\",\\n        \"reinforcedhull\",\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"L"
+        },
+        {
+          "path": "data/variants/BSC_Threave_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Threave_Standard\",\\n    \"hullId\": \"BSC_Threave\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 50,\\n    \"fluxVents\": 39,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n        \"dedicated_targeting_core\",\\n        \"eccm\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \""
+        },
+        {
+          "path": "data/variants/BSC_Threave_Strike.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Threave_Strike\",\\n    \"hullId\": \"BSC_Threave\",\\n    \"displayName\": \"打击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 50,\\n    \"fluxVents\": 30,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n        \"dedicated_targeting_core\",\\n        \"unstable_injector\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n        "
+        },
+        {
+          "path": "data/variants/BSC_Threave_Support.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Threave_Support\",\\n    \"hullId\": \"BSC_Threave\",\\n    \"displayName\": \"支援\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 50,\\n    \"fluxVents\": 44,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"missleracks\",\\n        \"dedicated_targeting_core\",\\n        \"converted_hangar\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Timberwolf_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Timberwolf_Assault\",\\n    \"hullId\": \"BSC_Timberwolf\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 7,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"fluxdistributor\",\\n        \"hardenedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Timberwolf_H_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "\\n    \"variantId\": \"BSC_Timberwolf_H_Assault\",\\n    \"hullId\": \"BSC_Timberwolf_H\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 7,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"fluxdistributor\",\\n        \"hardenedshieldemitter\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n       "
+        },
+        {
+          "path": "data/variants/BSC_Timberwolf_P_Assault.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "\\n    \"variantId\": \"BSC_Timberwolf_P_Assault\",\\n    \"hullId\": \"BSC_Timberwolf_P\",\\n    \"displayName\": \"突击\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"hardened_subsystems\",\\n        \"hardenedshieldemitter\",\\n        \"missleracks\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n         "
+        },
+        {
+          "path": "data/variants/BSC_Timberwolf_Pulser.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Timberwolf_Pulser\",\\n    \"hullId\": \"BSC_Timberwolf\",\\n    \"displayName\": \"脉冲\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 9,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"fluxcoil\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS000"
+        },
+        {
+          "path": "data/variants/BSC_Tramp_MK2_Shielded.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Tramp_MK2_Shielded\",\\n    \"hullId\": \"BSC_Tramp_MK2\",\\n    \"displayName\": \"屏卫\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 8,\\n    \"fluxVents\": 3,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"frontshield\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                \"WS0"
+        },
+        {
+          "path": "data/variants/BSC_Tramp_MK2_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Tramp_MK2_Standard\",\\n    \"hullId\": \"BSC_Tramp_MK2\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 10,\\n    \"fluxVents\": 2,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"reinforcedhull\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"weapons\": {\\n                "
+        },
+        {
+          "path": "data/variants/BSC_Tramp_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Tramp_Standard\",\\n    \"hullId\": \"BSC_Tramp\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 4,\\n    \"fluxVents\": 10,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"unstable_injector\",\\n        \"reinforcedhull\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            "
+        },
+        {
+          "path": "data/variants/BSC_Tungustan_Standard.variant",
+          "cjk_chars": 2,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"variantId\": \"BSC_Tungustan_Standard\",\\n    \"hullId\": \"BSC_Tungustan\",\\n    \"displayName\": \"标准\",\\n    \"goalVariant\": true,\\n    \"fluxCapacitors\": 14,\\n    \"fluxVents\": 8,\\n    \"quality\": 1,\\n    \"permaMods\": [],\\n    \"hullMods\": [\\n        \"advancedoptics\",\\n        \"targetingunit\",\\n    ],\\n    \"weaponGroups\": [\\n        {\\n            \"autofire\": false,\\n            \"mode\": \"LINKED\",\\n            \"wea"
+        },
+        {
+          "path": "data/weapons/weapon_data.csv",
+          "cjk_chars": 62,
+          "encoding": "utf-8-sig",
+          "excerpt": "r,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number\\n赛博 MLMS,BSC_Sabot_MLMS,2,,7800,1200,,100,,15,10,26,30,,,KINETIC,0,,0,12,3,0.25,0,0,0,0,,150,50,8,300,,,GUIDED_POOR,\"missile13, strike8, rare_bp, remnant, merc\",,,,反护盾,较慢,较差,,,当命中船体或装甲时，有 %s 的概率产生打击武器与引擎的电弧，造成 %s EMP。,25% | 200,,,TRUE,3\\n双联钻探激光炮,BSC_Double_Mining_Laser,0,,200,600,60,,,0,80,4,,,,ENERGY"
+        },
+        {
+          "path": "mod_info.json",
+          "cjk_chars": 28,
+          "encoding": "utf-8-sig",
+          "excerpt": "{\\n    \"id\": \"BSC\",\\n    \"name\": \"大豆船包\",\\n    \"author\": \"BigBeans\",\\n    \"version\": \"0.1.98.7\",\\n    \"description\": \"由 BigBeans 制作的各种舰船，外加几艘来自 Spiral Arms 的改型舰船组成的船包。\",\\n    \"gameVersion\": \"0.98a-RC7\",\\n    \"dependencies\": [\\n        {\\n            \"id\": \"lw_lazylib\",\\n            \"name\": \"LazyLib\",\\n        },\\n    ],\\n}"
+        }
+      ]
+    },
+    {
+      "path": "BSC 0.1.98.85",
+      "mod_info": {
+        "name": "BigBeans Ship Compilation",
+        "id": "BSC",
+        "version": "0.1.98.85",
+        "encoding": "utf-8-sig"
+      },
+      "file_count": 372,
+      "text_file_count": 281,
+      "cjk_file_count": 0,
+      "cjk_files": []
+    }
+  ],
+  "comparison": {
+    "old_root": "BSC 0.1.98.7",
+    "new_root": "BSC 0.1.98.85",
+    "common_files": 320,
+    "identical_files": 101,
+    "changed_files": [
+      {
+        "path": "data/hulls/BSC_Accipiter.ship",
+        "old_size": 3280,
+        "new_size": 2974,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Adventurer.ship",
+        "old_size": 4898,
+        "new_size": 4902,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Bitzer.ship",
+        "old_size": 1625,
+        "new_size": 1624,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Bitzer_Drone.ship",
+        "old_size": 881,
+        "new_size": 886,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Bitzer_P.ship",
+        "old_size": 1605,
+        "new_size": 1604,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Brigantine.ship",
+        "old_size": 3732,
+        "new_size": 3742,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Buzzard.ship",
+        "old_size": 4315,
+        "new_size": 5345,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Cassina.ship",
+        "old_size": 4822,
+        "new_size": 4822,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Haven.ship",
+        "old_size": 3776,
+        "new_size": 3806,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Lockout_LP.ship",
+        "old_size": 2570,
+        "new_size": 2570,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Maraka.ship",
+        "old_size": 3800,
+        "new_size": 3885,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Maraka_LP.ship",
+        "old_size": 3549,
+        "new_size": 3628,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Roamer.ship",
+        "old_size": 2557,
+        "new_size": 2743,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Roamer_LP.ship",
+        "old_size": 3850,
+        "new_size": 3850,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Shalloch.ship",
+        "old_size": 3409,
+        "new_size": 3386,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Stobo.ship",
+        "old_size": 1881,
+        "new_size": 1903,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Terringzean.ship",
+        "old_size": 7481,
+        "new_size": 7419,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/BSC_Timberwolf.ship",
+        "old_size": 1955,
+        "new_size": 1955,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/ship_data.csv",
+        "old_size": 20319,
+        "new_size": 20117,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Aghast_LG.skin",
+        "old_size": 1050,
+        "new_size": 980,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Bitzer_H.skin",
+        "old_size": 723,
+        "new_size": 695,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Bitzer_LP.skin",
+        "old_size": 976,
+        "new_size": 847,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Carnal_XIV.skin",
+        "old_size": 830,
+        "new_size": 766,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Cassina_LG.skin",
+        "old_size": 1183,
+        "new_size": 1060,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Covetor_LP.skin",
+        "old_size": 1059,
+        "new_size": 956,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Covetor_P.skin",
+        "old_size": 548,
+        "new_size": 500,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Hartfell_LG.skin",
+        "old_size": 994,
+        "new_size": 931,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Hartfell_P.skin",
+        "old_size": 658,
+        "new_size": 591,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Lockout_P.skin",
+        "old_size": 501,
+        "new_size": 463,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Maraka_XIV.skin",
+        "old_size": 835,
+        "new_size": 852,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Marauder_Ind.skin",
+        "old_size": 661,
+        "new_size": 659,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Ruswall_P.skin",
+        "old_size": 542,
+        "new_size": 496,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Timberwolf_H.skin",
+        "old_size": 513,
+        "new_size": 458,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/skins/BSC_Timberwolf_P.skin",
+        "old_size": 624,
+        "new_size": 562,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/hulls/wing_data.csv",
+        "old_size": 1661,
+        "new_size": 2465,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/shipsystems/ship_systems.csv",
+        "old_size": 848,
+        "new_size": 835,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/strings/descriptions.csv",
+        "old_size": 30619,
+        "new_size": 34088,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Accipiter_Standard.variant",
+        "old_size": 1215,
+        "new_size": 925,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Accipiter_Strike.variant",
+        "old_size": 1166,
+        "new_size": 883,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Accipiter_Support.variant",
+        "old_size": 1308,
+        "new_size": 985,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Adventurer_Combat.variant",
+        "old_size": 1675,
+        "new_size": 1266,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Adventurer_Standard.variant",
+        "old_size": 1695,
+        "new_size": 1288,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Aghast_LG_Elite.variant",
+        "old_size": 1463,
+        "new_size": 1102,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Aghast_LG_Standard.variant",
+        "old_size": 1471,
+        "new_size": 1105,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Aghast_Standard.variant",
+        "old_size": 1462,
+        "new_size": 1096,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Aghast_Strike.variant",
+        "old_size": 1458,
+        "new_size": 1090,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Aghast_Support.variant",
+        "old_size": 1349,
+        "new_size": 1013,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Baldric_MK2_Barrage.variant",
+        "old_size": 1429,
+        "new_size": 1091,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Baldric_MK2_FS.variant",
+        "old_size": 1735,
+        "new_size": 1302,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Baldric_MK2_Overridden.variant",
+        "old_size": 1405,
+        "new_size": 1075,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Baldric_MK2_Support.variant",
+        "old_size": 1435,
+        "new_size": 1081,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Baldric_Standard.variant",
+        "old_size": 554,
+        "new_size": 447,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bitzer_Drone.variant",
+        "old_size": 485,
+        "new_size": 386,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bitzer_H_Shielded.variant",
+        "old_size": 839,
+        "new_size": 643,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bitzer_LP_Overridden.variant",
+        "old_size": 851,
+        "new_size": 657,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bitzer_Overridden.variant",
+        "old_size": 726,
+        "new_size": 572,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bitzer_P_Shielded.variant",
+        "old_size": 1010,
+        "new_size": 765,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bitzer_P_Standard.variant",
+        "old_size": 1017,
+        "new_size": 772,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bitzer_Shielded.variant",
+        "old_size": 840,
+        "new_size": 644,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bitzer_Standard.variant",
+        "old_size": 847,
+        "new_size": 651,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Boggart_Standard.variant",
+        "old_size": 848,
+        "new_size": 652,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Boggart_Strike.variant",
+        "old_size": 1007,
+        "new_size": 760,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Boggart_Support.variant",
+        "old_size": 1016,
+        "new_size": 781,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bogle_Escort.variant",
+        "old_size": 878,
+        "new_size": 671,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bogle_Standard.variant",
+        "old_size": 844,
+        "new_size": 648,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bogle_Strike.variant",
+        "old_size": 1003,
+        "new_size": 756,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Bogle_Support.variant",
+        "old_size": 784,
+        "new_size": 613,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Brigand_Assault.variant",
+        "old_size": 2018,
+        "new_size": 1512,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Brigand_Standard.variant",
+        "old_size": 2066,
+        "new_size": 1555,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Brigantine_Assault.variant",
+        "old_size": 1725,
+        "new_size": 1290,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Brigantine_Raider.variant",
+        "old_size": 1574,
+        "new_size": 1172,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Brigantine_Standard.variant",
+        "old_size": 1579,
+        "new_size": 1182,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Buzzard_Assault.variant",
+        "old_size": 1497,
+        "new_size": 1117,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Buzzard_Strike.variant",
+        "old_size": 1372,
+        "new_size": 1031,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Buzzard_Support.variant",
+        "old_size": 1399,
+        "new_size": 1050,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Carnal_Assault.variant",
+        "old_size": 924,
+        "new_size": 709,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Carnal_Escort.variant",
+        "old_size": 1043,
+        "new_size": 787,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Carnal_Standard.variant",
+        "old_size": 918,
+        "new_size": 704,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Carnal_XIV_Assault.variant",
+        "old_size": 1057,
+        "new_size": 813,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Carnal_XIV_Elite.variant",
+        "old_size": 1041,
+        "new_size": 792,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Carnyx_Drone.variant",
+        "old_size": 1217,
+        "new_size": 919,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Carnyx_Strike.variant",
+        "old_size": 1074,
+        "new_size": 821,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Carnyx_Support.variant",
+        "old_size": 1087,
+        "new_size": 835,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Cassina_Armoured.variant",
+        "old_size": 1409,
+        "new_size": 1061,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Cassina_LG_Elite.variant",
+        "old_size": 1450,
+        "new_size": 1099,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Cassina_LG_Standard.variant",
+        "old_size": 1436,
+        "new_size": 1088,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Cassina_Standard.variant",
+        "old_size": 1376,
+        "new_size": 1037,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Cassina_Support.variant",
+        "old_size": 1395,
+        "new_size": 1054,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Chrysaor_Assault.variant",
+        "old_size": 1118,
+        "new_size": 849,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Chrysaor_Standard.variant",
+        "old_size": 1125,
+        "new_size": 857,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Chrysaor_Support.variant",
+        "old_size": 1131,
+        "new_size": 862,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Constable_Attack.variant",
+        "old_size": 1705,
+        "new_size": 1295,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Constable_P_Attack.variant",
+        "old_size": 1569,
+        "new_size": 1195,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Constable_P_Strike.variant",
+        "old_size": 1580,
+        "new_size": 1201,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Constable_Strike.variant",
+        "old_size": 1700,
+        "new_size": 1290,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Covetor_LP_Raider.variant",
+        "old_size": 1022,
+        "new_size": 772,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Covetor_Mining.variant",
+        "old_size": 922,
+        "new_size": 710,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Covetor_P_Basic.variant",
+        "old_size": 999,
+        "new_size": 759,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Covetor_P_Raider.variant",
+        "old_size": 1019,
+        "new_size": 769,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Covetor_Raider.variant",
+        "old_size": 888,
+        "new_size": 678,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Covetor_Standard.variant",
+        "old_size": 976,
+        "new_size": 740,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Covetor_Support.variant",
+        "old_size": 975,
+        "new_size": 738,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Cumulus_Assault.variant",
+        "old_size": 1226,
+        "new_size": 921,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Cumulus_Standard.variant",
+        "old_size": 1238,
+        "new_size": 934,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Cumulus_Support.variant",
+        "old_size": 1239,
+        "new_size": 933,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Drone_PD_Laser.variant",
+        "old_size": 478,
+        "new_size": 386,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Gallivanter_Standard.variant",
+        "old_size": 1048,
+        "new_size": 794,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Gallivanter_Strike.variant",
+        "old_size": 1043,
+        "new_size": 787,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Gallivanter_Support.variant",
+        "old_size": 1067,
+        "new_size": 815,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hartfell_Attack.variant",
+        "old_size": 1090,
+        "new_size": 825,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hartfell_LG_Elite.variant",
+        "old_size": 1111,
+        "new_size": 845,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hartfell_LG_Pulser.variant",
+        "old_size": 1100,
+        "new_size": 835,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hartfell_P_Mortar.variant",
+        "old_size": 1101,
+        "new_size": 833,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hartfell_P_Standard.variant",
+        "old_size": 1095,
+        "new_size": 832,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hartfell_Pulser.variant",
+        "old_size": 1104,
+        "new_size": 839,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hartfell_Standard.variant",
+        "old_size": 1089,
+        "new_size": 826,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hartfell_Support.variant",
+        "old_size": 1062,
+        "new_size": 807,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Haven_Frontier.variant",
+        "old_size": 1087,
+        "new_size": 827,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hedgehog_Combat.variant",
+        "old_size": 995,
+        "new_size": 770,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Hedgehog_Escort.variant",
+        "old_size": 821,
+        "new_size": 644,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Killskipper_Attack.variant",
+        "old_size": 726,
+        "new_size": 568,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Killskipper_Basic.variant",
+        "old_size": 767,
+        "new_size": 603,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Killskipper_Overridden.variant",
+        "old_size": 873,
+        "new_size": 682,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Kingpin_Overridden.variant",
+        "old_size": 1264,
+        "new_size": 967,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Kingpin_Standard.variant",
+        "old_size": 1138,
+        "new_size": 879,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Kingpin_Support.variant",
+        "old_size": 1263,
+        "new_size": 963,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Lockout_Combat.variant",
+        "old_size": 1318,
+        "new_size": 982,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Lockout_Escort.variant",
+        "old_size": 1306,
+        "new_size": 1009,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Lockout_LP_Raider.variant",
+        "old_size": 947,
+        "new_size": 1055,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Lockout_P_Raider.variant",
+        "old_size": 1352,
+        "new_size": 1021,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Lockout_Raider.variant",
+        "old_size": 1322,
+        "new_size": 999,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Maraka_Assault.variant",
+        "old_size": 1477,
+        "new_size": 1114,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Maraka_LP_Raider.variant",
+        "old_size": 1521,
+        "new_size": 1137,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Maraka_Standard.variant",
+        "old_size": 1520,
+        "new_size": 1153,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Maraka_Support.variant",
+        "old_size": 1493,
+        "new_size": 1176,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Maraka_XIV_Elite.variant",
+        "old_size": 1453,
+        "new_size": 1093,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Maraka_XIV_Strike.variant",
+        "old_size": 1441,
+        "new_size": 1082,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Marauder_Ind_Standard.variant",
+        "old_size": 1011,
+        "new_size": 783,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Marauder_Ind_Support.variant",
+        "old_size": 1087,
+        "new_size": 846,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Marauder_Raider.variant",
+        "old_size": 850,
+        "new_size": 662,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Marauder_Standard.variant",
+        "old_size": 1003,
+        "new_size": 775,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Marauder_Support.variant",
+        "old_size": 1079,
+        "new_size": 838,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Nadir_Combat.variant",
+        "old_size": 1509,
+        "new_size": 1140,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Nadir_Standard.variant",
+        "old_size": 1579,
+        "new_size": 1198,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Nebula_MK2_Standard.variant",
+        "old_size": 1335,
+        "new_size": 1014,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Nebula_MK2_Support.variant",
+        "old_size": 1290,
+        "new_size": 976,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Preybird_LP_Raider.variant",
+        "old_size": 1588,
+        "new_size": 1186,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Preybird_Standard.variant",
+        "old_size": 1338,
+        "new_size": 1011,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Preybird_Support.variant",
+        "old_size": 1328,
+        "new_size": 1000,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Roamer_LP_Raider.variant",
+        "old_size": 1635,
+        "new_size": 1224,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Roamer_P_FS.variant",
+        "old_size": 1391,
+        "new_size": 1011,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Roamer_P_Raider.variant",
+        "old_size": 1371,
+        "new_size": 986,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Roamer_Raider.variant",
+        "old_size": 1330,
+        "new_size": 954,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Roamer_Standard.variant",
+        "old_size": 1341,
+        "new_size": 1000,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Roamer_Support.variant",
+        "old_size": 1389,
+        "new_size": 1013,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Ruswall_Assault.variant",
+        "old_size": 1610,
+        "new_size": 1211,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Ruswall_P_Assault.variant",
+        "old_size": 1621,
+        "new_size": 1214,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Ruswall_P_Support.variant",
+        "old_size": 1601,
+        "new_size": 1194,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Ruswall_P_variant.variant",
+        "old_size": 1542,
+        "new_size": 1154,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Ruswall_Standard.variant",
+        "old_size": 1583,
+        "new_size": 1186,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Ruswall_Strike.variant",
+        "old_size": 1614,
+        "new_size": 1210,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Ruswall_Support.variant",
+        "old_size": 1627,
+        "new_size": 1223,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Shalloch_Assault.variant",
+        "old_size": 1292,
+        "new_size": 982,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Shalloch_Beamer.variant",
+        "old_size": 1166,
+        "new_size": 887,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Shalloch_Strike.variant",
+        "old_size": 1292,
+        "new_size": 973,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Starliner_MK2_Standard.variant",
+        "old_size": 1637,
+        "new_size": 1244,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Starliner_MK2_Support.variant",
+        "old_size": 1631,
+        "new_size": 1237,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Stobo_Standard.variant",
+        "old_size": 740,
+        "new_size": 580,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Sturgeon_Bomber.variant",
+        "old_size": 653,
+        "new_size": 510,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Terringzean_Assault.variant",
+        "old_size": 1995,
+        "new_size": 1506,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Terringzean_Church.variant",
+        "old_size": 2332,
+        "new_size": 1764,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Terringzean_Standard.variant",
+        "old_size": 2062,
+        "new_size": 1569,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Threave_Standard.variant",
+        "old_size": 1344,
+        "new_size": 1013,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Threave_Strike.variant",
+        "old_size": 1339,
+        "new_size": 1014,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Threave_Support.variant",
+        "old_size": 1390,
+        "new_size": 1049,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Timberwolf_Assault.variant",
+        "old_size": 1137,
+        "new_size": 868,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Timberwolf_H_Assault.variant",
+        "old_size": 1141,
+        "new_size": 872,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Timberwolf_P_Assault.variant",
+        "old_size": 963,
+        "new_size": 747,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Timberwolf_Pulser.variant",
+        "old_size": 1096,
+        "new_size": 831,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Tramp_MK2_Shielded.variant",
+        "old_size": 1015,
+        "new_size": 770,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Tramp_MK2_Standard.variant",
+        "old_size": 1024,
+        "new_size": 779,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Tramp_Standard.variant",
+        "old_size": 688,
+        "new_size": 544,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/variants/BSC_Tungustan_Standard.variant",
+        "old_size": 952,
+        "new_size": 733,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/weapons/weapon_data.csv",
+        "old_size": 8644,
+        "new_size": 9013,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/world/factions/default_ship_roles.json",
+        "old_size": 7503,
+        "new_size": 7700,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/world/factions/hegemony.faction",
+        "old_size": 1681,
+        "new_size": 1651,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/world/factions/independent.faction",
+        "old_size": 341,
+        "new_size": 391,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/world/factions/lions_guard.faction",
+        "old_size": 707,
+        "new_size": 778,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/world/factions/luddic_church.faction",
+        "old_size": 781,
+        "new_size": 852,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/world/factions/persean_league.faction",
+        "old_size": 1075,
+        "new_size": 1324,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/world/factions/pirates.faction",
+        "old_size": 310,
+        "new_size": 409,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "data/world/factions/tritachyon.faction",
+        "old_size": 824,
+        "new_size": 830,
+        "text": true,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      },
+      {
+        "path": "graphics/hulls/BSC_Accipiter.png",
+        "old_size": 37193,
+        "new_size": 33376,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Adventurer.png",
+        "old_size": 88450,
+        "new_size": 88449,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Brigantine.png",
+        "old_size": 60167,
+        "new_size": 59410,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Carnal.png",
+        "old_size": 25097,
+        "new_size": 24641,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Carnal_XIV.png",
+        "old_size": 24834,
+        "new_size": 24351,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Cassina_LG.png",
+        "old_size": 49198,
+        "new_size": 48853,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Haven.png",
+        "old_size": 38718,
+        "new_size": 38594,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Kingpin.png",
+        "old_size": 34406,
+        "new_size": 34068,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Maraka.png",
+        "old_size": 60956,
+        "new_size": 60501,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Maraka_LP.png",
+        "old_size": 68763,
+        "new_size": 66131,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Maraka_XIV.png",
+        "old_size": 62780,
+        "new_size": 63257,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Marauder.png",
+        "old_size": 31416,
+        "new_size": 31104,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Marauder_Ind.png",
+        "old_size": 30631,
+        "new_size": 30293,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Nebula_MK2.png",
+        "old_size": 43602,
+        "new_size": 43210,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Preybird.png",
+        "old_size": 60316,
+        "new_size": 59513,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Preybird_LP.png",
+        "old_size": 71462,
+        "new_size": 70903,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Roamer.png",
+        "old_size": 45896,
+        "new_size": 46084,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Roamer_LP.png",
+        "old_size": 54993,
+        "new_size": 54372,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Roamer_P.png",
+        "old_size": 47183,
+        "new_size": 47348,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Terringzean.png",
+        "old_size": 241583,
+        "new_size": 240391,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Timberwolf.png",
+        "old_size": 13885,
+        "new_size": 13399,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Timberwolf_H.png",
+        "old_size": 14315,
+        "new_size": 13724,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Timberwolf_P.png",
+        "old_size": 14579,
+        "new_size": 14099,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Tramp.png",
+        "old_size": 14285,
+        "new_size": 14279,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/BSC_Tramp_MK2.png",
+        "old_size": 12980,
+        "new_size": 12968,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "graphics/hulls/fighters/BSC_Stobo.png",
+        "old_size": 2841,
+        "new_size": 2263,
+        "text": false,
+        "old_has_cjk": false,
+        "new_has_cjk": false,
+        "old_encoding": null,
+        "new_encoding": null
+      },
+      {
+        "path": "mod_info.json",
+        "old_size": 383,
+        "new_size": 373,
+        "text": true,
+        "old_has_cjk": true,
+        "new_has_cjk": false,
+        "old_encoding": "utf-8-sig",
+        "new_encoding": "utf-8-sig"
+      }
+    ],
+    "old_only": [
+      "data/hulls/BSC_Buffalo_Mk3.ship",
+      "data/hulls/BSC_Drudge.ship",
+      "data/hulls/BSC_Hammerhead_MK2.ship",
+      "data/hulls/BSC_Mudskipper_MK3.ship",
+      "data/hulls/BSC_Overseer.ship",
+      "data/hulls/skins/BSC_Buffalo_Mk3_A.skin",
+      "data/hulls/skins/BSC_Hammerhead_LP.skin",
+      "data/hulls/skins/BSC_Roamer_P.skin",
+      "data/variants/BSC_Buffalo_Mk3_A_Standard.variant",
+      "data/variants/BSC_Buffalo_Mk3_A_Support.variant",
+      "data/variants/BSC_Buffalo_Mk3_Standard.variant",
+      "data/variants/BSC_Buffalo_Mk3_Support.variant",
+      "data/variants/BSC_Drudge_Standard.variant",
+      "data/variants/BSC_Drudge_Support.variant",
+      "data/variants/BSC_Hammerhead_LP_Overdriven.variant",
+      "data/variants/BSC_Hammerhead_MK2_Raider.variant",
+      "data/variants/BSC_Hammerhead_MK2_Standard.variant",
+      "data/variants/BSC_Hammerhead_MK2_Support.variant",
+      "data/variants/BSC_Lockout_Basic.variant",
+      "data/variants/BSC_Mudskipper_MK3_Standard.variant",
+      "data/variants/BSC_Overseer_Combat.variant",
+      "data/variants/BSC_Overseer_Support.variant",
+      "data/variants/BSC_Roamer_Basic.variant",
+      "graphics/hulls/BSC_Bitzer_Drone.png",
+      "graphics/hulls/BSC_Buffalo_MkIII.png",
+      "graphics/hulls/BSC_Buffalo_MkIII_A.png",
+      "graphics/hulls/BSC_Drudge.png",
+      "graphics/hulls/BSC_Hammerhead_LP.png",
+      "graphics/hulls/BSC_Hammerhead_P.png",
+      "graphics/hulls/BSC_Mudskipper_MKIII_LP.png",
+      "graphics/hulls/BSC_Overseer.png"
+    ],
+    "new_only": [
+      "data/hullmods/BSC_Limitedgrid.java",
+      "data/hullmods/hull_mods.csv",
+      "data/hulls/BSC_Ardea.ship",
+      "data/hulls/BSC_Australis.ship",
+      "data/hulls/BSC_Blasterdrone.ship",
+      "data/hulls/BSC_Commandant.ship",
+      "data/hulls/BSC_Grifter_Drone.ship",
+      "data/hulls/BSC_Roamer_P.ship",
+      "data/hulls/BSC_Strix.ship",
+      "data/hulls/skins/BSC_Buzzard_P.skin",
+      "data/hulls/skins/BSC_Haven_P.skin",
+      "data/variants/BSC_Ardea_Attack.variant",
+      "data/variants/BSC_Ardea_Standard.variant",
+      "data/variants/BSC_Ardea_Strike.variant",
+      "data/variants/BSC_Australis_Standard.variant",
+      "data/variants/BSC_Australis_Support.variant",
+      "data/variants/BSC_Blasterdrone_Bomber.variant",
+      "data/variants/BSC_Buzzard_P_Raider.variant",
+      "data/variants/BSC_Buzzard_P_Strike.variant",
+      "data/variants/BSC_Buzzard_P_Support.variant",
+      "data/variants/BSC_Commandant_Combat.variant",
+      "data/variants/BSC_Commandant_Support.variant",
+      "data/variants/BSC_Covetor_H_Standard.variant",
+      "data/variants/BSC_Grifter_Drone.variant",
+      "data/variants/BSC_Haven_P_Support.variant",
+      "data/variants/BSC_Lockout_H_Combat.variant",
+      "data/variants/BSC_Lockout_H_Escort.variant",
+      "data/variants/BSC_Lockout_Standard.variant",
+      "data/variants/BSC_Roamer_Combat.variant",
+      "data/variants/BSC_Roamer_H_Standard.variant",
+      "data/variants/BSC_Roamer_H_Support.variant",
+      "data/variants/BSC_Strix_DEM.variant",
+      "data/variants/BSC_Strix_Standard.variant",
+      "data/variants/BSC_Strix_Strike.variant",
+      "data/variants/BSC_Strix_Support.variant",
+      "data/weapons/BSC_Fighter_Miningblaster.wpn",
+      "graphics/hulls/BSC_Ardea.png",
+      "graphics/hulls/BSC_Australis.png",
+      "graphics/hulls/BSC_Buzzard_P.png",
+      "graphics/hulls/BSC_Commandant.png",
+      "graphics/hulls/BSC_Haven_P.png",
+      "graphics/hulls/BSC_Strix.png",
+      "graphics/hulls/fighters/BSC_Bitzer_Drone.png",
+      "graphics/hulls/fighters/BSC_Blaster_Drone.png",
+      "graphics/hulls/fighters/BSC_Grifter.png",
+      "graphics/hulls/unused/BSC_Buffalo_MkIII.png",
+      "graphics/hulls/unused/BSC_Buffalo_MkIII_A.png",
+      "graphics/hulls/unused/BSC_Ceberus_H.png",
+      "graphics/hulls/unused/BSC_Hammerhead_LP.png",
+      "graphics/hulls/unused/BSC_Hammerhead_P.png",
+      "graphics/hulls/unused/BSC_Mudskipper_MKIII_LP.png",
+      "graphics/hulls/unused/BSC_Timberwolf_Cabal.png"
+    ]
+  }
+}

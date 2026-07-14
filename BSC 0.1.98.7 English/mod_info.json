@@ -1,0 +1,14 @@
+{
+    "id": "BSC",
+    "name": "BigBeans Ship Compilation",
+    "author": "BigBeans",
+    "version": "0.1.98.7",
+    "description": "A Compilation of various ships created by me and a couple taken and edited from Spiral Arms.",
+    "gameVersion": "0.98a-RC7",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+    ],
+}

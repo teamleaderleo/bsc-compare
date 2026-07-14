@@ -1,0 +1,211 @@
+{
+  "hullName": "Carnyx",
+  "hullId": "BSC_Carnyx",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/BSC_Carnyx.png",
+  "style": "HIGH_TECH",
+  "height": 163,
+  "width": 222,
+  "center": [111, 94],
+  "collisionRadius": 138.5,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 132,
+  "viewOffset": 0,
+  "builtInWings": [
+    "wasp_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [60, -12]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [60, 12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-89, -30]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -180,
+      "locations": [-89, 30]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -45,
+      "locations": [28, -21]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 45,
+      "locations": [28, 21]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-9, 85]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-9, -85]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        35.5, 72,
+        39, 80.5,
+        39.5, 61.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        34.5, -72,
+        38, -82,
+        38.5, -63
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -18, -14,
+        -24.5, -20.5,
+        -10.5, -4
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -13.5, 12,
+        -23.5, 20.5,
+        -10, 3.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, 78],
+      "length": 52,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, -78],
+      "length": 52,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, -70],
+      "length": 51,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, 70],
+      "length": 51,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48, -62.5],
+      "length": 48,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48, 62.5],
+      "length": 48,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -51, -24.5,
+    -87, -26,
+    -88, -38.5,
+    -45.5, -56,
+    -46.5, -81.5,
+    -7.5, -104,
+    35.5, -104.5,
+    58, -87,
+    58, 87,
+    35.5, 104.5,
+    -7.5, 104,
+    -46.5, 81.5,
+    -45.5, 56,
+    -88, 38.5,
+    -87, 26,
+    -51, 24.5
+  ]
+}

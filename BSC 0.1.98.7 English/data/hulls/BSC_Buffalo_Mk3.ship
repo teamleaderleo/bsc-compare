@@ -1,0 +1,171 @@
+{
+  "hullName": "Buffalo MK.III",
+  "hullId": "BSC_Buffalo_Mk3",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/BSC_Buffalo_MkIII.png",
+  "style": "MIDLINE",
+  "height": 147,
+  "width": 112,
+  "center": [56, 62],
+  "collisionRadius": 140,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 122.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "builtInWeapons": {
+    "WS0005": "blinker_green",
+    "WS0006": "blinker_red",
+    "WS0007": "blinker_red",
+    "WS0008": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [68, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-51, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -90,
+      "locations": [
+        28.5, -28.5,
+        45, -28.5
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 91,
+      "locations": [
+        29.5, 26,
+        45, 25.5
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [70.5, -45.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [70.5, 45.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-39, 37]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-39, -37]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60, 24.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, 15.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62, 6.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62, -6.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, -15.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-60, -24.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -58.5, -8,
+    -56.5, -26.5,
+    -29.5, -35,
+    -25, -45.5,
+    -3.5, -51.5,
+    55, -51.5,
+    66.5, -41.5,
+    81, -10.5,
+    81, 9.5,
+    66.5, 40.5,
+    54.5, 50,
+    -3.5, 50.5,
+    -25, 44.5,
+    -29.5, 34,
+    -56.5, 25.5,
+    -58.5, 7
+  ]
+}

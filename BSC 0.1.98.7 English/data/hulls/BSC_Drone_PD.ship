@@ -1,0 +1,51 @@
+{
+  "hullName": "PD Drone",
+  "hullId": "BSC_Drone_PD",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/BSC_Drone_PD.png",
+  "style": "HIGH_TECH",
+  "height": 14,
+  "width": 14,
+  "center": [7, 7],
+  "collisionRadius": 18.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 17.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 220,
+      "angle": 0,
+      "locations": [2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, 2.5],
+      "length": 6,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-6, -2.5],
+      "length": 6,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -5, -4,
+    -5, 4,
+    6, -0
+  ]
+}

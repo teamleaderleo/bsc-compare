@@ -1,0 +1,139 @@
+{
+  "hullName": "Lockout (LP)",
+  "hullId": "BSC_Lockout_LP",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/BSC_Lockout_LP.png",
+  "style": "LOW_TECH",
+  "height": 155,
+  "width": 110,
+  "center": [55, 70],
+  "collisionRadius": 97,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 95.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "safetyoverrides",
+    "ill_advised"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [58, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 180,
+      "locations": [-26, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [70, -27]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [70, 27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-70, 0],
+      "length": 50,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, 26],
+      "length": 40,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, -26],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62, 15],
+      "length": 36,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62, -15],
+      "length": 36,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-8, -45],
+      "length": 47.485413,
+      "width": 23.120167,
+      "angle": -156.5,
+      "contrailSize": 23.120167,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-8, 45],
+      "length": 47.485413,
+      "width": 23.120167,
+      "angle": 156.5,
+      "contrailSize": 23.120167,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -68.5, -5,
+    -63, -8,
+    -63, -29,
+    -55.5, -30,
+    -52, -40,
+    -10, -36,
+    -2, -47,
+    26, -36,
+    27, -42,
+    60, -42,
+    72, -31,
+    72, 31,
+    60, 42,
+    27, 42,
+    26, 36,
+    -2, 47,
+    -10, 36,
+    -52, 40,
+    -55.5, 30,
+    -63, 29,
+    -63, 8,
+    -68.5, 5
+  ]
+}
