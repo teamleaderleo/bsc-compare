@@ -134,7 +134,7 @@ def main() -> int:
     )
     replace_once(
         root / "data/variants/BSC_Overseer_Support.variant",
-        '        "converted_hangar",\n',
+        '        "converted_hangar",',
         "",
     )
 
