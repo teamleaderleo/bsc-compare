@@ -1,0 +1,34 @@
+{
+  "variantId": "BSC_Bogle_Support",
+  "hullId": "BSC_Bogle",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "taclaser",
+        "WS0003": "taclaser",
+        "WS0004": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

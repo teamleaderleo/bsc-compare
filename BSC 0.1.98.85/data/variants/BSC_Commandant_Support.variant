@@ -1,0 +1,73 @@
+{
+  "variantId": "BSC_Commandant_Support",
+  "hullId": "BSC_Commandant",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 22,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "eccm",
+    "frontemitter",
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "salamanderpod",
+        "WS0002": "salamanderpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavymauler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightac",
+        "WS0008": "lightac",
+        "WS0009": "lightac",
+        "WS0010": "lightac",
+        "WS0011": "lightac",
+        "WS0012": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "flak",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

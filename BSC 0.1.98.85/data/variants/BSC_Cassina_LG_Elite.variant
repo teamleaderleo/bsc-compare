@@ -1,0 +1,58 @@
+{
+  "variantId": "BSC_Cassina_LG_Elite",
+  "hullId": "BSC_Cassina_LG",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "kineticblaster",
+        "WS0002": "kineticblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "heavyblaster",
+        "WS0004": "heavyblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "reaper",
+        "WS0006": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "irpulse",
+        "WS0008": "irpulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

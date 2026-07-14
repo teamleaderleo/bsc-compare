@@ -1,0 +1,60 @@
+{
+  "variantId": "BSC_Maraka_Assault",
+  "hullId": "BSC_Maraka",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 26,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "arbalest",
+        "WS0003": "arbalest"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "sabot",
+        "WS0012": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightag",
+        "WS0005": "lightag",
+        "WS0006": "lightac",
+        "WS0007": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

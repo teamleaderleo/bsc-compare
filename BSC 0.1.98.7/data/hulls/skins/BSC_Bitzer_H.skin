@@ -1,0 +1,21 @@
+{
+    "baseHullId": "BSC_Bitzer",
+    "baseValueMult": 1.5,
+    "builtInMods": [
+        "armoredweapons"
+    ],
+    "fleetPoints": 3,
+    "ordnancePoints": 34,
+    "descriptionId": "BSC_Bitzer",
+    "descriptionPrefix": "由于该舰位列 霸主 备用舰的名单之上，因此它的系统已经升级到军用标准，并执行了严格的定期维护，以便它在紧急情况下能被投入军事使用。",
+    "hullDesignation": "Patrol Craft",
+    "hullName": "闪击者 (H)",
+    "manufacturer": "Hegemony",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Bitzer_H",
+    "spriteName": "graphics/hulls/BSC_Bitzer_H.png",
+    "tags": [
+        "heg_aux_bp"
+    ],
+    "tech": "霸主"
+}

@@ -1,0 +1,207 @@
+{
+  "hullName": "Maraka",
+  "hullId": "BSC_Maraka",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/BSC_Maraka.png",
+  "style": "LOW_TECH",
+  "height": 175,
+  "width": 214,
+  "center": [107, 74],
+  "collisionRadius": 133.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 128,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [68, -0],
+      "renderOrderMod": -100
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 57,
+      "locations": [19, 34]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -57,
+      "locations": [19, -34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -0,
+      "locations": [41, -18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [41, 18]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 40,
+      "locations": [15, 60]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -40,
+      "locations": [15, -60]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 153.5,
+      "locations": [-11, 66]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -153.5,
+      "locations": [-11, -66]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-38, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [58, -53]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [58, 53]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-42, 51],
+      "length": 42,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42, -51],
+      "length": 42,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-70, 14],
+      "length": 34,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-70, -14],
+      "length": 34,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, 64],
+      "length": 42,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -64],
+      "length": 42,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74, -0],
+      "length": 52,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -68, -18,
+    -56, -22,
+    -54, -34,
+    -37, -36,
+    -40, -47,
+    -28, -71,
+    -26, -92,
+    -12, -102,
+    58, -66,
+    58, -42,
+    99, -22,
+    99, 22,
+    58, 42,
+    58, 66,
+    -12, 102,
+    -26, 92,
+    -28, 71,
+    -40, 47,
+    -37, 36,
+    -54, 34,
+    -56, 22,
+    -68, 18
+  ]
+}

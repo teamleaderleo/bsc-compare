@@ -1,0 +1,26 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Hartfell_LG",
+            "BSC_Cassina_LG",
+            "BSC_Aghast_LG",
+        ],
+    },
+        	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+        "BSC_Hartfell_LG_Pulser":4,
+        "BSC_Hartfell_LG_Elite":3,
+        "BSC_Cassina_LG_Standard":5,
+        "BSC_Cassina_LG_Elite":3,
+        "BSC_Aghast_LG_Standard":3,
+        "BSC_Aghast_LG_Elite":2,
+	},
+        "hullFrequency":{
+        "hulls":{
+            "BSC_Tramp":0, # Doesn't Fit imo
+            "BSC_Baldricmk2":0, # Doesn't fit
+            "BSC_Aghast_LG": 0.3, #Should be very rare
+            "BSC_Cassina_LG": 0.5, #Should be relatively rare
+        },
+    },
+},

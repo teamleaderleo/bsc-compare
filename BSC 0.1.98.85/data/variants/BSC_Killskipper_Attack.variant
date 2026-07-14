@@ -1,0 +1,32 @@
+{
+  "variantId": "BSC_Killskipper_Attack",
+  "hullId": "BSC_Killskipper",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "heavymg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "typhoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

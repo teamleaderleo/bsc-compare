@@ -1,0 +1,39 @@
+{
+  "baseHullId": "BSC_Buzzard",
+  "baseValueMult": 1.25,
+  "descriptionId": "BSC_Buzzard",
+  "hullName": "Buzzard (P)",
+  	"descriptionPrefix":"This Buzzard's engines have been given impractical yet showy 'improvements' by some enthusiastic pirate crew; weapon systems have also been modified and a cannister flak launcher has been hacked into the side of the hull.",
+  "tags":["rare_bp"],
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Buzzard_P",
+  "spriteName": "graphics/hulls/BSC_Buzzard_P.png",
+  "tech":"Pirate",
+    "suppliesToRecover":20,
+	"suppliesPerMonth":20,
+  	"systemId":"canister_flak",
+  "builtInMods":["unstable_injector"],
+  	"weaponSlotChanges":{
+    	"WS0001":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "BALLISTIC"
+		},	
+		"WS0004":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "MISSILE"
+        },
+		"WS0005":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "MISSILE"
+		},	
+	},
+}

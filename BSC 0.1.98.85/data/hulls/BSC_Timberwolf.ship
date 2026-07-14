@@ -1,0 +1,104 @@
+{
+  "hullName": "Timberwolf",
+  "hullId": "BSC_Timberwolf",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/BSC_Timberwolf.png",
+  "style": "HIGH_TECH",
+  "height": 106,
+  "width": 62,
+  "center": [31, 51],
+  "collisionRadius": 81,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [3, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [17, 22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [17, -22]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-19, -14]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-19, 14]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, 10],
+      "length": 38,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, -10],
+      "length": 38,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-51, -0],
+      "length": 52,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -45, -15,
+    7, -28,
+    53, -8,
+    53, 7,
+    7, 28,
+    -45, 15
+  ]
+}

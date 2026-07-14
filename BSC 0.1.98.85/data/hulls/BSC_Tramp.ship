@@ -1,0 +1,61 @@
+{
+  "hullName": "Tramp",
+  "hullId": "BSC_Tramp",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/BSC_Tramp.png",
+  "style": "LOW_TECH",
+  "height": 113,
+  "width": 67,
+  "center": [35, 45],
+  "collisionRadius": 87,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 84,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -90,
+      "locations": [4, -22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-17, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, -0],
+      "length": 50,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -38, -11,
+    -3, -15,
+    -2, -28,
+    14, -28,
+    29, -18,
+    62, -18,
+    62, 18,
+    29, 18,
+    15, 31,
+    1, 31,
+    -3, 15,
+    -38, 11
+  ]
+}

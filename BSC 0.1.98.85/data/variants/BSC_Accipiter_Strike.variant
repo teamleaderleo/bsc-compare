@@ -1,0 +1,49 @@
+{
+  "variantId": "BSC_Accipiter_Strike",
+  "hullId": "BSC_Accipiter",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pulselaser",
+        "WS0002": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightag",
+        "WS0004": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "harpoon",
+        "WS0006": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdburst",
+        "WS0008": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hoplon_wing"
+  ]
+}

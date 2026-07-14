@@ -1,0 +1,29 @@
+{
+  "variantId": "BSC_Sturgeon_Bomber",
+  "hullId": "BSC_Sturgeon",
+  "displayName": "Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "BSC_Heavy_Bomb"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

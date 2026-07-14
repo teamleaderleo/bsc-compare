@@ -1,0 +1,16 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Brigand",
+            "BSC_Timberwolf_P",
+            "BSC_Ruswall_P",
+            "BSC_Buzzard_P",
+        ],
+    },
+    	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+        "BSC_Covetor_Mining":4,
+        "BSC_Lockout_Standard":3,
+        "BSC_Roamer_Standard":3,
+	},
+},

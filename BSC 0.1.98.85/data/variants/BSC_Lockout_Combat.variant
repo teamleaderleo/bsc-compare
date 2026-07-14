@@ -1,0 +1,56 @@
+{
+  "variantId": "BSC_Lockout_Combat",
+  "hullId": "BSC_Lockout",
+  "displayName": "Combat",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightag",
+        "WS0008": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sabot",
+        "WS0004": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "harpoon",
+        "WS0006": "harpoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

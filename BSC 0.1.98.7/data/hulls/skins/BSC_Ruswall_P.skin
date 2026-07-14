@@ -1,0 +1,20 @@
+{
+    "baseHullId": "BSC_Ruswall",
+    "baseValueMult": 1.2,
+    "descriptionId": "BSC_Ruswall",
+    "descriptionPrefix": "这艘船遭受了海盗船员的重度改装和低劣维护",
+    "hullName": "罗斯瓦尔 (P)",
+    "suppliesToRecover": 18,
+    "suppliesPerMonth": 18,
+    "tags": [
+        "pirate_bp"
+    ],
+    "tech": "海盗",
+    "skinHullId": "BSC_Ruswall_P",
+    "spriteName": "graphics/hulls/BSC_Ruswall_P.png",
+    "weaponSlotChanges": {
+        "WS0008": {
+            "size": "LARGE"
+        }
+    }
+}

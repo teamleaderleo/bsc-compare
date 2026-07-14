@@ -1,0 +1,34 @@
+{
+    "baseHullId": "BSC_Bitzer",
+    "baseValueMult": 0.9,
+    "builtInMods": [
+        "safetyoverrides",
+        "ill_advised"
+    ],
+    "fleetPoints": 3,
+    "descriptionId": "BSC_Bitzer",
+    "descriptionPrefix": "被 卢德左径 的狂热分子们强行占用，并通过剔除掉所有非必要的装饰改造成的一个随时与意外相伴的圣战船",
+    "hullDesignation": "Patrol Craft",
+    "hullName": "闪击者 (LP)",
+    "manufacturer": "Luddic Path",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Bitzer_LP",
+    "spriteName": "graphics/hulls/BSC_Bitzer_LP.png",
+    "tags": [
+        "LP_bp"
+    ],
+    "tech": "卢德左径",
+    "removeBuiltInWings": [
+        "BSC_Bitzer_Drone_wing"
+    ],
+    "builtInWings": [
+        "BSC_Talon_Solo_wing"
+    ],
+    "weaponSlotChanges": {
+        "WS0002": {
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT"
+        }
+    }
+}

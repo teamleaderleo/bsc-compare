@@ -1,0 +1,29 @@
+{
+  "baseHullId": "BSC_Covetor",
+  "baseValueMult": 1,
+  "builtInMods": [
+    "safetyoverrides",
+    "ill_advised"
+  ],
+    "systemId":"fastmissileracks",
+  "descriptionId": "BSC_Covetor",
+  "descriptionPrefix": "Fanatics of the Luddic Path either use Coveter class ships as is or sometimes refit them to more suite their purposes. This refit consists of removing any trace of the vessels energy armament and focusing system, replacing it instead with a built in Jackhammer and missile ready racks for quick reloading.",
+  "hullName": "Covetor (LP)",
+  "manufacturer": "Luddic Path",
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Covetor_LP",
+  "spriteName": "graphics/hulls/BSC_Covetor_LP.png",
+ 	"tags":["LP_bp"],
+	"tech":"Luddic Path",
+      "builtInWeapons":{
+        "WS0001": "jackhammer"
+    },
+            "weaponSlotChanges": {
+	   "WS0001":{
+		  "type": "BUILT_IN"
+	   },
+        "WS0002":{
+            "type": "BALLISTIC"
+       },
+    },
+}

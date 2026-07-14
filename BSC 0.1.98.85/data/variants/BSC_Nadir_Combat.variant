@@ -1,0 +1,61 @@
+{
+  "variantId": "BSC_Nadir_Combat",
+  "hullId": "BSC_Nadir",
+  "displayName": "Combat",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 27,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hurricane"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hil",
+        "WS0004": "hil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "harpoonpod",
+        "WS0006": "harpoonpod",
+        "WS0007": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "pdlaser",
+        "WS0009": "irpulse",
+        "WS0010": "irpulse",
+        "WS0011": "irpulse",
+        "WS0012": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

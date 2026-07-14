@@ -1,0 +1,12 @@
+{
+  "baseHullId": "BSC_Marauder",
+  "baseValueMult": 1,
+  "descriptionId": "BSC_Marauder",
+    "descriptionPrefix":"Pirate Marauder-class destroyers are occasionally captured or recovered by Independent outfits and refitted to serve in Scavenging or Mercenary operations. System modifications are minimal but the Pirate paintjob has been scrubbed clean, revealing the ship to be a transitionary vessel, incorporating both Low Tech and Midline design languages.",
+  "hullName": "Marauder (Refit)",
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Marauder_Ind",
+  "spriteName": "graphics/hulls/BSC_Marauder_Ind.png",
+  	"tags":["rare_bp"],
+	"tech":"Refit",
+}

@@ -1,0 +1,87 @@
+{
+  "variantId": "BSC_Terringzean_Church",
+  "hullId": "BSC_Terringzean",
+  "displayName": "Sanctified",
+  "goalVariant": true,
+  "fluxCapacitors": 41,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor",
+    "reinforcedhull",
+    "shield_shunt"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammerrack",
+        "WS0002": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mark9",
+        "WS0006": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hellbore",
+        "WS0005": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavymortar",
+        "WS0008": "heavymortar",
+        "WS0009": "heavymortar",
+        "WS0010": "heavymortar",
+        "WS0017": "lightmortar",
+        "WS0018": "lightmortar",
+        "WS0019": "lightmortar",
+        "WS0020": "lightmortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "jackhammer",
+        "WS0014": "jackhammer",
+        "WS0015": "hammer",
+        "WS0016": "hammer",
+        "WS0021": "hammer",
+        "WS0022": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "flak",
+        "WS0012": "flak",
+        "WS0025": "lightmg",
+        "WS0026": "lightmg",
+        "WS0029": "lightmg",
+        "WS0030": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

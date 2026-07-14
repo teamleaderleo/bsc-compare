@@ -1,0 +1,16 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Adventurer",
+            "BSC_Nadir",
+            "BSC_Marauder_Ind",
+        ],
+    },
+            "hullFrequency":{
+        "hulls":{
+            "BSC_Marauder_Ind": 0.2, #Should be very rare
+            "BSC_Commandant": 0.2, #Should be very rare
+            "BSC_Strix": 0.4, #Should be rare
+        },
+    },
+},

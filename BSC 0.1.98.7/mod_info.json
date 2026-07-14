@@ -1,0 +1,14 @@
+{
+    "id": "BSC",
+    "name": "大豆船包",
+    "author": "BigBeans",
+    "version": "0.1.98.7",
+    "description": "由 BigBeans 制作的各种舰船，外加几艘来自 Spiral Arms 的改型舰船组成的船包。",
+    "gameVersion": "0.98a-RC7",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+    ],
+}

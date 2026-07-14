@@ -1,0 +1,17 @@
+{
+    "baseHullId": "BSC_Lockout",
+    "baseValueMult": 0.75,
+    "systemId": "burndrive",
+    "descriptionId": "BSC_Lockout",
+    "suppliesToRecover": 7,
+    "suppliesPerMonth": 7,
+    "descriptionPrefix": "这艘船遭受了海盗船员的重度改装和低劣维护",
+    "hullName": "封锁 (P)",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Lockout_P",
+    "spriteName": "graphics/hulls/BSC_Lockout_P.png",
+    "tags": [
+        "pirate_bp"
+    ],
+    "tech": "海盗"
+}

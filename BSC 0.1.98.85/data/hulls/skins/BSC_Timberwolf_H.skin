@@ -1,0 +1,12 @@
+{
+  "baseHullId": "BSC_Timberwolf",
+  "baseValueMult": 1,
+  "descriptionId": "BSC_Timberwolf",
+  "descriptionPrefix": "This Ship has been given Hegemony markings and some minor hull adjustment. Actual specifications are the same as the original.",
+  "hullName": "Timberwolf (H)",
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Timberwolf_H",
+  "spriteName": "graphics/hulls/BSC_Timberwolf_H.png",
+  	"tags":["rare_bp", "Hegemony",],
+	"tech":"Hegemony",
+}

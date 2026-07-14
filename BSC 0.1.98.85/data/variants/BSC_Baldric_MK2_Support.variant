@@ -1,0 +1,59 @@
+{
+  "variantId": "BSC_Baldric_MK2_Support",
+  "hullId": "BSC_Baldric_MK2",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "pilum",
+        "WS0007": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heatseeker",
+        "WS0010": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "swarmer",
+        "WS0009": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightac",
+        "WS0004": "lightac",
+        "WS0011": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightmg",
+        "WS0003": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

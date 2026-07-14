@@ -1,0 +1,15 @@
+{
+    "baseHullId": "BSC_Timberwolf",
+    "baseValueMult": 1,
+    "descriptionId": "BSC_Timberwolf",
+    "descriptionPrefix": "该舰除了涂装有 霸主 的标志，以及进行了部分船体微调外，实际规格相比其原版没有任何改动。",
+    "hullName": "森林狼 (H)",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Timberwolf_H",
+    "spriteName": "graphics/hulls/BSC_Timberwolf_H.png",
+    "tags": [
+        "rare_bp",
+        "Hegemony"
+    ],
+    "tech": "霸主"
+}

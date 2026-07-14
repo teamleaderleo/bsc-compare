@@ -1,0 +1,62 @@
+{
+  "variantId": "BSC_Aghast_Strike",
+  "hullId": "BSC_Aghast",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "irautolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gorgonpod",
+        "WS0002": "gorgonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "gorgon",
+        "WS0007": "gorgon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ioncannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

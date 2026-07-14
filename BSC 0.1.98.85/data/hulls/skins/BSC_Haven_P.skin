@@ -1,0 +1,20 @@
+{
+	"baseHullId":"BSC_Haven",
+	"skinHullId":"BSC_Haven_P",
+	"hullName":"Haven (P)",
+	"descriptionId":"BSC_Haven",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp","pirates",],
+	"tech":"Pirate",
+	"ordnancePoints":65,
+	"baseValueMult":1.3,
+	"spriteName":"graphics/hulls/BSC_Haven_P.png",
+	"removeWeaponSlots":["WS0002"], 		# ids
+	"removeBuiltInWings":["borer_wing", "borer_wing", "borer_wing"],
+	"builtInWings":["BSC_Blasterdrone_wing", "BSC_Blasterdrone_wing", "BSC_Blasterdrone_wing"], # wing ids; breaks variant compatibility with base hull
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+}

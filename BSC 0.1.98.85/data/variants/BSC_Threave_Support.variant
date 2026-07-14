@@ -1,0 +1,59 @@
+{
+  "variantId": "BSC_Threave_Support",
+  "hullId": "BSC_Threave",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 44,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "dedicated_targeting_core",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "locust",
+        "WS0004": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavymauler",
+        "WS0008": "heavymauler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "vulcan",
+        "WS0010": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing"
+  ]
+}

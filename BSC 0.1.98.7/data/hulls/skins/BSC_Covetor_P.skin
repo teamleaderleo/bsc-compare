@@ -1,0 +1,20 @@
+{
+    "baseHullId": "BSC_Covetor",
+    "baseValueMult": 0.75,
+    "systemId": "burndrive",
+    "descriptionId": "BSC_Covetor",
+    "hullName": "贪婪 (P)",
+    "descriptionPrefix": "这艘船遭受了海盗船员的重度改装和低劣维护。",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Covetor_P",
+    "spriteName": "graphics/hulls/BSC_Covetor_P.png",
+    "tags": [
+        "pirate_bp"
+    ],
+    "tech": "海盗",
+    "weaponSlotChanges": {
+        "WS0001": {
+            "type": "BALLISTIC"
+        }
+    }
+}

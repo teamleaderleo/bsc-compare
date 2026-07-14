@@ -1,0 +1,43 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Aghast",
+            "BSC_Preybird",
+            "BSC_Tungustan",
+            "BSC_Baldric",
+            "BSC_Tramp",
+            "BSC_Hartfell",
+            "BSC_Cassina",
+            "BSC_Accipiter",
+            "BSC_Buzzard",
+            "BSC_Ardea",
+            "BSC_Strix",
+        ],
+    },
+        	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+        "BSC_Hartfell_Standard":4,
+        "BSC_Hartfell_Attack":3,
+        "BSC_Cassina_Standard":5,
+        "BSC_Cassina_Support":3,
+        "BSC_Aghast_Support":3,
+        "BSC_Aghast_Strike":2,
+        "BSC_Accipiter_Standard":4,
+        "BSC_Accipiter_Support":3,
+        "BSC_Ardea_Standard":5,
+        "BSC_Ardea_Attack":5,
+        "BSC_Strix_Strike":3,
+        "BSC_Strix_DEM":3,
+        "BSC_Strix_Support":2,
+	},
+            "hullFrequency":{
+        "hulls":{
+        "BSC_Cassina": 0.4, #Should be rare
+        "BSC_Aghast": 0.3, #Should be very rare
+        "BSC_Hartfell": 0.7, #Shouldn't drown out other frigates
+        "BSC_Accipiter": 0.5, #Shouldn't replace Drovers
+        "BSC_Buzzard": 0.5, #Should be less common than Falcon
+        "BSC_Strix": 0.4, #Should be rare
+        },
+    },
+},

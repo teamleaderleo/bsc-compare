@@ -1,0 +1,208 @@
+{
+  "hullName": "Haven",
+  "hullId": "BSC_Haven",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/BSC_Haven.png",
+  "style": "LOW_TECH",
+  "height": 180,
+  "width": 94,
+  "center": [47, 90],
+  "collisionRadius": 111,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 109.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "repair_gantry",
+    "surveying_equipment"
+  ],
+  "builtInWings": [
+    "borer_wing",
+    "borer_wing",
+    "borer_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-2, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [70, 27]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [71, -1],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [-22, -36]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 204,
+      "angle": 90,
+      "locations": [-22, 36]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-60, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        15.5, -24,
+        28, -23.5,
+        13.5, -25.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        49.5, -23,
+        40.5, -23,
+        55.5, -23
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -23, -0,
+        -23.5, 2,
+        -24, -2
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-90, 5],
+      "length": 36,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-90, -5],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69, 28],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69, -28],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67, 34],
+      "length": 21,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67, -34],
+      "length": 21,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, 43],
+      "length": 24.408047,
+      "width": 9.949316,
+      "angle": 140,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, -43],
+      "length": 24.408047,
+      "width": 9.949316,
+      "angle": -140,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    64, -40,
+    -10, -39,
+    -18, -46,
+    -33, -46,
+    -33, -37,
+    -65, -35,
+    -65, -19,
+    -89, -7,
+    -89, 7,
+    -65, 19,
+    -65, 35,
+    -33, 37,
+    -33, 46,
+    -18, 46,
+    -12, 40,
+    19, 40,
+    19, 43,
+    60, 43,
+    73, 34,
+    76, -10
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "variantId": "BSC_Starliner_MK2_Standard",
+  "hullId": "BSC_Starliner_MK2",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 23,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavyac",
+        "WS0003": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heatseeker",
+        "WS0008": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightmortar",
+        "WS0006": "lightmortar",
+        "WS0009": "lightmortar",
+        "WS0010": "lightmortar",
+        "WS0011": "lightmortar",
+        "WS0012": "lightmortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "lightmg",
+        "WS0014": "lightmg",
+        "WS0015": "lightmg",
+        "WS0016": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

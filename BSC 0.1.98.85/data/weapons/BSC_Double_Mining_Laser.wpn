@@ -1,0 +1,64 @@
+{
+  "id": "BSC_Double_Mining_Laser",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/BSC_Double_Mining_Laser_Turret.png",
+  "turretGlowSprite": "graphics/weapons/BSC_Double_Mining_Laser_Turret_Glow.png",
+  "hardpointSprite": "graphics/weapons/BSC_Double_Mining_Laser_Hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/BSC_Double_Mining_Laser_Turret_Glow.png",
+  "glowColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    11,
+    7.5,
+    11,
+    -7.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    16.5,
+    7.5,
+    16.5,
+    -7.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "fringeColor": [
+    255,
+    0,
+    0,
+    175
+  ],
+  "coreColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "convergeOnPoint": true,
+  "width": 17,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 72,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "laser_loop"
+}

@@ -1,0 +1,22 @@
+{
+	"variantId": "BSC_Blasterdrone_Bomber",
+	"hullId": "BSC_Blasterdrone",
+	"displayName": "Bomber",
+	"goalVariant": false,
+	"fluxCapacitors": 0,
+	"fluxVents": 0,
+	"quality": 0,
+	"permaMods": [],
+	"hullMods": [],
+	"weaponGroups": [
+		{
+		"autofire": false,
+		"mode": "LINKED",
+		"weapons": {
+			"WS 001": "BSC_Fighter_Miningblaster"
+		}
+		}
+	],
+	"modules": [],
+	"wings": []
+}

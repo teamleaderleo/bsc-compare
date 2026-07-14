@@ -1,0 +1,82 @@
+{
+  "hullName": "Mudskipper MK.III",
+  "hullId": "BSC_Mudskipper_MK3",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/BSC_Mudskipper_MKIII_LP.png",
+  "style": "LOW_TECH",
+  "height": 77,
+  "width": 60,
+  "center": [30, 36],
+  "collisionRadius": 61,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "safetyoverrides",
+    "ill_advised",
+    "comp_storage"
+  ],
+  "builtInWeapons": {
+    "WS0001": "hammerrack"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [17, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, 0],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, 24.5],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, -24.5],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [19.5, 26],
+      "length": 16,
+      "width": 8,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [19.5, -26],
+      "length": 16,
+      "width": 8,
+      "angle": 210,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -30, 26,
+    37, 21,
+    44, -2,
+    38, -24,
+    -30, -30
+  ]
+}

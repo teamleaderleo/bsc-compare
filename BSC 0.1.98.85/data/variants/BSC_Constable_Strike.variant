@@ -1,0 +1,66 @@
+{
+  "variantId": "BSC_Constable_Strike",
+  "hullId": "BSC_Constable",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "heavyarmor",
+    "missleracks",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "arbalest",
+        "WS0002": "arbalest",
+        "WS0003": "arbalest",
+        "WS0004": "arbalest"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hammer",
+        "WS0006": "hammer",
+        "WS0007": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightmortar",
+        "WS0010": "lightmortar",
+        "WS0011": "lightmortar",
+        "WS0012": "lightmortar",
+        "WS0013": "lightmortar",
+        "WS0014": "lightmortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "breach"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "lightdualmg",
+        "WS0016": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

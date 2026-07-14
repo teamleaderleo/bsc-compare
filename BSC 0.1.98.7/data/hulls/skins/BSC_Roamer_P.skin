@@ -1,0 +1,15 @@
+{
+    "baseHullId": "BSC_Roamer",
+    "baseValueMult": 0.9,
+    "descriptionId": "BSC_Roamer",
+    "descriptionPrefix": "这艘船遭受了海盗船员的重度改装和低劣维护",
+    "hullName": "漫步者 (P)",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Roamer_P",
+    "spriteName": "graphics/hulls/BSC_Roamer_P.png",
+    "systemId": "burndrive",
+    "tags": [
+        "pirate_bp"
+    ],
+    "tech": "海盗"
+}

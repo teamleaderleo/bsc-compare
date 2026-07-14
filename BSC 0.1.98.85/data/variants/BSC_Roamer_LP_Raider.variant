@@ -1,0 +1,65 @@
+{
+  "variantId": "BSC_Roamer_LP_Raider",
+  "hullId": "BSC_Roamer_LP",
+  "displayName": "Raider",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightdualac",
+        "WS0007": "lightdualac",
+        "WS0013": "lightac",
+        "WS0014": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "jackhammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "harpoon",
+        "WS0005": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "lightmortar",
+        "WS0012": "lightmortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0008": "lightmg",
+        "WS0009": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

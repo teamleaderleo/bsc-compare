@@ -1,0 +1,22 @@
+{
+  "variantId": "BSC_Drone_PD_Laser",
+  "hullId": "BSC_Drone_PD",
+  "displayName": "Laser",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

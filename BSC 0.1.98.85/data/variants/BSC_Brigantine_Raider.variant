@@ -1,0 +1,66 @@
+{
+  "variantId": "BSC_Brigantine_Raider",
+  "hullId": "BSC_Brigantine",
+  "displayName": "Raider",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualmg",
+        "WS0003": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sabot",
+        "WS0012": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightmg",
+        "WS0006": "lightmg",
+        "WS0007": "lightmg",
+        "WS0008": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "reaper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

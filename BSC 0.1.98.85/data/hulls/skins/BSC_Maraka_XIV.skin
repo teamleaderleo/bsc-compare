@@ -1,0 +1,23 @@
+{
+  "baseHullId": "BSC_Maraka",
+  "baseValueMult": 1.75,
+  "builtInMods": [
+    "fourteenth"
+  ],
+  "descriptionId": "BSC_Maraka",
+    "incompatibleWithBaseHull":false, # for the autofit dialog
+    "coversColor":[255,245,225,255],
+	"descriptionPrefix":"Built to the specifications of the 14th Domain Battlegroup which founded the Hegemony, this vessel is a prime example of the Domain Navy's 'decisive battle' doctrine, particularly exhibited by a series of radical structural modifications performed using pre-Collapse industrial technology.",
+	"tags":["XIV_bp", "hist2t"],
+	"tech":"XIV Battlegroup",
+    "fleetPoints":17,
+    "ordnancePoints":165,
+  "hullName": "Maraka (XIV)",
+  "skinHullId": "BSC_Maraka_XIV",
+  "spriteName": "graphics/hulls/BSC_Maraka_XIV.png",
+        "weaponSlotChanges": {
+	   "WS0001":{
+		  "type": "COMPOSITE"
+	   },
+    },
+}

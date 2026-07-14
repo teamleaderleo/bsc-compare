@@ -1,0 +1,45 @@
+{
+  "variantId": "BSC_Bitzer_P_Shielded",
+  "hullId": "BSC_Bitzer_P",
+  "displayName": "Shielded",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

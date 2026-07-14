@@ -1,0 +1,32 @@
+{
+  "variantId": "BSC_Bitzer_Overridden",
+  "hullId": "BSC_Bitzer",
+  "displayName": "Overridden",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0004": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightmortar"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

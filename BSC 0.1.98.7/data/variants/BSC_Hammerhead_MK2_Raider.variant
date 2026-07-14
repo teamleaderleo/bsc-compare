@@ -1,0 +1,42 @@
+{
+    "variantId": "BSC_Hammerhead_MK2_Raider",
+    "hullId": "BSC_Hammerhead_MK2",
+    "displayName": "掠夺者",
+    "goalVariant": true,
+    "fluxCapacitors": 18,
+    "fluxVents": 15,
+    "quality": 1,
+    "permaMods": [],
+    "hullMods": [
+        "missleracks",
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "typhoon",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "chaingun",
+                "WS0003": "chaingun",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "lightdualmg",
+                "WS0005": "lightdualmg",
+                "WS0006": "lightdualmg",
+                "WS0007": "lightdualmg",
+            },
+        },
+    ],
+    "modules": [],
+    "wings": [],
+}

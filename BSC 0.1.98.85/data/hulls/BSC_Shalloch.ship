@@ -1,0 +1,179 @@
+{
+  "hullName": "Shalloch",
+  "hullId": "BSC_Shalloch",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/BSC_Shalloch.png",
+  "style": "HIGH_TECH",
+  "height": 186,
+  "width": 114,
+  "center": [57, 87],
+  "collisionRadius": 137,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 129,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "insulatedengine"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [77, -0],
+      "renderOrderMod": -100
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [57, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [36, 39]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [36, -39]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [-18, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [-18, -29]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-46, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81, -0],
+      "length": 54,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "BSC_Shalloch_Engines"
+    },
+    {
+      "location": [-79, 7],
+      "length": 54,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "BSC_Shalloch_Engines"
+    },
+    {
+      "location": [-79, -7],
+      "length": 54,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "BSC_Shalloch_Engines"
+    },
+    {
+      "location": [-77, 14],
+      "length": 52,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "BSC_Shalloch_Engines"
+    },
+    {
+      "location": [-77, -14],
+      "length": 52,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "BSC_Shalloch_Engines"
+    },
+    {
+      "location": [-72, 22],
+      "length": 50,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "BSC_Shalloch_Engines"
+    },
+    {
+      "location": [-72, -22],
+      "length": 50,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "BSC_Shalloch_Engines"
+    }
+  ],
+  "bounds": [
+    -85, -7,
+    -75, -24,
+    -75, -33,
+    -65, -41,
+    -42, -41,
+    -31, -38,
+    -24, -43,
+    -12, -44,
+    -2, -55,
+    34, -55,
+    42, -52,
+    42, -28,
+    60, -22,
+    96, -12,
+    96, 12,
+    60, 22,
+    42, 28,
+    42, 52,
+    34, 55,
+    -2, 55,
+    -12, 44,
+    -24, 43,
+    -31, 38,
+    -42, 41,
+    -65, 41,
+    -75, 33,
+    -75, 24,
+    -85, 7
+  ]
+}

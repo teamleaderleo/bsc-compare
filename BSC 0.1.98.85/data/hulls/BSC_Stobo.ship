@@ -1,0 +1,101 @@
+{
+  "hullName": "Stobo",
+  "hullId": "BSC_Stobo",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/fighters/BSC_Stobo.png",
+  "style": "MIDLINE",
+  "height": 25,
+  "width": 40,
+  "center": [20, 11.5],
+  "collisionRadius": 22,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4, 12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [4, -12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11.5, 7.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [11.5, -7.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-6.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11.5, 2.5],
+      "length": 19,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11.5, -2.5],
+      "length": 19,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-9.5, 8.5],
+      "length": 10,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-9.5, -8.5],
+      "length": 10,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -8.5, -19,
+    10.5, -4,
+    10.5, 4,
+    -8.5, 19
+  ]
+}

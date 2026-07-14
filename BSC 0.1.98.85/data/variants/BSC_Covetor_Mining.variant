@@ -1,0 +1,40 @@
+{
+  "variantId": "BSC_Covetor_Mining",
+  "hullId": "BSC_Covetor",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "efficiency_overhaul",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "miningblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

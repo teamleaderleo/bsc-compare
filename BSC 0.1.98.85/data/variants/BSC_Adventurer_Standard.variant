@@ -1,0 +1,66 @@
+{
+  "variantId": "BSC_Adventurer_Standard",
+  "hullId": "BSC_Adventurer",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 37,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "arbalest",
+        "WS0004": "arbalest",
+        "WS0005": "arbalest",
+        "WS0006": "arbalest"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "heatseeker",
+        "WS0008": "heatseeker",
+        "WS0009": "heatseeker",
+        "WS0010": "heatseeker",
+        "WS0011": "heatseeker",
+        "WS0012": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "vulcan",
+        "WS0014": "vulcan",
+        "WS0015": "vulcan",
+        "WS0016": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing"
+  ]
+}

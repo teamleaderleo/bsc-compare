@@ -1,0 +1,28 @@
+{
+  "baseHullId": "BSC_Bitzer",
+  "baseValueMult": 0.9,
+  "builtInMods": [
+    "safetyoverrides",
+    "ill_advised"
+  ],
+  "fleetPoints":3,
+  "descriptionId": "BSC_Bitzer",
+ "descriptionPrefix":"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war.",
+  "hullDesignation": "Patrol Craft",
+  "hullName": "Bitzer (LP)",
+  "manufacturer": "Luddic Path",
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Bitzer_LP",
+  "spriteName": "graphics/hulls/BSC_Bitzer_LP.png",
+ 	"tags":["LP_bp"],
+	"tech":"Luddic Path",
+     "removeBuiltInWings":["BSC_Bitzer_Drone_wing"],
+    "builtInWings":["BSC_Talon_Solo_wing"],
+     "weaponSlotChanges":{
+     	"WS0002":{
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+     	 }
+     },
+}

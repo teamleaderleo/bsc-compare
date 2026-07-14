@@ -1,0 +1,78 @@
+{
+  "hullName": "Grifter",
+  "hullId": "BSC_Grifter_Drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/fighters/BSC_Grifter.png",
+  "style": "LOW_TECH",
+  "height": 26,
+  "width": 28,
+  "center": [14, 12],
+  "collisionRadius": 25,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [9, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, -5],
+      "length": 15,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12, 5],
+      "length": 15,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12, -8],
+      "length": 15,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12, 8],
+      "length": 15,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -11, 12,
+    9, 9,
+    9, -9,
+    -11, -12
+  ]
+}

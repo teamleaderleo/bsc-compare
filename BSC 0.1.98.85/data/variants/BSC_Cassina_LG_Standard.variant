@@ -1,0 +1,58 @@
+{
+  "variantId": "BSC_Cassina_LG_Standard",
+  "hullId": "BSC_Cassina_LG",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pulselaser",
+        "WS0002": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "phasebeam",
+        "WS0004": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "breach",
+        "WS0006": "breach"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "railgun",
+        "WS0008": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

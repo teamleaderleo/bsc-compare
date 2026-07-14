@@ -1,0 +1,168 @@
+{
+  "hullName": "Tungustan",
+  "hullId": "BSC_Tungustan",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/BSC_Tungustan.png",
+  "style": "MIDLINE",
+  "height": 309,
+  "width": 230,
+  "center": [115, 132],
+  "collisionRadius": 176.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 166.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "BSC_Impulsebeam"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": 0,
+      "locations": [17.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -45,
+      "locations": [126, -17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 45,
+      "locations": [126, 17]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -110,
+      "locations": [-72, -79]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 110,
+      "locations": [-72, 79]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-102, -21],
+      "length": 63,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-102, 21],
+      "length": 63,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-111, 38],
+      "length": 43,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-111, -38],
+      "length": 43,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-110, 52],
+      "length": 43,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-110, -52],
+      "length": 43,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, 63.5],
+      "length": 32,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, -63.5],
+      "length": 32,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -84, -11.5,
+    -99.5, -14.5,
+    -100, -28,
+    -108.5, -34.5,
+    -105, -66,
+    -79, -72,
+    -79.5, -80.5,
+    -72, -86,
+    -64.5, -76.5,
+    -53, -77.5,
+    -46.5, -82,
+    -43.5, -92,
+    4.5, -96.5,
+    38, -60,
+    82, -54.5,
+    137.5, -27,
+    136.5, -12.5,
+    20.5, -14,
+    20.5, 14,
+    136.5, 12.5,
+    137.5, 27,
+    82, 54.5,
+    38, 60,
+    4.5, 96.5,
+    -43.5, 92,
+    -46.5, 82,
+    -53, 77.5,
+    -64.5, 76.5,
+    -72, 86,
+    -79.5, 80.5,
+    -79, 72,
+    -105, 66,
+    -108.5, 34.5,
+    -100, 28,
+    -99.5, 14.5,
+    -84, 11.5
+  ]
+}

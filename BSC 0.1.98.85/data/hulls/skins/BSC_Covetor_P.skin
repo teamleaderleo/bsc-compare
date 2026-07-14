@@ -1,0 +1,18 @@
+{
+  "baseHullId": "BSC_Covetor",
+  "baseValueMult": 0.75,
+  	"systemId":"burndrive",
+  "descriptionId": "BSC_Covetor",
+  "hullName": "Covetor (P)",
+  "descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Covetor_P",
+  "spriteName": "graphics/hulls/BSC_Covetor_P.png",
+  	"tags":["pirate_bp"],
+	"tech":"Pirate",
+          "weaponSlotChanges": {
+	   "WS0001":{
+		  "type": "BALLISTIC"
+	   },
+    },
+}

@@ -1,0 +1,23 @@
+{
+  "baseHullId": "BSC_Hartfell",
+  "baseValueMult": 1.2,
+  	"suppliesToRecover":6,
+	"suppliesPerMonth":6,
+  "builtInMods": [
+    "frontemitter"
+  ],
+  	"systemId":"ammofeed",
+  "descriptionId": "BSC_Hartfell",
+  "descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+  "hullName": "Hartfell (P)",
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Hartfell_P",
+  "spriteName": "graphics/hulls/BSC_Hartfell_P.png",
+  	"tags":["pirate_bp"],
+	"tech":"Pirate",
+      "weaponSlotChanges": {
+	   "WS0001":{
+		  "type": "BALLISTIC"
+	   },
+    },
+}

@@ -1,0 +1,28 @@
+{
+  "baseHullId": "BSC_Cassina",
+  "baseValueMult": 1,
+  "descriptionId": "BSC_Cassina",
+  	"descriptionPrefix":"Modified for operations in the Askonia system under orders from Supreme Executor Philip Andrada, this hull includes integrated solar shielding as well as a peculiar internal cladding provided by an industrial conglomerate out of Sindria itself. That the chief designer, appointed by the Supreme Executor for his many cycles of loyal service, sits on the board of that conglomerate is simply an example of the unity and efficiency of the Sindrian Polity.",
+  "hullName": "Cassina (LG)",
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Cassina_LG",
+  "ordnancePoints":104,
+  "spriteName": "graphics/hulls/BSC_Cassina_LG.png",
+	"tags":["LG_bp","no_dealer"],
+	"tech":"Lion's Guard",
+    "builtInMods":["andrada_mods","solar_shielding","coherer"],
+     	"weaponSlotChanges":{
+		"WS0001":{
+			"type": "ENERGY"
+		},
+		"WS0002":{
+			"type": "ENERGY"
+		},
+        "WS0003":{
+			"type": "ENERGY"
+		},
+        "WS0004":{
+			"type": "ENERGY"
+		},
+	},    
+}

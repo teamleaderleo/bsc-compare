@@ -1,0 +1,180 @@
+{
+  "hullName": "Accipiter",
+  "hullId": "BSC_Accipiter",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/BSC_Accipiter.png",
+  "style": "MIDLINE",
+  "height": 163,
+  "width": 128,
+  "center": [64, 90],
+  "collisionRadius": 128,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 124.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -45,
+      "locations": [19, -21]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 45,
+      "locations": [19, 21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [34, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [52, -0],
+      "renderOrderMod": -100
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [66.5, -19]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [66.5, 19]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-57, -46]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-57, 46]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -26, 0,
+        -31, 4,
+        -31, -4
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-88, -32],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-88, 32],
+      "length": 50,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, 43],
+      "length": 44,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, -43],
+      "length": 44,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-86, -56],
+      "length": 36,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-86, 56],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -51, -14,
+    -59, -15,
+    -86, -26,
+    -86, -47,
+    -84, -61,
+    -51, -61,
+    -32, -48,
+    -30, -35,
+    -10, -35,
+    2, -45,
+    63, -25,
+    72, -18,
+    60, -7,
+    60, 7,
+    72, 18,
+    63, 25,
+    2, 45,
+    -10, 35,
+    -30, 35,
+    -32, 48,
+    -51, 61,
+    -84, 61,
+    -86, 47,
+    -86, 26,
+    -59, 15,
+    -51, 14
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "baseHullId": "hammerhead",
+    "baseValueMult": 1,
+    "builtInMods": [
+        "safetyoverrides",
+        "ill_advised"
+    ],
+    "descriptionId": "hammerhead",
+    "descriptionPrefix": "被 卢德左径 的狂热分子们强行占用，并通过剔除掉所有非必要的装饰改造成的一个随时与意外相伴的圣战船。",
+    "hullName": "锤头 (LP)",
+    "manufacturer": "Luddic Path",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Hammerhead_LP",
+    "spriteName": "graphics/hulls/BSC_Hammerhead_LP.png",
+    "tags": [
+        "LP_bp"
+    ],
+    "tech": "卢德左径"
+}

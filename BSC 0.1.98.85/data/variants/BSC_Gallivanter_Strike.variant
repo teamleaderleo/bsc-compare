@@ -1,0 +1,46 @@
+{
+  "variantId": "BSC_Gallivanter_Strike",
+  "hullId": "BSC_Gallivanter",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "irpulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

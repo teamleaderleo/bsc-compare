@@ -1,0 +1,110 @@
+{
+  "hullName": "Strix",
+  "hullId": "BSC_Strix",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/BSC_Strix.png",
+  "style": "MIDLINE",
+  "height": 121,
+  "width": 92,
+  "center": [46, 60],
+  "collisionRadius": 80.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [34, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 45,
+      "locations": [2, 22]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": -45,
+      "locations": [2, -22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-35, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60, 10],
+      "length": 42,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, -10],
+      "length": 42,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-54, -26],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-54, 26],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -52.5, 3,
+    -59, 6,
+    -59, 14,
+    -55, 17,
+    -54, 28,
+    -49, 32,
+    -32.5, 34.5,
+    -22, 45,
+    12, 34,
+    60, 11,
+    43, 10,
+    43, -10,
+    60, -11,
+    12, -34,
+    -22, -45,
+    -32.5, -34.5,
+    -49, -32,
+    -54, -28,
+    -55, -17,
+    -59, -14,
+    -59, -6,
+    -52.5, -3
+  ]
+}

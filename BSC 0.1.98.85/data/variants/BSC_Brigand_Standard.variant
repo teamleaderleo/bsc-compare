@@ -1,0 +1,81 @@
+{
+  "variantId": "BSC_Brigand_Standard",
+  "hullId": "BSC_Brigand",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hurricane",
+        "WS0012": "heatseeker",
+        "WS0013": "heatseeker",
+        "WS0014": "heatseeker",
+        "WS0015": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "mark9",
+        "WS0003": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "heavymortar",
+        "WS0007": "heavymortar",
+        "WS0008": "heavymortar",
+        "WS0009": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lightmg",
+        "WS0011": "lightmg",
+        "WS0016": "lightmg",
+        "WS0017": "lightmg",
+        "WS0018": "lightmg",
+        "WS0019": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

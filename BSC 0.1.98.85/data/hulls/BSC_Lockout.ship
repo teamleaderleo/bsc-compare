@@ -1,0 +1,199 @@
+{
+  "hullName": "Lockout",
+  "hullId": "BSC_Lockout",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/BSC_Lockout.png",
+  "style": "LOW_TECH",
+  "height": 150,
+  "width": 90,
+  "center": [45, 70],
+  "collisionRadius": 97,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 95.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [38, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 180,
+      "locations": [-25, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [17, -37]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [17, 37]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [-3, -37]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-3, 37]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [71, -27]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [71, 27]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 135,
+      "locations": [-51, 36]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -135,
+      "locations": [-51, -36]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -45,
+      "locations": [58, -40]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 45,
+      "locations": [58, 40]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-70, -0],
+      "length": 50,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, 26],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64, -26],
+      "length": 40,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62, 15],
+      "length": 36,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62, -15],
+      "length": 36,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -67.5, -5,
+    -62, -8,
+    -62, -29,
+    -54.5, -30,
+    -51, -40,
+    -18, -40,
+    -15, -33,
+    22, -33,
+    28, -42,
+    61, -42,
+    73, -31,
+    73, -21,
+    56, -18,
+    67.5, -6.5,
+    67.5, 6.5,
+    56, 18,
+    73, 21,
+    73, 31,
+    61, 42,
+    28, 42,
+    22, 33,
+    -15, 33,
+    -18, 40,
+    -51, 40,
+    -54.5, 30,
+    -62, 29,
+    -62, 8,
+    -67.5, 5
+  ]
+}

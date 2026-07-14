@@ -1,0 +1,45 @@
+{
+  "variantId": "BSC_Tramp_MK2_Shielded",
+  "hullId": "BSC_Tramp_MK2",
+  "displayName": "Shielded",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "salamanderpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

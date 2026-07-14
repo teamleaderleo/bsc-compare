@@ -1,0 +1,39 @@
+{
+  "variantId": "BSC_Bogle_Escort",
+  "hullId": "BSC_Bogle",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lrpdlaser",
+        "WS0003": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

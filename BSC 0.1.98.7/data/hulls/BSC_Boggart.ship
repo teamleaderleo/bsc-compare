@@ -1,0 +1,91 @@
+{
+  "hullName": "Boggart",
+  "hullId": "BSC_Boggart",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/BSC_Boggart.png",
+  "style": "HIGH_TECH",
+  "height": 73,
+  "width": 68,
+  "center": [34, 32],
+  "collisionRadius": 61,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 59,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [18, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -15,
+      "locations": [2, -18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 15,
+      "locations": [2, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-14, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, -17.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-26, 17.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -29.5, -5.5,
+    -23, -8.5,
+    -22, -20,
+    3.5, -31.5,
+    15.5, -28,
+    39.5, -25.5,
+    27.5, -19.5,
+    16, -14,
+    16, 14,
+    27.5, 19.5,
+    39.5, 25.5,
+    15.5, 28,
+    3.5, 31.5,
+    -22, 20,
+    -23, 8.5,
+    -29.5, 5.5
+  ]
+}

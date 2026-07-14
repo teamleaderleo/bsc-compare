@@ -1,0 +1,75 @@
+{
+  "variantId": "BSC_Terringzean_Standard",
+  "hullId": "BSC_Terringzean",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 40,
+  "fluxVents": 39,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "squall",
+        "WS0002": "squall"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mark9",
+        "WS0004": "hellbore",
+        "WS0005": "hellbore",
+        "WS0006": "devastator",
+        "WS0007": "heavyac",
+        "WS0008": "heavyac",
+        "WS0009": "heavymortar",
+        "WS0010": "heavymortar",
+        "WS0011": "heavymortar",
+        "WS0012": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "harpoonpod",
+        "WS0014": "harpoonpod",
+        "WS0015": "reaper",
+        "WS0016": "reaper",
+        "WS0021": "reaper",
+        "WS0022": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "lightdualac",
+        "WS0018": "lightdualac",
+        "WS0019": "lightdualac",
+        "WS0020": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0025": "vulcan",
+        "WS0026": "vulcan",
+        "WS0029": "vulcan",
+        "WS0030": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

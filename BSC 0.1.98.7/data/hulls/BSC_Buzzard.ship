@@ -1,0 +1,229 @@
+{
+  "hullName": "Buzzard",
+  "hullId": "BSC_Buzzard",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/BSC_Buzzard.png",
+  "style": "MIDLINE",
+  "height": 233,
+  "width": 134,
+  "center": [67, 116],
+  "collisionRadius": 162,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [29, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [100, 21]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [100, -21]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": -45,
+      "locations": [2, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 45,
+      "locations": [2, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 125,
+      "locations": [-58, 30]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -125,
+      "locations": [-58, -30]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [35, -28]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -0,
+      "locations": [35, 28]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [71, -20]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -0,
+      "locations": [71, 20]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-91, -8],
+      "length": 50,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-91, 8],
+      "length": 50,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-116, 28],
+      "length": 50,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-116, -28],
+      "length": 50,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, -59],
+      "length": 20.506096,
+      "width": 5.656854,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, 59],
+      "length": 20.506096,
+      "width": 5.656854,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-110, -45],
+      "length": 15.556349,
+      "width": 5.656854,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-110, 45],
+      "length": 15.556349,
+      "width": 5.656854,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-19, -64],
+      "length": 20.506096,
+      "width": 5.656854,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-19, 64],
+      "length": 20.506096,
+      "width": 5.656854,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -76, -49,
+    -66, -56,
+    -59, -56,
+    -30, -36,
+    -10.5, -36,
+    -25, -51,
+    -12, -64,
+    31, -49,
+    67, -39,
+    102, -33,
+    102, -12,
+    76, -9,
+    76, 9,
+    102, 12,
+    102, 33,
+    67, 39,
+    31, 49,
+    -12, 64,
+    -25, 51,
+    -10.5, 36,
+    -30, 36,
+    -59, 56,
+    -66, 56,
+    -76, 49,
+    -105, 48,
+    -114, 23,
+    -89, 15,
+    -89, -15,
+    -114, -23,
+    -105, -48
+  ]
+}

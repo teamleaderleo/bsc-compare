@@ -1,0 +1,48 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Terringzean",
+            "BSC_Threave",
+            "BSC_Maraka",
+            "BSC_Baldric",
+            "BSC_Timberwolf_H",
+            "BSC_Roamer",
+            "BSC_Lockout",
+            "BSC_Tramp",
+            "BSC_Carnal",
+            "BSC_Covetor",
+            "BSC_Haven",
+            "BSC_Commandant",
+        ],
+            },
+            "priorityShips":{
+		"hulls":[
+			"BSC_Terringzean",
+            "BSC_Threave",
+		],
+	},
+        "hullFrequency":{
+        "hulls":{
+            "BSC_Terringzean":0.3, #Shouldn't be common
+            "BSC_Threave":0.4, #Shouldn't be super common
+            "BSC_Maraka": 0.5, #Shouldn't drown out Dominator
+            "BSC_Timberwolf_H": 0.5, #Shouldn't replace wolf (H)
+            "BSC_Roamer": 0.4, #Civ Ship shouldn't be super common
+            "BSC_Lockout": 0.4, #Civ Ship shouldn't be super common
+            "BSC_Tramp": 0.5, #Shouldn't drown out better freighters
+            "BSC_Carnal": 0.4, #Shouldn't be common
+            "BSC_Covetor": 0.4, #Civ Ship shouldn't be super common
+            "BSC_Haven": 0.4, #Civ Ship shouldn't be super common
+            "BSC_Commandant": 0.3, #Should be very rare
+            "BSC_Bitzer": 0, #They have their own Aux version
+        },
+    },
+            	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"BSC_Covetor_H_Standard":5,
+        "BSC_Lockout_H_Combat":5,
+        "BSC_Lockout_H_Escort":5,
+        "BSC_Roamer_H_Standard":5,
+        "BSC_Roamer_H_Support":5,
+    },
+},

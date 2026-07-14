@@ -1,0 +1,196 @@
+{
+  "hullName": "Preybird",
+  "hullId": "BSC_Preybird",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/BSC_Preybird.png",
+  "style": "MIDLINE",
+  "height": 250,
+  "width": 176,
+  "center": [88, 110],
+  "collisionRadius": 159,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 154,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [57, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [86, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [108, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -2, 35.5,
+        -3, 41.5,
+        23.5, 30
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -1.5, -35.5,
+        -2, -41,
+        23.5, -30
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-28, -28]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-28, 28]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 1,
+      "locations": [-17, -66]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -1,
+      "locations": [-17, 66]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 180,
+      "locations": [-78, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-109, 29],
+      "length": 46,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-109, -29],
+      "length": 46,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-105, 18],
+      "length": 42,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-105, -18],
+      "length": 42,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-103, 9],
+      "length": 38,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-103, -9],
+      "length": 38,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -89.5, -5,
+    -101.5, -7,
+    -106.5, -31,
+    -103, -39,
+    -79.5, -43,
+    -69.5, -66,
+    -60, -74.5,
+    -38.5, -74.5,
+    -18, -69,
+    -15, -59.5,
+    25, -51,
+    25.5, -29,
+    54, -29,
+    62.5, -23.5,
+    136, -7,
+    136, 7,
+    62.5, 23.5,
+    54, 29,
+    25.5, 29,
+    25, 51,
+    -15, 59.5,
+    -18, 69,
+    -38.5, 74.5,
+    -60, 74.5,
+    -69.5, 66,
+    -79.5, 43,
+    -103, 39,
+    -106.5, 31,
+    -101.5, 7,
+    -89.5, 5
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "hullName": "Nit",
+  "hullId": "BSC_Bitzer_Drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/fighters/BSC_Bitzer_Drone.png",
+  "style": "LOW_TECH",
+  "height": 15,
+  "width": 14,
+  "center": [7, 7],
+  "collisionRadius": 12,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 12,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 240,
+      "angle": 0,
+      "locations": [3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -2.5],
+      "length": 5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-7, 2.5],
+      "length": 5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    4.5, -0,
+    -2, 5,
+    -2, -5
+  ]
+}

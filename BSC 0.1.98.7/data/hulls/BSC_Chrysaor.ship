@@ -1,0 +1,180 @@
+{
+  "hullName": "Chrysaor",
+  "hullId": "BSC_Chrysaor",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/BSC_Chrysaor.png",
+  "style": "HIGH_TECH",
+  "height": 134,
+  "width": 104,
+  "center": [52, 58],
+  "collisionRadius": 89,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 85.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [28, 26]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 25,
+      "locations": [33, -5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -70,
+      "locations": [-5, -34]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 70,
+      "locations": [-5, 34]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-43, -14]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [61.5, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-56, 21],
+      "length": 28,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, -23],
+      "length": 28,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, 24],
+      "length": 28,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, -26],
+      "length": 28,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, 11.5],
+      "length": 24,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, -13.5],
+      "length": 24,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, 9.5],
+      "length": 24,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, -11.5],
+      "length": 24,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, 7.5],
+      "length": 24,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, -9.5],
+      "length": 24,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -52, 29.5,
+    -31, 46,
+    -7.5, 49.5,
+    15, 38,
+    35, 37.5,
+    36, 6.5,
+    57.5, 4,
+    59, -11.5,
+    44.5, -13.5,
+    43, -24.5,
+    67, -23,
+    67.5, -35,
+    45.5, -38.5,
+    16, -41.5,
+    -8.5, -50,
+    -31, -46,
+    -52, -30
+  ]
+}

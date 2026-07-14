@@ -1,0 +1,82 @@
+{
+  "hullName": "Baldric",
+  "hullId": "BSC_Baldric",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/BSC_Baldric.png",
+  "style": "LOW_TECH",
+  "height": 268,
+  "width": 95,
+  "center": [36, 126],
+  "collisionRadius": 213,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 200,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 0,
+      "locations": [125, -7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-77, -52]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-78, -5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-125.5, -15.5],
+      "length": 52,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-125.5, 5.5],
+      "length": 52,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -119, -27,
+    -86.5, -40,
+    -77, -55,
+    -72, -40,
+    -56.5, -39,
+    27.5, -38.5,
+    115.5, -38.5,
+    118.5, -43,
+    138.5, -34,
+    138.5, 18,
+    118.5, 27,
+    116, 25,
+    58, 23,
+    -54.5, 25,
+    -88.5, 27,
+    -118.5, 15.5
+  ]
+}

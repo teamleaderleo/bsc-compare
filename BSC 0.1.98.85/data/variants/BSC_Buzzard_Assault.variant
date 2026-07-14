@@ -1,0 +1,62 @@
+{
+  "variantId": "BSC_Buzzard_Assault",
+  "hullId": "BSC_Buzzard",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 21,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mjolnir"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "dragon",
+        "WS0003": "dragon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyac",
+        "WS0005": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "ioncannon",
+        "WS0011": "ioncannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "flak",
+        "WS0007": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

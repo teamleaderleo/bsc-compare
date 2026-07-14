@@ -1,0 +1,31 @@
+{
+    "baseHullId": "BSC_Covetor",
+    "baseValueMult": 1,
+    "builtInMods": [
+        "safetyoverrides",
+        "ill_advised"
+    ],
+    "systemId": "fastmissileracks",
+    "descriptionId": "BSC_Covetor",
+    "descriptionPrefix": "卢德左径 的狂热信徒们通常会直接使用 贪婪-级，但有时也会对其进行改装，以更好地满足他们的需求。改装主要包括移除舰艇上所有的能量武器和高能聚焦系统，取而代之的是内置的气锤发射器，以及用于快速重装的预装填导弹发射架。",
+    "hullName": "贪婪者 (LP)",
+    "manufacturer": "Luddic Path",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Covetor_LP",
+    "spriteName": "graphics/hulls/BSC_Covetor_LP.png",
+    "tags": [
+        "LP_bp"
+    ],
+    "tech": "卢德左径",
+    "builtInWeapons": {
+        "WS0001": "jackhammer"
+    },
+    "weaponSlotChanges": {
+        "WS0001": {
+            "type": "BUILT_IN"
+        },
+        "WS0002": {
+            "type": "BALLISTIC"
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "variantId": "BSC_Overseer_Support",
+    "hullId": "BSC_Overseer",
+    "displayName": "支援",
+    "goalVariant": true,
+    "fluxCapacitors": 26,
+    "fluxVents": 20,
+    "quality": 1,
+    "permaMods": [],
+    "hullMods": [
+        "dedicated_targeting_core",
+        "converted_hangar",
+        "eccm",
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heatseeker",
+                "WS0002": "heatseeker",
+                "WS0006": "salamanderpod",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "hveldriver",
+                "WS0005": "hveldriver",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymauler",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "lightdualac",
+                "WS0008": "lightdualac",
+                "WS0009": "lightdualac",
+                "WS0010": "lightdualac",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "vulcan",
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {},
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {},
+        },
+    ],
+    "modules": [],
+    "wings": [
+        "broadsword_wing",
+    ],
+}

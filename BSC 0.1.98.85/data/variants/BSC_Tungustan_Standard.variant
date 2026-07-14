@@ -1,0 +1,41 @@
+{
+  "variantId": "BSC_Tungustan_Standard",
+  "hullId": "BSC_Tungustan",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "BSC_Impulsebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gazer",
+        "WS0003": "gazer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,32 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Australis",
+            "BSC_Chrysaor",
+            "BSC_Carnyx",
+            "BSC_Kingpin",
+            "BSC_Bogle",
+            "BSC_Baldric",
+            "BSC_Timberwolf",
+        ],
+    },
+    	"priorityShips":{
+		"hulls":[
+			"BSC_Carnyx",
+            ],
+	},
+            "knownWeapons":{
+        "weapons":[
+            "BSC_Sabot_MLMS",
+        ],
+    },
+        "hullFrequency":{
+        "hulls":{
+            "BSC_Bogle": 0.5, #Avoid diluting better ships
+            "BSC_Chrysaor": 0.6, #Shouldn't be super common
+            "BSC_Australis": 0.7, #Should be less common than Aurora
+            "BSC_Kingpin": 0.7, #Should be less common than Shrike
+            "BSC_Timberwolf": 0.5, #Shouldn't replace Wolf
+        },
+    },
+},

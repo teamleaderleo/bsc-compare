@@ -1,0 +1,25 @@
+{
+    "variantId": "BSC_Buffalo_Mk3_A_Standard",
+    "hullId": "BSC_Buffalo_Mk3_A",
+    "displayName": "标准",
+    "goalVariant": true,
+    "fluxCapacitors": 10,
+    "fluxVents": 9,
+    "quality": 1,
+    "permaMods": [],
+    "hullMods": [],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lrpdlaser",
+            },
+        },
+    ],
+    "modules": [],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing",
+    ],
+}

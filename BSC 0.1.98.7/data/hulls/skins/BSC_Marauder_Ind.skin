@@ -1,0 +1,14 @@
+{
+    "baseHullId": "BSC_Marauder",
+    "baseValueMult": 1,
+    "descriptionId": "BSC_Marauder",
+    "descriptionPrefix": "非势力团体们偶尔会俘虏或回收海盗们的 掠夺者-级 驱逐舰并将其改装，以用于打捞或佣兵行动。尽管系统方面的改造相当小，但海盗风格涂装已被清除干净，显示出这是一种融合了主宰纪元和核心纪元特点的过渡型舰船。",
+    "hullName": "掠夺者(改)",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Marauder_Ind",
+    "spriteName": "graphics/hulls/BSC_Marauder_Ind.png",
+    "tags": [
+        "rare_bp"
+    ],
+    "tech": "改装舰船"
+}

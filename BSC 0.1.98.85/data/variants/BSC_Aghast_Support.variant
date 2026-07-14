@@ -1,0 +1,58 @@
+{
+  "variantId": "BSC_Aghast_Support",
+  "hullId": "BSC_Aghast",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ionbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gazerpod",
+        "WS0002": "gazerpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "gazer",
+        "WS0007": "gazer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "taclaser",
+        "WS0005": "taclaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "gladius_wing"
+  ]
+}

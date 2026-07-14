@@ -1,0 +1,49 @@
+{
+  "variantId": "BSC_Shalloch_Beamer",
+  "hullId": "BSC_Shalloch",
+  "displayName": "Beamer",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0002": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ionbeam",
+        "WS0004": "ionbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "taclaser",
+        "WS0006": "taclaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

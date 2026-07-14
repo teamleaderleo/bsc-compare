@@ -1,0 +1,17 @@
+{
+  "baseHullId": "BSC_Timberwolf",
+  "baseValueMult": 0.8,
+  "descriptionId": "BSC_Timberwolf",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"ordnancePoints":50,
+  "hullName": "Timberwolf (P)",
+  	"suppliesToRecover":5,
+	"suppliesPerMonth":5,
+  "restoreToBaseHull": false,
+  "skinHullId": "BSC_Timberwolf_P",
+  "spriteName": "graphics/hulls/BSC_Timberwolf_P.png",
+	"tags":["rare_bp", "pirates"],
+	"tech":"Pirate",
+    "systemId":"displacer_degraded",
+    "removeWeaponSlots":["WS0005", "WS0006"], 
+}

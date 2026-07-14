@@ -1,0 +1,80 @@
+{
+  "hullName": "Tramp MK.II",
+  "hullId": "BSC_Tramp_MK2",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/BSC_Tramp_MK2.png",
+  "style": "LOW_TECH",
+  "height": 98,
+  "width": 71,
+  "center": [35, 43],
+  "collisionRadius": 87,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 81.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [8, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [38, -0],
+      "renderOrderMod": -100
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -90,
+      "locations": [6, -22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-15, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43, -0],
+      "length": 50,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -36, -11,
+    -11, -15,
+    -2, -30,
+    13, -30,
+    21, -21,
+    39, -15,
+    39, 15,
+    24, 23,
+    17.5, 32,
+    2, 32,
+    0, 16,
+    -36, 11
+  ]
+}

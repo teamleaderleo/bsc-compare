@@ -1,0 +1,151 @@
+{
+  "hullName": "Cumulus",
+  "hullId": "BSC_Cumulus",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/BSC_Cumulus.png",
+  "style": "HIGH_TECH",
+  "height": 167,
+  "width": 87,
+  "center": [43, 73],
+  "collisionRadius": 121,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 118.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [54, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [73, 4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [42, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [20, -9]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 180,
+      "locations": [-37, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 135,
+      "locations": [-64, 21.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -135,
+      "locations": [-64, -21.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-70, 4],
+      "length": 35,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70, -4],
+      "length": 35,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70, -11],
+      "length": 30,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70, 11],
+      "length": 30,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68, -18],
+      "length": 28,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68, 18],
+      "length": 28,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -67, -18,
+    -50, -35,
+    -31, -35,
+    -19, -21,
+    -4, -21,
+    11, -36,
+    29, -36,
+    46.5, -31,
+    71, 4,
+    58, 28,
+    29, 36,
+    11, 36,
+    -4, 21,
+    -19, 21,
+    -31, 35,
+    -50, 35,
+    -67, 18
+  ]
+}

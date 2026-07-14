@@ -1,0 +1,30 @@
+{
+    "knownShips":{
+		"hulls":[
+			"BSC_Terringzean",
+            "BSC_Lockout",
+            "BSC_Roamer",
+            "BSC_Baldric",
+            "BSC_Baldric_MK2",
+            "BSC_Constable",
+            "BSC_Covetor",
+            "BSC_Ruswall",
+		],
+	},
+            "hullFrequency":{
+        "hulls":{
+            "BSC_Terringzean":0.3, #Should be rare
+            "BSC_Baldric_MK2": 0.5, #Don't want it to be too common
+            "BSC_Constable": 0.5, #Don't want it to be too common
+            "BSC_Ruswall": 0.5, #Don't want it to be too common
+        },
+    },
+    	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"BSC_Terringzean_Church":5,
+        "BSC_Covetor_Mining":4,
+        "BSC_Lockout_Standard":4,
+        "BSC_Roamer_Standard":4,
+	}, 
+},
+

@@ -1,0 +1,40 @@
+{
+  "variantId": "BSC_Strix_DEM",
+  "hullId": "BSC_Strix",
+  "displayName": "DEM",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gorgonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "irautolance",
+        "WS0003": "irautolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

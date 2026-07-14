@@ -1,0 +1,59 @@
+{
+    "variantId": "BSC_Roamer_Basic",
+    "hullId": "BSC_Roamer",
+    "displayName": "基础",
+    "goalVariant": true,
+    "fluxCapacitors": 20,
+    "fluxVents": 19,
+    "quality": 1,
+    "permaMods": [],
+    "hullMods": [
+        "reinforcedhull",
+        "blast_doors",
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "arbalest",
+                "WS0002": "arbalest",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "lightmortar",
+                "WS0007": "lightmortar",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "swarmer",
+                "WS0005": "swarmer",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "harpoon",
+                "WS0009": "harpoon",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "flak",
+            },
+        },
+    ],
+    "modules": [],
+    "wings": [
+        "talon_wing",
+    ],
+}
