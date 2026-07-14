@@ -1,7 +1,7 @@
 {
     "variantId": "BSC_Overseer_Combat",
     "hullId": "BSC_Overseer",
-    "displayName": "作战",
+    "displayName": "Combat",
     "goalVariant": true,
     "fluxCapacitors": 30,
     "fluxVents": 28,

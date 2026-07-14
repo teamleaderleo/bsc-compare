@@ -2,7 +2,7 @@ id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,att
 BSC_Bitzer_Drone_wing,BSC_Bitzer_Drone,"no_drop, no_sell, low",0,,1,0,BOX,0,200,,2,SUPPORT,Point Defense,10,2000,,
 BSC_Talon_Solo_wing,talon_Interceptor,"no_drop, no_sell, low",0,,1,0,V,0,200,600,1,INTERCEPTOR,Dedicated Interceptor,5,500,,
 BSC_Sturgeon_wing,BSC_Sturgeon_Bomber,"bomber5, bomber, low, rare_bp, merc",2,,5,14,V,4000,1200,300,1,BOMBER,Bomber,18,8000,,
-BSC_Bitzer_Drone_wing_six,BSC_Bitzer_Drone,"no_drop, no_sell, low",0,,1,0,BOX,,200,,6,SUPPORT,点防御战机,10,2000,,
+BSC_Bitzer_Drone_wing_six,BSC_Bitzer_Drone,"no_drop, no_sell, low",0,,1,0,BOX,,200,,6,SUPPORT,Point Defense,10,2000,,
 BSC_Stobo_wing,BSC_Stobo_Standard,"fighter5, fighter, low, rare_bp, hegemony, persean, ind ,merc",2,,8,12,V,4000,500,600,3,FIGHTER,Heavy Fighter,10,10000,,55
 ,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,

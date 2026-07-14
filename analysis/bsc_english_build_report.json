@@ -1814,9 +1814,10 @@
   "totals": {
     "files_processed": 185,
     "strings_replaced": 463,
-    "unresolved_entries": 7
+    "unresolved_entries": 0
   },
-  "remaining_cjk_files": [
+  "remaining_cjk_files": [],
+  "pre_manual_remaining_cjk_files": [
     {
       "path": "data/hulls/ship_data.csv",
       "cjk_chars": 11,
@@ -1842,5 +1843,12 @@
       "cjk_chars": 2,
       "excerpt": "{\r\\n    \"variantId\": \"BSC_Overseer_Support\",\r\\n    \"hullId\": \"BSC_Overseer\",\r\\n    \"displayName\": \"支援\",\r\\n    \"goalVariant\": true,\r\\n    \"fluxCapacitors\": 26,\r\\n    \"fluxVents\": 20,\r\\n    \"quality\": 1,\r\\n    \"permaMods\": [],\r\\n    \"hullMods\": [\r\\n        \"dedicated_targeting_core\",\r\\n        \"converted_hangar\",\r\\n        \"eccm\",\r\\n    ],\r\\n    \"weaponGroups\": [\r\\n        {\r\\n            \"autofire\": false,\r\\n  "
     }
-  ]
+  ],
+  "manual_overrides": [
+    "BSC_Overseer ship name/designation/manufacturer",
+    "BSC_Overseer English description",
+    "BSC_Overseer Combat and Support variant display names",
+    "BSC_Bitzer_Drone_wing_six role description"
+  ],
+  "final_status": "clean: zero CJK characters in mod text files"
 }

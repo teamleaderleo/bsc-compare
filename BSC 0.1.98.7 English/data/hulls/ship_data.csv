@@ -51,7 +51,7 @@ Haven,BSC_Haven,Drone Tender,Low Tech,maneuveringjets,8,3500,400,3000,3000,180,7
 Sturgeon,BSC_Sturgeon,,Low Tech,flarelauncher,,900,200,400,,100,0,,150,200,200,40,120,60,NONE,,0,0,0,,,4,4,,,,,,,,,,,,,,,,,,,,,,0,,,,
 Buzzard,BSC_Buzzard,Cruiser,Midline,maneuveringjets,13,7000,850,9500,9000,550,145,,70,60,40,20,25,900,FRONT,,180,0.4,0.8,,,120,200,120,100,3,33,9,90000,4,12,480,0.25,18,18,,,,,,,,"midline_bp, merc, ind",,0.5,2,3,,
 Hedgehog,BSC_Hedgehog,Converted Liner,Low Tech,maneuveringjets,3,1400,200,1500,1500,100,35,,110,80,50,45,60,200,FRONT,,90,0.5,1.2,,,10,15,10,10,1,30,9,6000,5,20,180,0.25,2,2,,,,,,,,"base_bp, ind",,0.5,2,2,,
-督工,BSC_Overseer,指挥巡洋舰,主宰纪元,BSC_Recharging_Flarelauncher,16,12000,1200,9000,8000,450,180,1,55,40,30,20,20,2100,OMNI,,150,0.4,1,,,160,250,150,150,4,37,9,120000,4,12,540,0.25,25,25,,,,,,,,"rare_bp, merc",,0.3,2,3,,
+Overseer,BSC_Overseer,Command Cruiser,Domain Era,BSC_Recharging_Flarelauncher,16,12000,1200,9000,8000,450,180,1,55,40,30,20,20,2100,OMNI,,150,0.4,1,,,160,250,150,150,4,37,9,120000,4,12,540,0.25,25,25,,,,,,,,"rare_bp, merc",,0.3,2,3,,
 Ruswall,BSC_Ruswall,Missile Cruiser,Low Tech,fastmissileracks,12,8000,1000,8000,8000,350,120,,60,60,30,20,25,1200,FRONT,,120,0.4,1,,,100,150,100,90,3,35,9,85000,4,12,480,0.25,17,17,,,,,,,,"rare_bp, ind",,0.3,2,3,,
 Stobo,BSC_Stobo,,Midline,flarelauncher_fighter,,800,100,100,,10,0,,200,380,340,85,180,40,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,,,,0,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,7 +1,7 @@
 {
     "variantId": "BSC_Overseer_Support",
     "hullId": "BSC_Overseer",
-    "displayName": "支援",
+    "displayName": "Support",
     "goalVariant": true,
     "fluxCapacitors": 26,
     "fluxVents": 20,
