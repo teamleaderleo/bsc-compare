@@ -1,0 +1,157 @@
+{
+  "hullName": "Hammerhead MK.II",
+  "hullId": "BSC_Hammerhead_MK2",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/BSC_Hammerhead_P.png",
+  "style": "MIDLINE",
+  "coversColor": "255,255,255,255",
+  "height": 169,
+  "width": 108,
+  "center": [54, 71],
+  "collisionRadius": 130,
+  "shieldCenter": [7, -0],
+  "shieldRadius": 120,
+  "viewOffset": 0,
+  "builtInMods": [
+    "unstable_injector"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [91, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [83, -31]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [83, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 45,
+      "locations": [56, 16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -45,
+      "locations": [56, -16]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 245,
+      "locations": [-17, -39]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 115,
+      "locations": [-17, 39]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-70, 38],
+      "length": 75,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 80,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-69, 27],
+      "length": 65,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 60,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-68, 15],
+      "length": 55,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 80,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-68, -15],
+      "length": 55,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 80,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-69, -26],
+      "length": 65,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 80,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-70, -38],
+      "length": 75,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 80,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    44, 16,
+    56.5, 50,
+    71, 49,
+    78, 39,
+    87, 0,
+    78, -39,
+    71, -49,
+    56, -49,
+    44, -16,
+    12, -13,
+    12, -31,
+    -14, -52,
+    -42.5, -39,
+    -66, -42,
+    -64, -9,
+    -32, -0,
+    -64, 9,
+    -66, 42,
+    -41.5, 41,
+    -14, 52,
+    12, 31,
+    12, 13
+  ]
+}

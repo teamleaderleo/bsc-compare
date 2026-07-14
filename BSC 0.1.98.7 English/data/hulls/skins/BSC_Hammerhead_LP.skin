@@ -1,0 +1,19 @@
+{
+    "baseHullId": "hammerhead",
+    "baseValueMult": 1,
+    "builtInMods": [
+        "safetyoverrides",
+        "ill_advised"
+    ],
+    "descriptionId": "hammerhead",
+    "descriptionPrefix": "Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war.",
+    "hullName": "Hammerhead (LP)",
+    "manufacturer": "Luddic Path",
+    "restoreToBaseHull": false,
+    "skinHullId": "BSC_Hammerhead_LP",
+    "spriteName": "graphics/hulls/BSC_Hammerhead_LP.png",
+    "tags": [
+        "LP_bp"
+    ],
+    "tech": "Luddic Path"
+}

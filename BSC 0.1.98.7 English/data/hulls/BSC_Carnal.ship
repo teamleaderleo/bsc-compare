@@ -1,0 +1,109 @@
+{
+  "hullName": "Carnal",
+  "hullId": "BSC_Carnal",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/BSC_Carnal.png",
+  "style": "LOW_TECH",
+  "height": 98,
+  "width": 118,
+  "center": [59, 48],
+  "collisionRadius": 86,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 84.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-8, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [44, 16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [44, -16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [0, 27]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [0, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48, 7],
+      "length": 46,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48, -7],
+      "length": 46,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48, 21],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48, -21],
+      "length": 40,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -47, -23,
+    -16, -48,
+    -13, -55,
+    6, -55,
+    32, -25,
+    45, -19,
+    45, 19,
+    32, 25,
+    6, 55,
+    -13, 55,
+    -16, 48,
+    -47, 23
+  ]
+}

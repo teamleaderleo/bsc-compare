@@ -1,0 +1,6 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,IsPhaseCloak,tags,icon
+Heavy EMP Emitter,BSC_heavyemp,1.5,,,,,0.3,,,,0.7,4,0.7,5,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+Phase Disruptor,BSC_anti_phase,,,,,,0.25,,3,0.05,0.5,,1,,,,,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
+Point Defense Drones,BSC_drone_pd,,,,,,,,8,0.2,0,,0,0,,,,,,,,,,,,,graphics/icons/shipsystems/drone_pd_high.png
+Boosted Energy Feed,BSC_Energyaaf,,,,,,,,,,1,5,1,10,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Flare Launcher,BSC_Recharging_Flarelauncher,,,,,0.1,,,,,,,,5,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png

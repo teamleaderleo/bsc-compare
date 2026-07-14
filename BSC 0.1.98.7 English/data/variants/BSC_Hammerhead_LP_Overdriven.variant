@@ -1,0 +1,44 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "BSC_Hammerhead_LP",
+    "hullMods": [
+        "fluxdistributor",
+    ],
+    "permaMods": [],
+    "variantId": "BSC_Hammerhead_LP_Overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "chaingun",
+            },
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "hammer",
+                "WS 004": "hammer",
+            },
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "heavymg",
+            },
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightdualmg",
+                "WS 006": "lightdualmg",
+            },
+        },
+    ],
+}

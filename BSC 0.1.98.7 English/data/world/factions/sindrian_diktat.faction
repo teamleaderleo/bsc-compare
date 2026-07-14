@@ -1,0 +1,19 @@
+{
+        "knownShips":{
+        "hulls":[
+            "BSC_Aghast",
+            "BSC_Baldric",
+            "BSC_Cassina",
+        ],
+    },
+    # variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+        "BSC_Cassina_Armoured":5,
+	},
+        "hullFrequency":{
+        "hulls":{
+        "BSC_Aghast": 0.3, #Should be quite rare
+        "BSC_Cassina": 0.4, #Should be rare
+        },
+    },
+},

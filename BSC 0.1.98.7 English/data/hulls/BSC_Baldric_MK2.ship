@@ -1,0 +1,176 @@
+{
+  "hullName": "Baldric MK.II",
+  "hullId": "BSC_Baldric_MK2",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/BSC_Baldric_mk2.png",
+  "style": "LOW_TECH",
+  "height": 268,
+  "width": 120,
+  "center": [50, 126],
+  "collisionRadius": 213,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 200,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 0,
+      "locations": [125, -6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-77, -51]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-78, -4]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -65,
+      "locations": [106, -32]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [69, -27]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [29, -26]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [-2, -30]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [22, 34]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [41, 28]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-26, 38]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 90,
+      "locations": [106, 8]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -140,
+      "locations": [-87, -30]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 140,
+      "locations": [-87, 30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-125.5, -14.5],
+      "length": 52,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-125.5, 6.5],
+      "length": 52,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -119, -26,
+    -98.5, -32,
+    -86.5, -39,
+    -77, -54,
+    -72, -39,
+    -41.5, -39.5,
+    -39, -29,
+    84, -28.5,
+    90.5, -38,
+    130, -38.5,
+    138.5, -33,
+    138.5, 19,
+    130.5, 29,
+    117.5, 25.5,
+    35, 26,
+    26, 33.5,
+    -9, 28,
+    -65, 28,
+    -96, 26.5,
+    -118.5, 16.5
+  ]
+}

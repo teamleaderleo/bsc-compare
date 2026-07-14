@@ -1,0 +1,86 @@
+{
+  "hullName": "Sturgeon",
+  "hullId": "BSC_Sturgeon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/fighters/BSC_Sturgeon.png",
+  "style": "LOW_TECH",
+  "height": 39,
+  "width": 56,
+  "center": [28, 19],
+  "collisionRadius": 40,
+  "shieldCenter": [-3, -0],
+  "shieldRadius": 40.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [1, -6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 180,
+      "locations": [-6, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-17, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, -9],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-19, 9],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-19, -2],
+      "length": 24,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-19, 2],
+      "length": 24,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    8, -18,
+    8, 18,
+    -9, 28,
+    -9, 15.5,
+    -17, 0,
+    -9, -15.5,
+    -9, -28
+  ]
+}

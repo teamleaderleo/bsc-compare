@@ -1,0 +1,132 @@
+{
+  "hullName": "Hartfell",
+  "hullId": "BSC_Hartfell",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/BSC_Hartfell.png",
+  "style": "MIDLINE",
+  "height": 107,
+  "width": 106,
+  "center": [53, 46],
+  "collisionRadius": 79,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 76.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [47, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -45,
+      "locations": [-5, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 45,
+      "locations": [-5, 29]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [17, -24]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [17, 24]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-18, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44, 0],
+      "length": 42,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-45, 11],
+      "length": 36,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-45, -11],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, 43],
+      "length": 18.031223,
+      "width": 6.363961,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, -43],
+      "length": 18.031223,
+      "width": 6.363961,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -42, -17,
+    -25, -27,
+    -24, -44,
+    -15, -46,
+    -11, -51,
+    -5, -51,
+    15, -31,
+    16, -19,
+    54, -10,
+    54, 10,
+    16, 21,
+    15, 31,
+    -5, 51,
+    -11, 51,
+    -15, 46,
+    -24, 44,
+    -25, 27,
+    -42, 17
+  ]
+}

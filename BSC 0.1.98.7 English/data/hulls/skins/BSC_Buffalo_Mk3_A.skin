@@ -1,0 +1,16 @@
+{
+    "baseHullId": "BSC_Buffalo_Mk3",
+    "baseValueMult": 1.5,
+    "builtInMods": [
+        "militarized_subsystems"
+    ],
+    "descriptionId": "BSC_Buffalo_Mk3",
+    "descriptionPrefix": "This Buffalo MKIII has been placed on the Hegemony Auxillary List and its systems have been upgraded to military standards.",
+    "hullName": "Buffalo MKIII (A)",
+    "skinHullId": "BSC_Buffalo_Mk3_A",
+    "spriteName": "graphics/hulls/BSC_Buffalo_MkIII_A.png",
+    "tags": [
+        "heg_aux_bp"
+    ],
+    "tech": "Hegemony"
+}

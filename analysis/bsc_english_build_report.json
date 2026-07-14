@@ -1,0 +1,1846 @@
+{
+  "old_root": "BSC 0.1.98.7",
+  "new_root": "BSC 0.1.98.85",
+  "archive_root": "/tmp/bsc-archive/BigBeans Ship Compilation",
+  "output_root": "BSC 0.1.98.7 English",
+  "files": [
+    {
+      "path": "data/hulls/ship_data.csv",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/ship_data.csv",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/ship_data.csv"
+      ],
+      "method": "csv-cell",
+      "replacements": 156,
+      "unresolved": [
+        "row=('BSC_Overseer',) column=name: 督工",
+        "row=('BSC_Overseer',) column=designation: 指挥巡洋舰",
+        "row=('BSC_Overseer',) column=tech/manufacturer: 主宰纪元"
+      ]
+    },
+    {
+      "path": "data/hulls/skins/BSC_Aghast_LG.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Aghast_LG.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Bitzer_H.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Bitzer_H.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Bitzer_H.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Bitzer_LP.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Bitzer_LP.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Bitzer_LP.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Buffalo_Mk3_A.skin",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Buffalo_Mk3_A.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Carnal_XIV.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Carnal_XIV.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Carnal_XIV.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Cassina_LG.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Cassina_LG.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Cassina_LG.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Covetor_LP.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Covetor_LP.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Covetor_LP.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Covetor_P.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Covetor_P.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Covetor_P.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Hammerhead_LP.skin",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Hammerhead_LP.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Hartfell_LG.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Hartfell_LG.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Hartfell_LG.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Hartfell_P.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Hartfell_P.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Hartfell_P.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Lockout_P.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Lockout_P.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Lockout_P.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Maraka_XIV.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Maraka_XIV.skin",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Maraka_XIV.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Marauder_Ind.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Marauder_Ind.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Roamer_P.skin",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/skins/BSC_Roamer_P.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Ruswall_P.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Ruswall_P.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Timberwolf_H.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Timberwolf_H.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/skins/BSC_Timberwolf_P.skin",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/skins/BSC_Timberwolf_P.skin"
+      ],
+      "method": "keyed-string",
+      "replacements": 3,
+      "unresolved": []
+    },
+    {
+      "path": "data/hulls/wing_data.csv",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/hulls/wing_data.csv",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/hulls/wing_data.csv"
+      ],
+      "method": "csv-cell",
+      "replacements": 4,
+      "unresolved": [
+        "row=('BSC_Bitzer_Drone_wing_six',) column=role desc: 点防御战机"
+      ]
+    },
+    {
+      "path": "data/shipsystems/ship_systems.csv",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/shipsystems/ship_systems.csv",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/shipsystems/ship_systems.csv"
+      ],
+      "method": "csv-cell",
+      "replacements": 5,
+      "unresolved": []
+    },
+    {
+      "path": "data/strings/descriptions.csv",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/strings/descriptions.csv",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/strings/descriptions.csv"
+      ],
+      "method": "csv-cell",
+      "replacements": 71,
+      "unresolved": [
+        "row=('BSC_Overseer', 'SHIP') column=text1: 督工-级 是 人之领 要求建造的一款指挥巡洋舰，用于在无需部署主力舰的情况下，充当小型舰队的旗舰。基于这一要求，督工-级 拥有比寻常舰船更大的舰桥，并配备了扮演这一定位所需的指挥与控制设施。作为指挥舰，督工-级 无论在进攻端还是防御端都具有相当精良的武备，使其既能直接投入前线战斗，也能为其他友军提供支援。作为一种相对罕见的舰船，只有 霸主 或较为富裕的雇佣兵团才会偶尔使用该类战舰。"
+      ]
+    },
+    {
+      "path": "data/variants/BSC_Accipiter_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Accipiter_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Accipiter_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Accipiter_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Accipiter_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Accipiter_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Accipiter_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Accipiter_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Accipiter_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Adventurer_Combat.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Adventurer_Combat.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Adventurer_Combat.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Adventurer_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Adventurer_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Adventurer_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Aghast_LG_Elite.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Aghast_LG_Elite.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Aghast_LG_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Aghast_LG_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Aghast_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Aghast_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Aghast_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Aghast_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Aghast_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Aghast_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Aghast_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Aghast_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Aghast_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Baldric_MK2_Barrage.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Baldric_MK2_Barrage.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Baldric_MK2_FS.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Baldric_MK2_FS.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Baldric_MK2_FS.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Baldric_MK2_Overridden.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Baldric_MK2_Overridden.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Baldric_MK2_Overridden.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Baldric_MK2_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Baldric_MK2_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Baldric_MK2_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Baldric_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Baldric_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Baldric_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bitzer_Drone.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bitzer_Drone.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bitzer_Drone.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bitzer_H_Shielded.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bitzer_H_Shielded.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bitzer_H_Shielded.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bitzer_LP_Overridden.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bitzer_LP_Overridden.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bitzer_LP_Overridden.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bitzer_Overridden.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bitzer_Overridden.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bitzer_Overridden.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bitzer_P_Shielded.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bitzer_P_Shielded.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bitzer_P_Shielded.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bitzer_P_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bitzer_P_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bitzer_P_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bitzer_Shielded.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bitzer_Shielded.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bitzer_Shielded.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bitzer_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bitzer_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bitzer_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Boggart_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Boggart_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Boggart_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Boggart_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Boggart_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Boggart_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Boggart_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Boggart_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Boggart_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bogle_Escort.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bogle_Escort.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bogle_Escort.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bogle_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bogle_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bogle_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bogle_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bogle_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bogle_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Bogle_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Bogle_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Bogle_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Brigand_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Brigand_Assault.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Brigand_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Brigand_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Brigand_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Brigand_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Brigantine_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Brigantine_Assault.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Brigantine_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Brigantine_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Brigantine_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Brigantine_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Brigantine_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Brigantine_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Brigantine_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Buffalo_Mk3_A_Standard.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Buffalo_Mk3_A_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Buffalo_Mk3_A_Support.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Buffalo_Mk3_A_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Buffalo_Mk3_Standard.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Buffalo_Mk3_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Buffalo_Mk3_Support.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Buffalo_Mk3_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Buzzard_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Buzzard_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Buzzard_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Buzzard_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Buzzard_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Buzzard_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Carnal_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Carnal_Assault.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Carnal_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Carnal_Escort.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Carnal_Escort.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Carnal_Escort.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Carnal_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Carnal_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Carnal_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Carnal_XIV_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Carnal_XIV_Assault.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Carnal_XIV_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Carnal_XIV_Elite.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Carnal_XIV_Elite.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Carnal_XIV_Elite.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Carnyx_Drone.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Carnyx_Drone.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Carnyx_Drone.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Carnyx_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Carnyx_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Carnyx_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Carnyx_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Carnyx_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Carnyx_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Cassina_Armoured.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Cassina_Armoured.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Cassina_Armoured.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Cassina_LG_Elite.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Cassina_LG_Elite.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Cassina_LG_Elite.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Cassina_LG_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Cassina_LG_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Cassina_LG_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Cassina_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Cassina_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Cassina_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Cassina_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Cassina_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Cassina_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Chrysaor_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Chrysaor_Assault.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Chrysaor_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Chrysaor_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Chrysaor_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Chrysaor_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Chrysaor_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Chrysaor_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Chrysaor_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Constable_Attack.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Constable_Attack.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Constable_Attack.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Constable_P_Attack.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Constable_P_Attack.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Constable_P_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Constable_P_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Constable_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Constable_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Constable_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Covetor_LP_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Covetor_LP_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Covetor_LP_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Covetor_Mining.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Covetor_Mining.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Covetor_Mining.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Covetor_P_Basic.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Covetor_P_Basic.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Covetor_P_Basic.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Covetor_P_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Covetor_P_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Covetor_P_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Covetor_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Covetor_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Covetor_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Covetor_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Covetor_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Covetor_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Covetor_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Covetor_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Cumulus_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Cumulus_Assault.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Cumulus_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Cumulus_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Cumulus_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Cumulus_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Cumulus_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Cumulus_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Cumulus_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Drone_PD_Laser.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Drone_PD_Laser.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Drone_PD_Laser.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Drudge_Standard.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Drudge_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Drudge_Support.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Drudge_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Gallivanter_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Gallivanter_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Gallivanter_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Gallivanter_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Gallivanter_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Gallivanter_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Gallivanter_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Gallivanter_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Gallivanter_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hammerhead_LP_Overdriven.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hammerhead_LP_Overdriven.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hammerhead_MK2_Raider.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hammerhead_MK2_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hammerhead_MK2_Standard.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hammerhead_MK2_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hammerhead_MK2_Support.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hammerhead_MK2_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hartfell_Attack.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hartfell_Attack.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hartfell_Attack.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hartfell_LG_Elite.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hartfell_LG_Elite.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hartfell_LG_Elite.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hartfell_LG_Pulser.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hartfell_LG_Pulser.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hartfell_LG_Pulser.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hartfell_P_Mortar.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hartfell_P_Mortar.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hartfell_P_Mortar.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hartfell_P_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hartfell_P_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hartfell_P_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hartfell_Pulser.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hartfell_Pulser.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hartfell_Pulser.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hartfell_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hartfell_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hartfell_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hartfell_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hartfell_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Hartfell_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Haven_Frontier.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Haven_Frontier.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hedgehog_Combat.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hedgehog_Combat.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Hedgehog_Escort.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Hedgehog_Escort.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Killskipper_Attack.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Killskipper_Attack.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Killskipper_Attack.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Killskipper_Basic.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Killskipper_Basic.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Killskipper_Basic.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Killskipper_Overridden.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Killskipper_Overridden.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Killskipper_Overridden.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Kingpin_Overridden.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Kingpin_Overridden.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Kingpin_Overridden.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Kingpin_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Kingpin_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Kingpin_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Kingpin_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Kingpin_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Kingpin_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Lockout_Basic.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Lockout_Basic.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Lockout_Combat.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Lockout_Combat.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Lockout_Combat.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Lockout_Escort.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Lockout_Escort.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Lockout_Escort.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Lockout_LP_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Lockout_LP_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Lockout_LP_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Lockout_P_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Lockout_P_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Lockout_P_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Lockout_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Lockout_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Maraka_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Maraka_Assault.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Maraka_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Maraka_LP_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Maraka_LP_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Maraka_LP_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Maraka_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Maraka_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Maraka_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Maraka_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Maraka_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Maraka_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Maraka_XIV_Elite.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Maraka_XIV_Elite.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Maraka_XIV_Elite.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Maraka_XIV_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Maraka_XIV_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Maraka_XIV_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Marauder_Ind_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Marauder_Ind_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Marauder_Ind_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Marauder_Ind_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Marauder_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Marauder_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Marauder_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Marauder_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Marauder_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Marauder_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Marauder_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Marauder_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Marauder_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Mudskipper_MK3_Standard.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Mudskipper_MK3_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Nadir_Combat.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Nadir_Combat.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Nadir_Combat.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Nadir_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Nadir_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Nadir_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Nebula_MK2_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Nebula_MK2_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Nebula_MK2_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Nebula_MK2_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Nebula_MK2_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Nebula_MK2_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Overseer_Combat.variant",
+      "sources": [],
+      "method": "keyed-string",
+      "replacements": 0,
+      "unresolved": [
+        "key=displayName occurrence=0: 作战"
+      ]
+    },
+    {
+      "path": "data/variants/BSC_Overseer_Support.variant",
+      "sources": [],
+      "method": "keyed-string",
+      "replacements": 0,
+      "unresolved": [
+        "key=displayName occurrence=0: 支援"
+      ]
+    },
+    {
+      "path": "data/variants/BSC_Preybird_LP_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Preybird_LP_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Preybird_LP_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Preybird_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Preybird_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Preybird_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Preybird_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Preybird_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Preybird_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Roamer_Basic.variant",
+      "sources": [
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Roamer_Basic.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Roamer_LP_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Roamer_LP_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Roamer_LP_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Roamer_P_FS.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Roamer_P_FS.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Roamer_P_FS.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Roamer_P_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Roamer_P_Raider.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Roamer_P_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Roamer_Raider.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Roamer_Raider.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Roamer_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Roamer_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Roamer_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Roamer_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Roamer_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Roamer_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Ruswall_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Ruswall_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Ruswall_P_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Ruswall_P_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Ruswall_P_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Ruswall_P_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Ruswall_P_variant.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Ruswall_P_variant.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Ruswall_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Ruswall_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Ruswall_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Ruswall_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Ruswall_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Ruswall_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Shalloch_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Shalloch_Assault.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Shalloch_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Shalloch_Beamer.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Shalloch_Beamer.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Shalloch_Beamer.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Shalloch_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Shalloch_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Shalloch_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Starliner_MK2_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Starliner_MK2_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Starliner_MK2_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Starliner_MK2_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Starliner_MK2_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Starliner_MK2_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Stobo_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Stobo_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Sturgeon_Bomber.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Sturgeon_Bomber.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Terringzean_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Terringzean_Assault.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Terringzean_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Terringzean_Church.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Terringzean_Church.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Terringzean_Church.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Terringzean_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Terringzean_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Terringzean_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Threave_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Threave_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Threave_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Threave_Strike.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Threave_Strike.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Threave_Strike.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Threave_Support.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Threave_Support.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Threave_Support.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Timberwolf_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Timberwolf_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Timberwolf_H_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Timberwolf_H_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Timberwolf_P_Assault.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Timberwolf_P_Assault.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Timberwolf_Pulser.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Timberwolf_Pulser.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Tramp_MK2_Shielded.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Tramp_MK2_Shielded.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Tramp_MK2_Shielded.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Tramp_MK2_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Tramp_MK2_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Tramp_MK2_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Tramp_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Tramp_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Tramp_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/variants/BSC_Tungustan_Standard.variant",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/variants/BSC_Tungustan_Standard.variant",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/variants/BSC_Tungustan_Standard.variant"
+      ],
+      "method": "keyed-string",
+      "replacements": 1,
+      "unresolved": []
+    },
+    {
+      "path": "data/weapons/weapon_data.csv",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/data/weapons/weapon_data.csv",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/data/weapons/weapon_data.csv"
+      ],
+      "method": "csv-cell",
+      "replacements": 12,
+      "unresolved": []
+    },
+    {
+      "path": "mod_info.json",
+      "sources": [
+        "/home/runner/work/bsc-compare/bsc-compare/BSC 0.1.98.85/mod_info.json",
+        "/tmp/bsc-archive/BigBeans Ship Compilation/mod_info.json"
+      ],
+      "method": "keyed-string",
+      "replacements": 2,
+      "unresolved": []
+    }
+  ],
+  "totals": {
+    "files_processed": 185,
+    "strings_replaced": 463,
+    "unresolved_entries": 7
+  },
+  "remaining_cjk_files": [
+    {
+      "path": "data/hulls/ship_data.csv",
+      "cjk_chars": 11,
+      "excerpt": "200,FRONT,,90,0.5,1.2,,,10,15,10,10,1,30,9,6000,5,20,180,0.25,2,2,,,,,,,,\"base_bp, ind\",,0.5,2,2,,\r\\n督工,BSC_Overseer,指挥巡洋舰,主宰纪元,BSC_Recharging_Flarelauncher,16,12000,1200,9000,8000,450,180,1,55,40,30,20,20,2100,OMNI,,150,0.4,1,,,160,250,150,150,4,37,9,120000,4,12,540,0.25,25,25,,,,,,,,\"rare_bp, merc\",,0.3,2,3,,\r\\nRuswall,BSC_Ruswall,Missile Cruiser,Low Tech,fastmissileracks,12,8000,1000,8000,8000,35"
+    },
+    {
+      "path": "data/hulls/wing_data.csv",
+      "cjk_chars": 5,
+      "excerpt": "00,,\r\\nBSC_Bitzer_Drone_wing_six,BSC_Bitzer_Drone,\"no_drop, no_sell, low\",0,,1,0,BOX,,200,,6,SUPPORT,点防御战机,10,2000,,\r\\nBSC_Stobo_wing,BSC_Stobo_Standard,\"fighter5, fighter, low, rare_bp, hegemony, persean, ind ,merc\",2,,8,12,V,4000,500,600,3,FIGHTER,Heavy Fighter,10,10000,,55\r\\n,,,,,,,,,,,,,,,,,\r\\n,,,,,,,,,,,,,,,,,\r\\n,,,,,,,,,,,,,,,,,\r\\n,,,,,,,,,,,,,,,,,\r\\n,,,,,,,,,,,,,,,,,\r\\n,,,,,,,,,,,,,,,,,\r\\n,,,,,,,,,,"
+    },
+    {
+      "path": "data/strings/descriptions.csv",
+      "cjk_chars": 170,
+      "excerpt": " a variety of different groups even if its combat specifications are subpar.\",,,\r\\nBSC_Overseer,SHIP,督工-级 是 人之领 要求建造的一款指挥巡洋舰，用于在无需部署主力舰的情况下，充当小型舰队的旗舰。基于这一要求，督工-级 拥有比寻常舰船更大的舰桥，并配备了扮演这一定位所需的指挥与控制设施。作为指挥舰，督工-级 无论在进攻端还是防御端都具有相当精良的武备，使其既能直接投入前线战斗，也能为其他友军提供支援。作为一种相对罕见的舰船，只有 霸主 或较为富裕的雇佣兵团才会偶尔使用该类战舰。,,,\r\\nBSC_Recharging_Flarelauncher,SHIP_SYSTEM,An otherwise standard flare launcher system equipped with a sm"
+    },
+    {
+      "path": "data/variants/BSC_Overseer_Combat.variant",
+      "cjk_chars": 2,
+      "excerpt": "{\r\\n    \"variantId\": \"BSC_Overseer_Combat\",\r\\n    \"hullId\": \"BSC_Overseer\",\r\\n    \"displayName\": \"作战\",\r\\n    \"goalVariant\": true,\r\\n    \"fluxCapacitors\": 30,\r\\n    \"fluxVents\": 28,\r\\n    \"quality\": 1,\r\\n    \"permaMods\": [],\r\\n    \"hullMods\": [\r\\n        \"dedicated_targeting_core\",\r\\n        \"armoredweapons\",\r\\n        \"blast_doors\",\r\\n    ],\r\\n    \"weaponGroups\": [\r\\n        {\r\\n            \"autofire\": false"
+    },
+    {
+      "path": "data/variants/BSC_Overseer_Support.variant",
+      "cjk_chars": 2,
+      "excerpt": "{\r\\n    \"variantId\": \"BSC_Overseer_Support\",\r\\n    \"hullId\": \"BSC_Overseer\",\r\\n    \"displayName\": \"支援\",\r\\n    \"goalVariant\": true,\r\\n    \"fluxCapacitors\": 26,\r\\n    \"fluxVents\": 20,\r\\n    \"quality\": 1,\r\\n    \"permaMods\": [],\r\\n    \"hullMods\": [\r\\n        \"dedicated_targeting_core\",\r\\n        \"converted_hangar\",\r\\n        \"eccm\",\r\\n    ],\r\\n    \"weaponGroups\": [\r\\n        {\r\\n            \"autofire\": false,\r\\n  "
+    }
+  ]
+}
