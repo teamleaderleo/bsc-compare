@@ -48,7 +48,12 @@ jobs:
               'BSC_Overseer Combat and Support variant display names',
               'BSC_Bitzer_Drone_wing_six role description',
           ]
-          data['final_status'] = 'clean: zero CJK characters in mod text files'
+          data['safe_backports'] = [
+              'Correct Stobo sprite filename capitalization',
+              'Allow Boggart to unlock in the Codex',
+              'Remove invalid Converted Hangar from Overseer Support variant',
+          ]
+          data['final_status'] = 'clean: zero CJK characters in mod text files; save-safe fixes applied'
           path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
