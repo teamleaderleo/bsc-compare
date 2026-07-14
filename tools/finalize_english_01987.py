@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Translate the few 0.1.98.7-only strings absent from both English sources."""
+"""Translate legacy-only strings and apply isolated save-safe bug fixes."""
 
 from __future__ import annotations
 
@@ -84,9 +84,17 @@ def patch_display_name(path: Path, display_name: str) -> None:
     write_utf8(path, updated, bom)
 
 
+def replace_once(path: Path, old: str, new: str) -> None:
+    text, bom = read_utf8(path)
+    if old not in text:
+        raise RuntimeError(f"Unable to find {old!r} in {path}")
+    write_utf8(path, text.replace(old, new, 1), bom)
+
+
 def main() -> int:
     root = Path(sys.argv[1] if len(sys.argv) > 1 else "BSC 0.1.98.7 English")
 
+    # English restoration for 0.1.98.7-only content.
     patch_csv(
         root / "data/hulls/ship_data.csv",
         "BSC_Overseer",
@@ -110,6 +118,26 @@ def main() -> int:
     patch_display_name(root / "data/variants/BSC_Overseer_Combat.variant", "Combat")
     patch_display_name(root / "data/variants/BSC_Overseer_Support.variant", "Support")
 
+    # Isolated fixes from 0.1.98.8/0.1.98.85 that preserve old hull IDs and stats.
+    replace_once(
+        root / "data/hulls/BSC_Stobo.ship",
+        '"spriteName": "graphics/hulls/fighters/BSC_stobo.png"',
+        '"spriteName": "graphics/hulls/fighters/BSC_Stobo.png"',
+    )
+    patch_csv(
+        root / "data/hulls/ship_data.csv",
+        "BSC_Boggart",
+        {
+            "hints": "UNBOARDABLE",
+            "tags": "remnant, auto_rec, codex_unlockable",
+        },
+    )
+    replace_once(
+        root / "data/variants/BSC_Overseer_Support.variant",
+        '        "converted_hangar",\n',
+        "",
+    )
+
     remaining = []
     for path in sorted(root.rglob("*")):
         if not path.is_file() or (path.suffix.lower() not in TEXT_EXTS and path.name != "mod_info.json"):
@@ -124,7 +152,7 @@ def main() -> int:
     if remaining:
         raise RuntimeError("Chinese text remains in: " + ", ".join(remaining))
 
-    print("All localized text is English; gameplay files and IDs remain from 0.1.98.7.")
+    print("English restoration and save-safe bug fixes completed; legacy hull IDs and stats remain intact.")
     return 0
 
 
